@@ -12,6 +12,7 @@ import OrderConfirmationPage from './Components/Orderconfirm';
 import Footer from './Components/Footer';
 import SectionPages from './Components/interactiveApp/SectionPages';
 import MedApp from './Components/interactiveApp/MedApp';
+import AboutUs from './Components/Aboutus';
 
 function App() {
   return (
@@ -19,9 +20,13 @@ function App() {
 
     <div className='routes'>
       <Routes>
-        <Route path='/' element={<Dummy/>}/>
+        {/* <Route path='/' element={<Dummy/>}/> */}
+        <Route path='/' element={<Landing2/>}/>
+
         <Route path='/home' element={<Landing2/>}/>
+        
         <Route path='/contactus' element={<ContactUsPage/>}/>
+        <Route path='/about' element={<AboutUs/>}/>
         
         <Route path='/signup' element={<SignUpPage/>}/>
         <Route path='/InterviewBookingPage' element={<InterviewPrepPage/>}/>

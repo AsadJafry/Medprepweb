@@ -10,10 +10,10 @@ function Landing2(props) {
             <Navbar2/>
             <HeroSection/>
             <Featured/>
-            <div className='absolute bottom-0 w-full' >
+            {/* <div className='absolute bottom-0 w-full' > */}
 
             <Footer/>
-            </div>
+            {/* </div> */}
         </div>
     );
 }
