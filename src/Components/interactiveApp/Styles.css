@@ -1,0 +1,55 @@
+/* App.css */
+.section-page {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .subsection {
+    margin: 10px 0;
+  }
+  
+  .toggle-button {
+    background-color: #201c1c;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif; /* Customize font as needed */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    opacity: 0.9;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .text-content, .other-text, .text-below {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .bullet-point {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .text-bold {
+    font-weight: bold;
+  }
+  
+  .text-normal {
+    margin-left: 10px;
+  }
+  
+  .table-section {
+    margin-top: 15px;
+  }
+  
