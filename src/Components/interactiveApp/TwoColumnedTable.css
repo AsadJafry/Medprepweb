@@ -2,7 +2,7 @@
 .table-container {
     border: 1px solid #ddd;
     width: 100%;
-    background-color: white;
+    background-color:  #000;;
     margin-top: 10px;
   }
   
@@ -15,7 +15,7 @@
   
   /* Header row */
   .table-header {
-    background-color: #f0f0f0;
+    background-color: #000;
     font-weight: bold;
     padding: 10px 0;
   }

@@ -21,7 +21,7 @@ function App() {
     <div className='routes'>
       <Routes>
         {/* <Route path='/' element={<Dummy/>}/> */}
-        <Route path='/' element={<Landing2/>}/>
+        <Route path='/Medprepweb/' element={<Landing2/>}/>
 
         <Route path='/home' element={<Landing2/>}/>
         

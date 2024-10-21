@@ -1,0 +1,108 @@
+body {
+    background-color: #000;
+    /* color: #fff; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .app-header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    padding: 15px;
+    background-color: #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .other-text {
+    margin-top: 10px;
+  }
+  
+  .other-text strong {
+    font-weight: bold;
+  }
+  .section-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .section-header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    padding: 15px;
+    background-color: #444;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .text-below {
+    margin-top: 15px;
+  }
+  
+  .text-bold {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .text-normal {
+    margin-left: 15px;
+  }
+  
+  /* Handling the otherText case */
+  .other-text-section {
+    margin-top: 15px;
+  }
+  
+  .text-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
