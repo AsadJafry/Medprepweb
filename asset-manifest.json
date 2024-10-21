@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/medprepweb/static/css/main.a078eca4.css",
+    "main.js": "/medprepweb/static/js/main.d3b030c3.js",
+    "static/js/453.bc55c9b6.chunk.js": "/medprepweb/static/js/453.bc55c9b6.chunk.js",
+    "static/media/Interview.png": "/medprepweb/static/media/Interview.60d307538d5bc4cd7fff.png",
+    "static/media/guide.png": "/medprepweb/static/media/guide.87ecedaa84c29361b390.png",
+    "static/media/faq.png": "/medprepweb/static/media/faq.738cfcdde07e45f47b96.png",
+    "static/media/resource.png": "/medprepweb/static/media/resource.f5e0d018a9e7df993f8b.png",
+    "static/media/interview2.jpg": "/medprepweb/static/media/interview2.16c897b5954c4f36b86d.jpg",
+    "static/media/logo.svg": "/medprepweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/medprepweb/index.html",
+    "main.a078eca4.css.map": "/medprepweb/static/css/main.a078eca4.css.map",
+    "main.d3b030c3.js.map": "/medprepweb/static/js/main.d3b030c3.js.map",
+    "453.bc55c9b6.chunk.js.map": "/medprepweb/static/js/453.bc55c9b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a078eca4.css",
+    "static/js/main.d3b030c3.js"
+  ]
+}
