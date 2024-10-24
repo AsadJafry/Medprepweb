@@ -1,12 +1,92 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import Navbar2 from './Navbar/Navbar2';
-import s from '../assets/guide.png'
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
+import axios from 'axios'; // Axios for API requests
+import s from '../assets/guide.png';
+import { localStorageKeys, SERVER_URL } from '../utils/constants';
+
 function MedicalGuidePage() {
+  const [showModal, setShowModal] = useState(false);
+  const [code, setCode] = useState('');
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  // Check if access token is present in localStorage and validate access
+  const handleEarlyAccessClick = async () => {
+    const token = localStorage.getItem(localStorageKeys.ACCESS_TOKEN);
+    if (!token) {
+      // If no token, redirect to login page
+      navigate('/login');
+      return;
+    }
+
+    try {
+      // Call API to check guide access
+      const response = await axios.get(SERVER_URL+'users/check-guide-access', {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      });
+
+      if (response.data) {
+        // Redirect to the guide if access is granted
+        navigate('/app');
+      } else {
+        // If access is denied, open the modal to redeem the code
+        setShowModal(true);
+      }
+    } catch (error) {
+      console.error('Error checking guide access:', error);
+      setError('Failed to check access. Please try again.');
+    }
+  };
+
+  // Redeem code function
+  const handleRedeemCode = async () => {
+    setLoading(true);
+    setError('');
+    setSuccess('');
+    const token = localStorage.getItem(localStorageKeys.ACCESS_TOKEN);
+
+    if (!token) {
+      setError('Authorization token is missing. Please log in again.');
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await axios.post(
+        SERVER_URL+'codes/redeem',
+        { code }, // The code inputted by the user
+        {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+      
+      if (response?.data?.success){
+
+        setSuccess('Code redeemed successfully!');
+      }
+      else 
+      setError(response?.data?.message)
+    } catch (error) {
+      console.error('Error redeeming code:', error);
+      setError('Failed to redeem the code. Please try again.');
+    } finally {
+      setLoading(false);
+      setCode('')
+    }
+  };
+
   return (
-    <div className="  bg-gray-100 text-gray-900">
-        <Navbar2/>
+    <div className="bg-gray-100 text-gray-900">
+      <Navbar2 />
       {/* Hero Section */}
       <section className="w-full bg-white py-20">
         <div className="max-w-6xl mx-auto px-4 md:flex justify-between items-center">
@@ -30,6 +110,14 @@ function MedicalGuidePage() {
             >
               Get the Guide Now
             </button>
+
+            {/* Early Access Button */}
+            <button
+              onClick={handleEarlyAccessClick}
+              className="mt-6 ml-4 bg-green-600 text-white px-6 py-3 rounded-md font-bold hover:bg-green-700"
+            >
+              Early Access
+            </button>
           </div>
 
           {/* Image Section */}
@@ -42,8 +130,6 @@ function MedicalGuidePage() {
           </div>
         </div>
       </section>
-
-      {/* Key Features Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">What's Inside the Guide?</h2>
@@ -112,14 +198,53 @@ function MedicalGuidePage() {
 
             Get the Guide Now for £49.99
           </button> */}
-          <Link to='/app' className="bg-blue-600 text-white px-8 py-3 rounded-md font-bold hover:bg-blue-700"
+          <a href='#' className="bg-blue-600 text-white px-8 py-3 rounded-md font-bold hover:bg-blue-700"
           >
           Get the Guide Now for £49.99
           
-          </Link>
+          </a>
         </div>
       </section>
-      <Footer/>
+      {/* Modal for Redeeming Code */}
+      
+{showModal && (
+  <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
+    <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mx-4 sm:mx-auto"> {/* Adjusted width */}
+      <h2 className="text-xl sm:text-2xl font-bold mb-4">Redeem Your Code</h2>
+
+      {error && <p className="text-red-500 mb-4">{error}</p>}
+      {success && <p className="text-green-500 mb-4">{success}</p>}
+
+      <input
+        type="text"
+        value={code}
+        onChange={(e) => setCode(e.target.value)}
+        placeholder="Enter your code"
+        className="w-full p-2 border border-gray-300 rounded mb-4"
+      />
+
+      <div className="flex flex-col sm:flex-row gap-4">
+        <button
+          onClick={handleRedeemCode}
+          className="bg-blue-600 text-white px-6 py-2 rounded font-bold hover:bg-blue-700 w-full sm:w-auto"
+          disabled={loading}
+        >
+          {loading ? 'Redeeming...' : 'Redeem Code'}
+        </button>
+
+        <button
+          onClick={() => setShowModal(false)}
+          className="bg-gray-600 text-white px-6 py-2 rounded font-bold hover:bg-gray-700 w-full sm:w-auto"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

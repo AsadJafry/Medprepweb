@@ -134,3 +134,34 @@ function ContactUsPage() {
 }
 
 export default ContactUsPage;
+// import React from "react";
+// import Navbar2 from "./Navbar/Navbar2";
+// import Footer from "./Footer";
+
+// function ContactUsPage() {
+//   return (
+//     <div>
+//       <Navbar2 />
+//       <div className="bg-gray-100 text-gray-900 flex justify-center items-center py-12">
+//         <div className="w-full max-w-2xl bg-white shadow-lg rounded-lg p-8">
+//           <h1 className="text-3xl font-bold text-center mb-8">Contact Us</h1>
+
+//           {/* Google Form Embed */}
+//           <iframe
+//             src="https://docs.google.com/forms/d/e/1FAIpQLSfR2yKdHlPBBr19t8fLvpZD2gZxtndk8dHzocdk1pP3Z60p8g/viewform?embedded=true" // Replace {YOUR_FORM_ID} with your actual form ID
+//             width="100%"
+//             height="600"
+//             frameBorder="0"
+//             marginHeight="0"
+//             marginWidth="0"
+//           >
+//             Loading…
+//           </iframe>
+//         </div>
+//       </div>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default ContactUsPage;

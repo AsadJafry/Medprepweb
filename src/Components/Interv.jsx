@@ -5,14 +5,19 @@ import img from '../assets/interview2.jpg'
 import { useNavigate, useNavigation } from 'react-router-dom';
 import ConfirmationModal from './ConfirmationModal';
 import Footer from './Footer';
+import FormModal from './FormModal';
 
 function InterviewPrepPage() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
     const navigate=useNavigate()
     const [isModalOpen, setModalOpen] = useState(false);
     const [selectedDate, setSelectedDate] = useState('');
     const [selectedTime, setSelectedTime] = useState('');
     const [conformModal,setConfirmModal]=useState(false)
-    // Sample available dates and times
     const availableDates = ['October 25, 2024', 'October 26, 2024', 'October 27, 2024'];
     const availableTimes = ['10:00 AM', '2:00 PM', '4:00 PM'];
   
@@ -59,7 +64,8 @@ function InterviewPrepPage() {
             Session Cost: <span className="text-blue-500">£25</span> per session.
           </p>
           <button
-            onClick={handleBookingClick}
+            // onClick={handleBookingClick}// for seperate configuration //next release
+            onClick={toggleModal}
             className="bg-black text-white px-6 py-3 rounded-md font-bold hover:bg-gray-800"
           >
             Book Your Session Now
@@ -150,6 +156,9 @@ function InterviewPrepPage() {
                     onClose={handleConfirmationClose}
                 />
             )}
+       {showModal && (
+       <FormModal onclickClose={toggleModal}  />
+      )}
     <Footer/>
     </div>
   );

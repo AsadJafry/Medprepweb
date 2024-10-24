@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import FormModal from './FormModal';
 
 function HeroSection() {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <section className="bg-lime-50 h-3/6 flex flex-col justify-center items-start px-8 md:px-16 lg:px-32 py-5">
      
@@ -12,10 +18,20 @@ function HeroSection() {
         <p className="text-lg md:text-xl mb-8 text-gray-700">
           Guiding you through every step of your journey to medical school
         </p>
-        <Link to="/InterviewBookingPage" className="text-lg font-semibold border border-black px-6 py-3 rounded-md hover:bg-gray-100">
+        {/* <Link to="/InterviewBookingPage"
+         className="text-lg font-semibold border border-black px-6 py-3 rounded-md hover:bg-gray-100">
           Book a session now
-        </Link>
+        </Link> */}
+        <button onClick={toggleModal} className=' className="text-lg font-semibold border border-black px-6 py-3 rounded-md hover:bg-gray-100"'>
+          Book a session now
+        </button>
+        
       </div>
+
+      {/* Modal */}
+      {showModal && (
+       <FormModal onclickClose={toggleModal}  />
+      )}
     </section>
   );
 }

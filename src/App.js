@@ -13,6 +13,8 @@ import Footer from './Components/Footer';
 import SectionPages from './Components/interactiveApp/SectionPages';
 import MedApp from './Components/interactiveApp/MedApp';
 import AboutUs from './Components/Aboutus';
+import AdminPanel from './Components/AdminPanel';
+import LoginPage from './Components/Login';
 
 function App() {
   return (
@@ -22,12 +24,13 @@ function App() {
       <Routes>
         {/* <Route path='/' element={<Dummy/>}/> */}
         <Route path='/Medprepweb/' element={<Landing2/>}/>
-
+        <Route path='/' element={<Landing2/>}/>
         <Route path='/home' element={<Landing2/>}/>
         
         <Route path='/contactus' element={<ContactUsPage/>}/>
         <Route path='/about' element={<AboutUs/>}/>
-        
+        <Route path='/login' element={<LoginPage/>}/>
+
         <Route path='/signup' element={<SignUpPage/>}/>
         <Route path='/InterviewBookingPage' element={<InterviewPrepPage/>}/>
         <Route path='/buyguide' element={<MedicalGuidePage/>}/>
@@ -36,6 +39,7 @@ function App() {
         
         <Route path='/app' element={<MedApp/>}/>
 
+        <Route path='/adminpannel' element={<AdminPanel/>}/>
       </Routes>
     </div>
     <div className=' bottom-0 w-full' >
