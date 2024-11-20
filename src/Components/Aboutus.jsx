@@ -75,11 +75,11 @@ const AboutUs = () => {
         </h2>
         <div className="flex flex-wrap justify-center gap-8">
         <div className="text-center">
-            <img
+            {/* <img
               src="https://via.placeholder.com/150"
               alt="Team Member"
               className="mx-auto rounded-full mb-4"
-            />
+            /> */}
             <h3 className="text-xl font-semibold text-gray-700">Dr. Ali Emad Jaffery</h3>
             <p className="text-gray-600">Head of Coaching</p>
           </div>
