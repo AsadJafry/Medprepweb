@@ -102,7 +102,7 @@ function MedicalGuidePage() {
               <li>Interview preparation tips</li>
             </ul>
             <p className="text-2xl font-semibold text-gray-900">
-              Guide Price: <span className="text-blue-600">$49.99</span>
+              Guide Price: <span className="text-blue-600">£5 </span>
             </p>
             <button
               onClick={() => alert('Redirect to Guide Purchase')}
@@ -200,7 +200,7 @@ function MedicalGuidePage() {
           </button> */}
           <a href='#' className="bg-blue-600 text-white px-8 py-3 rounded-md font-bold hover:bg-blue-700"
           >
-          Get the Guide Now for £49.99
+          Get the Guide Now for £5 
           
           </a>
         </div>

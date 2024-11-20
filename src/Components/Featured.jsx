@@ -11,9 +11,11 @@ function Featured(props) {
         <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-8">Featured</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
+
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"> */}
             {/* Featured Item */}
-            <a href="https://example.com/1" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            {/* <a href="https://example.com/1" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <img
                 src={resource}
                 alt="Anaesthesia's CRQ Top Tips"
@@ -22,10 +24,11 @@ function Featured(props) {
               <div className="p-4">
                 <h3 className="font-semibold text-lg">Resources</h3>
               </div>
-            </a>
+            </a> */}
 
             {/* Featured Item */}
-            <Link to="/buyguide" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <Link to="/buyguide"
+             className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-80">
               <img
                 src={guide}
                 alt="How much do I need to know for this?"
@@ -37,7 +40,7 @@ function Featured(props) {
             </Link>
 
             {/* Featured Item */}
-            <Link to="/InterviewBookingPage" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <Link to="/InterviewBookingPage" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-80">
               <img
                 src={Interview}
                 alt="Critical Incidents"
@@ -49,7 +52,7 @@ function Featured(props) {
             </Link>
 
             {/* Featured Item */}
-            <a href="https://example.com/4" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            {/* <a href="https://example.com/4" className="block bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <img
                 src={faq}
                 alt="All you need to pass the Primary"
@@ -60,7 +63,7 @@ function Featured(props) {
 
 </h3>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

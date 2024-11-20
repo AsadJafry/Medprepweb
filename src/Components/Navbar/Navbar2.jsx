@@ -46,7 +46,7 @@ const Navbar2 = () => {
 
   return (
     <header className="w-full flex justify-between items-center py-4 bg-gray-100">
-      <div className="text-xl font-bold pl-4">Med Den</div>
+      <div className="text-xl font-bold pl-4">AJ MEDDY</div>
     
       <nav className="hidden md:flex space-x-8 text-lg">
         <Link to="/home" className="hover:text-gray-700 dark:hover:text-gray-400">

@@ -6,8 +6,7 @@ function FormModal({onclickClose}) {
         <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl mx-4 md:mx-8 lg:mx-16">
           <h2 className="text-2xl font-bold mb-4">Book Your Session</h2>
           <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfR2yKdHlPBBr19t8fLvpZD2gZxtndk8dHzocdk1pP3Z60p8g/viewform?embedded=true" // Replace {YOUR_FORM_ID} with your actual form ID
-          width="100%"
+src="https://docs.google.com/forms/d/e/1FAIpQLScG9gw-6iF2hHMVn-lmlTJGn0kz-kDhC7yF1_80NVqlth6arw/viewform?embedded=true"          width="100%"
             height="500"
             className="border-0"
             allowFullScreen

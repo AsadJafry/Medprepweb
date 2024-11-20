@@ -1,3 +1,4 @@
+import snap from '../assets/snap.png'
 const data = {
     title: 'medpro',
     content: {
@@ -801,33 +802,239 @@ const data = {
           text: `Speak clearly and confidently: Project your voice and enunciate your words to make sure you are understood.\nSlow down: Take your time and avoid rushing through your answers and blurting out random snippets.\n\nStructure: Have a clear beginning, middle and end. There are many mnemonics we will go through to help your answers.\n\nUse good posture: Stand up straight, make eye contact, and use gestures to emphasize your points.\n\nUse examples: Illustrate your experiences and qualifications with concrete examples.\n\n Avoid filler words: Minimize the use of "um", "ah", or "like" and maintain a steady pace.\n\nStay positive: Maintain a positive and optimistic tone and avoid negativity or complaining.\n\n Listen actively: Pay attention to the questions being asked, and demonstrate that you are engaged by nodding and making appropriate facial expressions.\n\nAvoid memorized responses: Prepare some key points but avoid giving rote, rehearsed answers.
           \nBe yourself: Authenticity is key, and the interviewer wants to see the real you. Show your personality and let your passion shine through.
           `,
-          // subSection: [
-          //   {
-          //     title: 'Lack of Preparation',
-          //     content: {
-          //       text: 'One of the biggest mistakes you can make during your medical school interview is failing to prepare. Make sure you know about the school and program, and have practiced answering common interview questions. This will help you appear knowledgeable and engaged.',
-          //     },
-          //   },
-          //   {
-          //     title: 'Negativity or Complaints',
-          //     content: {
-          //       text: `Avoid complaining about previous schools or experiences during your interview. This can make you appear negative or difficult to work with. Instead, focus on your strengths and positive experiences.
-          //         `,
-          //     },
-          //   },
-          //   {
-          //     title: 'Insufficient Knowledge of the Program',
-          //     content: {
-          //       text: 'Make sure you have a solid understanding of the program you are interviewing for. Failing to research the program and its requirements can make you appear disinterested and unprepared.',
-          //     },
-          //   },
-          //   {
-          //     title: 'Poor Communication Skills ',
-          //     content: {
-          //       text: `Effective communication is essential for a successful interview. Make sure you speak clearly, concisely, and respectfully. Avoid using slang or technical jargon that may be unfamiliar to the interviewer. Additionally, make sure you are actively listening to the interviewer's questions and responding appropriately. `,
-          //     },
-          //   },
-          // ],
+          
+            "subSection": [
+              {
+                "title": "Communication Techniques for Answering Questions",
+                "content": {
+                  "text": "We have made a collection of crucial tips below that will be useful in all questions."
+              ,  
+                "subSection": [
+                  {
+                    "title": "Use Opening Statements",
+                    "content": {
+                      "text": "Treat your question like a courtroom drama where lawyers give opening statements. In any question, it is important to have an opening statement in your answer. This will allow your interviewer to recognize that you have listened and provide a general structure."
+                    ,
+                    "subSection": [
+                      {
+                        "title": "Key Benefits of Using Opening Statements",
+                        "content": {
+                          "subSection": [
+                            {
+                              "title": "Grab Attention",
+                              "content": {
+                                "text": "Opening statements engage the interviewer from the start."
+                              }
+                            },
+                            {
+                              "title": "Provide Clarity",
+                              "content": {
+                                "text": "They set the tone and direction for your response."
+                              }
+                            },
+                            {
+                              "title": "Show Confidence",
+                              "content": {
+                                "text": "Using an opening statement reflects your professionalism and preparedness."
+                              }
+                            },
+                            {
+                              "title": "Create a Strong First Impression",
+                              "content": {
+                                "text": "Helps shape a positive perception early on."
+                              }
+                            },
+                            {
+                              "title": "Control the Narrative",
+                              "content": {
+                                "text": "Opening statements allow you to highlight key strengths or experiences immediately."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]},
+                  },
+                  {
+                    "title": "Signposting",
+                    "content": {
+                      "text": "Signposting in communication is a technique that helps guide your audience through your message. It involves using clear signals or cues to structure your speech or writing. These cues help listeners or readers follow your points easily. Signposting can make bulky answers easier to follow.",
+                      "subSection": [
+                        {
+                          "title": "How Signposting Works",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Introduces What's Coming",
+                                "content": {
+                                  "text": "Phrases like 'Firstly' or 'To begin with' prepare the audience for your next point."
+                                }
+                              },
+                              {
+                                "title": "Provides Transitions",
+                                "content": {
+                                  "text": "Phrases like 'Those were my clinical reasons to study medicine, now I will discuss academic reasons' help transition smoothly between topics."
+                                }
+                              },
+                              {
+                                "title": "Highlights Importance",
+                                "content": {
+                                  "text": "Terms like 'Most importantly' signal key points to focus on."
+                                }
+                              },
+                              {
+                                "title": "Wraps Up Ideas",
+                                "content": {
+                                  "text": "Phrases like 'In conclusion' signal that you are summarizing or finishing your message."
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Key Benefits of Signposting",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Improves Clarity",
+                                "content": {
+                                  "text": "Signposting helps the audience understand the structure of your message, making complex ideas easier to follow."
+                                }
+                              },
+                              {
+                                "title": "Guides the Listener",
+                                "content": {
+                                  "text": "It acts as a roadmap, signaling where the conversation is heading and helping the audience anticipate what’s coming next."
+                                }
+                              },
+                              {
+                                "title": "Enhances Engagement",
+                                "content": {
+                                  "text": "By clearly indicating transitions and key points, signposting keeps the listener engaged and attentive throughout the conversation or presentation."
+                                }
+                              },
+                              {
+                                "title": "Facilitates Retention",
+                                "content": {
+                                  "text": "When information is well-organized through signposting, it becomes easier for the audience to remember the key points and ideas."
+                                }
+                              },
+                              {
+                                "title": "Reduces Misunderstanding",
+                                "content": {
+                                  "text": "Clear markers such as 'firstly,' 'in contrast,' or 'to conclude' prevent confusion by clearly showing shifts in topic or focus."
+                                }
+                              },
+                              {
+                                "title": "Increases Confidence",
+                                "content": {
+                                  "text": "For the speaker, signposting helps maintain a logical flow, reducing the risk of getting off track and boosting confidence during communication."
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Chunking",
+                    "content": {
+                      "text": "Chunking is a communication technique where complex information is broken down into smaller, manageable sections or 'chunks' to make it easier for the audience to understand and retain. It’s especially effective when dealing with detailed, technical, or layered content.",
+                      "subSection": [
+                        {
+                          "title": "Key Benefits of Chunking",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Improves Comprehension",
+                                "content": {
+                                  "text": "By breaking information into smaller parts, it reduces cognitive overload. This helps the audience grasp one idea at a time instead of becoming overwhelmed with too much information at once."
+                                }
+                              },
+                              {
+                                "title": "Enhances Retention",
+                                "content": {
+                                  "text": "People are more likely to remember information presented in digestible pieces rather than long, complicated explanations. Chunking aligns with how the brain naturally processes and stores information."
+                                }
+                              },
+                              {
+                                "title": "Organizes Information",
+                                "content": {
+                                  "text": "Chunking helps structure your communication logically, making it easier for the audience to follow along. It provides a natural flow to complex topics, ensuring you don’t lose your listener’s attention."
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Working Example: Euthanasia",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Definition",
+                                "content": {
+                                  "text": "Euthanasia, or assisted dying, involves intentionally ending a life to relieve suffering, usually in cases of terminal illness."
+                                }
+                              },
+                              {
+                                "title": "Ethical Dilemma",
+                                "content": {
+                                  "text": "Ethically, it raises the tension between respecting patient autonomy and upholding the sanctity of life. Advocates emphasize patient choice, while critics argue it may undermine the principle of 'do no harm.'"
+                                }
+                              },
+                              {
+                                "title": "Legal and Cultural Context",
+                                "content": {
+                                  "text": "Laws vary—some countries allow euthanasia under strict guidelines, while others prohibit it. Cultural and religious beliefs also shape perspectives on the issue."
+                                }
+                              },
+                              {
+                                "title": "Personal View",
+                                "content": {
+                                  "text": "I support patient autonomy, but believe strong safeguards are necessary to ensure decisions are well-considered and ethical."
+                                }
+                              },
+                              {
+                                "title": "Conclusion",
+                                "content": {
+                                  "text": "Euthanasia is a complex, sensitive issue that requires empathy and careful ethical consideration by healthcare providers."
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Rule of Three/Rule of Five",
+                    "content": {
+                      "subSection": [
+                        {
+                          "title": "Explanation",
+                          "content": {
+                            "text": "The Rule of Three/Five is a powerful communication technique because it simplifies complex ideas and makes them easier to follow. Psychological research has found the brain likes receiving a triad of information or information’s bites in chunks of 5. Presenting three key to five points gives your message a natural rhythm, helping your audience retain and understand the information more effectively. You’ve probably seen this lots of times without realizing, for example, 'When it comes to real estate: Location, Location, Location.' Note that this is not always possible, as some questions will mandate listing more than 3-5 points. You can incorporate this in your answer by signposting points at the start of your answer before expanding on it."
+                          }
+                        },
+                        {
+                          "title": "Why should you be admitted to medical school?",
+                          "content": {
+                            text:"There are many reasons why you should pick me however I will discuss the following reasons. 1. My passion for medicine, 2. My Academic rigor 3. My resilience in the face of challenge . My passion for medicine is proven by…."                             
+                                
+                             
+                          }
+                        }
+                      ]
+                    }
+                  }
+                  
+                  
+                ]},
+              }
+            ]
+          
+          
         },
       },
     ],
@@ -1017,6 +1224,72 @@ const data = {
                           text: 'As a team player, I prioritize open and clear communication with my colleagues, ensuring that everyone is on the same page and has the information they need to contribute effectively. I am also able to adapt to the strengths and weaknesses of different team members, and I am always willing to support and collaborate with others to achieve our shared goals. Finally, I recognize the importance of being accountable and dependable, and I strive to fulfill my commitments to the team and contribute to a positive, productive team environment.’ I am also able to adapt to different situationsand take on changing roles where needed.',
                         },
                       ],
+                      subSection:[
+                        {
+                          "title": "What makes a good team?",
+                          "content": {
+                            "text": "A team is a group of individuals who collaborate effectively, complement each other's skills, and work towards a shared goal with mutual trust and accountability. The key here is having a shared goal.",
+                            "table": {
+                              "col1Header": "Key Attribute",
+                              "col2Header": "Description",
+                              "tableData": [
+                                {
+                                  "quality": "Communication",
+                                  "description": "Open, honest, and clear exchange of ideas and feedback. Closed loop communication. Ie when tasks are instructed, their progress is reported back, not left in the air."
+                                },
+                                {
+                                  "quality": "Collaboration",
+                                  "description": "Working together seamlessly to achieve common objectives."
+                                },
+                                {
+                                  "quality": "Trust",
+                                  "description": "Confidence in each other's abilities and integrity."
+                                },
+                                {
+                                  "quality": "Accountability",
+                                  "description": "Taking responsibility for actions and outcomes."
+                                },
+                                {
+                                  "quality": "Diverse Skill Sets",
+                                  "description": "A mix of different skills and expertise that complement each other."
+                                },
+                                {
+                                  "quality": "Shared Goals",
+                                  "description": "Alignment on objectives and commitment to achieving them."
+                                },
+                                {
+                                  "quality": "Adaptability",
+                                  "description": "Ability to adjust to changing circumstances and challenges."
+                                },
+                                {
+                                  "quality": "Leadership",
+                                  "description": "Guidance that inspires, motivates, and maintains team direction."
+                                },
+                                {
+                                  "quality": "Mutual Respect",
+                                  "description": "Valuing each team member's contributions and perspectives. Safeguards emotions."
+                                },
+                                {
+                                  "quality": "Conflict Resolution",
+                                  "description": "Effectively managing and resolving disagreements to strengthen the team."
+                                },
+                                {
+                                  "quality": "Transparency",
+                                  "description": "Open about wants and desires so everyone is on the same page."
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "title": "Are you a good team player?",
+                          content:{
+                            text:"The answer for this question is extrapolated from the previous question. All you essentially need to say is that you have 3-5 of these skills and give examples of how you have demonstrated these skills"
+                          }
+                          
+                        }
+                      ]
+                      
                     },
                   },
                   {
@@ -1036,181 +1309,675 @@ const data = {
               },
             },
             {
-              title: '2.2 Commitment to medicine',
-              content: {
-                text: "In this chapter, we will be exploring how to answer questions that focus on your motivation for pursuing a career in medicine. One of the most common types of questions that interviewers ask is about your commitment to medicine. This can include questions such as 'Why do you want to be a doctor?' or 'What motivates you to pursue a career in medicine?' It's important to note that while the questions may be phrased differently, the core of what the interviewer is looking for remains the same. The answer can also be manipulated to answer questions questioning your capabilities. Ultimately, the answers to questions about your commitment to medicine can be broken down into three main categories: clinical points, academic points, and personal points. By understanding how your experiences and motivations fit into these categories, you can craft thoughtful and impactful answers that demonstrate your readiness to become a successful medical professional.",
-                table: {
-                  col2Header: 'Reasons to study medicine',
-                  tableData: [
-                    {
-                      quality: 'Clinical',
-                      description:
-                        'Positive influence of people and making a difference in their lives. Desire to improve the health and well-being of communities. Fascination with the human body and how it works. Dynamic work environment. Ability to work in global events i.e. refugee crisis, disaster areas.',
+              title:'2.2 Commitment to Medicine',
+              content:{
+                subSection:[
+                  {
+                    title: 'Commitment to medicine ...',
+                    content: {
+                      text: "In this chapter, we will be exploring how to answer questions that focus on your motivation for pursuing a career in medicine. One of the most common types of questions that interviewers ask is about your commitment to medicine. This can include questions such as 'Why do you want to be a doctor?' or 'What motivates you to pursue a career in medicine?' It's important to note that while the questions may be phrased differently, the core of what the interviewer is looking for remains the same. The answer can also be manipulated to answer questions questioning your capabilities. Ultimately, the answers to questions about your commitment to medicine can be broken down into three main categories: clinical points, academic points, and personal points. By understanding how your experiences and motivations fit into these categories, you can craft thoughtful and impactful answers that demonstrate your readiness to become a successful medical professional.",
+                      table: {
+                        col2Header: 'Reasons to study medicine',
+                        tableData: [
+                          {
+                            quality: 'Clinical',
+                            description:
+                              'Positive influence of people and making a difference in their lives. Desire to improve the health and well-being of communities. Fascination with the human body and how it works. Dynamic work environment. Ability to work in global events i.e. refugee crisis, disaster areas.',
+                          },
+                          {
+                            quality: 'Academic',
+                            description:
+                              'Love for science and biology, particularly the application of scientific principles in a medical context. Enthusiasm for lifelong learning and the pursuit of knowledge. Intellectual challenge: Medicine is a complex and dynamic field and constantly evolving. Research opportunities. Constant professional growth.',
+                          },
+                          {
+                            quality: 'Personal',
+                            description:
+                              'Desire to work in a challenging, rewarding profession. Commitment to serving others and making a positive impact on the world. Personal experiences with illness, injury, or caregiving that have inspired a desire to pursue medicine as a career.',
+                          },
+                        ],
+                      },
+                      otherText: [
+                        {
+                          textBold: 'Why do you want to be a doctor?',
+                          // text: "I have always been interested in medicine and wish to study it for multiple reasons. On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on people's lives. Academically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first-hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.",
+                          text: "‘’I have always been interested in medicine and wish to pursue it for multiple reasons . On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on peoples lives.\r\nAcademically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first- hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.\"\r\n\r\n“I wish to see myself as a custodian of society's care. I believe that doctors have a unique responsibility to not only treat individual patients, but also to contribute to the well-being of the broader community. This can be done in many ways, not just in the clinic room. As a doctor, I would have the opportunity to conduct research and contribute to the advancement of medical knowledge\r\n",
+                        },
+                        {
+                          textBold: 'Why do you find medicine interesting?',
+                          // text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes. \n\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science. \n\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society. \n\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field.',
+                          text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes.\r\n\r\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science.\r\n\r\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society.\r\n\r\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field."\r\n',
+                        },
+                        {
+                          textBold:
+                            'What qualities do you have that would make you a good doctor? (Example answer can be manipulated very easy to answer ‘why should we pick you’ or ‘What qualities do you think we are looking for’',
+                          // text: 'I have many qualities that make me fit for a medical career, especially in a clinical environment. I believe that I have strong problem-solving skills, excellent communication skills, empathy towards patients, good clinical judgment, and the ability to work under pressure. I am confident that I can excel in these areas because I have volunteered at a hospital, providing me with the opportunity to develop these qualities by interacting with patients and observing physicians in action. \n\nAcademically, I possess a strong academic and intellectual background with a commitment to lifelong learning, reflected in my consistently excellent performance in science and other related fields. Additionally, I am confident that my critical thinking, analytical, and research skills will be assets in my journey to becoming a successful doctor. \n\nRegarding personal qualities, I believe that being a good doctor requires a genuine passion for helping others, high personal integrity, resilience in the face of adversity, and the ability to remain calm and focused in challenging situations. I have demonstrated these qualities in various ways, such as volunteering at a homeless shelter and care home. \n\nIn summary, I believe that a combination of clinical, academic, and personal qualities is essential for being a good doctor, and I am confident that my experiences, skills, and personal qualities make me well-suited for a career in medicine.',
+                          text: 'I have many qualities that makes me fit a medical career especially in a clinical environment. I believe that I have strong problem- solving skills, excellent communication skills, empathy towards patients, good clinical judgment, and the ability to work under pressure. I am confident that I can excel in these areas because I have volunteered at a hospital, and it has provided me with the opportunity to develop these qualities by interacting with patients and observing physicians in action.\r\n\r\nAcademically, I possess a strong academic and intellectual background with a commitment to lifelong learning, which is reflected in my school record, where I have consistently excelled in science and other related fields. Additionally, I am confident that my critical thinking, analytical, research skills will be an asset in my journey to becoming a successful doctor.\r\n\r\nRegarding personal qualities, I believe that being a good doctor requires a genuine passion for helping others, high personal integrity, resilience in the face of adversity, and the ability to remain calm and focused in challenging situations. I have demonstrated these qualities in various ways, such as volunteering at a homeless shelter and care home.\r\n\r\nIn summary, I believe that a combination of clinical, academic, and personal qualities is essential for being a good doctor, and I am confident that my experiences, skills, and personal qualities make me well-suited for a career in medicine\r\n',
+                        },
+                        {
+                          textBold: 'Why should we pick you over someone else?',
+                          // text: 'There are several reasons why I believe I am the ideal candidate for studying medicine, based on my skills, academic accomplishments, and personal characteristics. \n\nI believe that I will thrive in a clinical setting. My problem-solving, communication, and resilience skills make me an excellent candidate for studying medicine. In particular, I have a proven ability to solve complex problems through critical thinking as well as to communicate effectively with patients and medical professionals. Additionally, I am highly resilient and able to thrive in the demanding and high-pressure environment of medicine. I have a strong academic record, having consistently achieved top grades in subjects such as biology, chemistry, and mathematics. My love for science and medicine has driven me to take on additional academic challenges, including advanced courses in biochemistry, microbiology, and genetics. I am also highly proficient in critical thinking and problem-solving, as evidenced by my participation in various academic competitions and research projects. I possess a range of personal characteristics that are highly suited to the field of medicine. I am an empathetic listener who is skilled at building rapport and trust with patients. I am highly organized and detail-oriented, which is essential for the meticulous record-keeping and analysis required in medicine. I am also a highly responsible individual who takes pride in my work and is committed to making a difference in the lives of others. \n\nIn summary, my strong clinical skills, academic accomplishments, and personal characteristics make me the ideal candidate for studying medicine. I am highly motivated and committed to the field, possess the necessary clinical and academic skills, and have the personal qualities that will make me a compassionate, dedicated, and highly effective physician.',
+                          text: 'There are several reasons why I believe I am the ideal candidate for studying medicine, based on my skills, academic accomplishments, and personal characteristics I believe that I will thrive in a clinical setting. My problem-solving, communication, and resilience skills make me an excellent candidate for studying medicine. In particular, I have a proven ability to solve complex problems through critical thinking as well as to communicate effectively with patients and medical professionals. Additionally, I am highly resilient and able to thrive in the demanding and high-pressure environment of medicine. I have a strong academic record, having consistently achieved top grades in subjects such as biology, chemistry, and mathematics. My love for science and medicine has driven me to take on additional academic challenges, including advanced courses in biochemistry, microbiology, and genetics. I am also highly proficient in critical thinking and problem-solving, as evidenced by my participation in various academic competitions and research projects. I possess a range of personal characteristics that are highly suited to the field of medicine. I am an empathetic listener who is skilled at building rapport and trust with patients. I am highly organized and detail- oriented, which is essential for the meticulous record-keeping and analysis required in medicine. I am also a highly responsible individual who takes pride in my work and is committed to making a difference in the lives of others.\r\n\r\nIn summary, my strong clinical skills, academic accomplishments, and personal characteristics make me the ideal candidate for studying medicine. I am highly motivated and committed to the field, possess the necessary clinical and academic skills, and have the personal qualities that will make me a compassionate, dedicated, and highly effective physician.\r\n.',
+                        },
+                        {
+                          textBold:
+                            'What have you learned from your work experience?  ',
+                          text: "During my time shadowing doctors in a hospital, I learned a great deal about the clinical setting and what it takes to be a doctor. One of the most valuable lessons I learned was the importance of effective communication. I saw how the team spoke calmly and clearly to a patient who was experiencing a medical emergency, which reduced the patient’s anxiety and allowed him to engage better in his own care. \n\nI also learned about the importance of empathy and compassion in healthcare. I saw how doctors took the time to listen to their patients and their families. This showed me that a caring and compassionate healthcare provider can have a significant impact on a patient's experience and outcomes. \n\nAnother important lesson I learned was the value of adapting to new situations as a doctor and being flexible in a clinical setting. I saw firsthand how doctors had to adapt to changes in patient conditions, staffing, and sudden changes in workload.",
+                        },
+                        {
+                          textBold:
+                            'Tip: It can also be good to mention some of the potential negative things that you saw but how you are prepared for them',
+                          text: 'I observed that doctors face long and gruelling work hours, often working 12-hour shifts without a break. They must also deal with high-stress situations, such as making life or death decisions, and dealing with difficult patients and their families. Despite these challenges, I was impressed by the resilience and determination of the doctors I worked with, who remained committed to providing the best possible care for their patients.',
+                        },
+                        {
+                          textBold: "What if you haven't done any work experience",
+                          text: 'We have personally coached many people in to medical school with ZERO work experience. Different universities will have different requirements however it is understood that in a Post COVID world this is harder to achieve. What is more important is the understanding of life as a doctor and weather you have done the research to help you make an informed decision. Its all about how you sell your experience. Non-traditional work experiences can include a variety of activities that can demonstrate your commitment to the medical profession. For example, if you have had the opportunity to speak with doctors online or attend virtual conferences or seminars, you can discuss how these experiences have given you insights into the medical profession and allowed you to connect with healthcare professionals in a meaningful way. Similarly, if you have read books or articles related to healthcare or medical research, you can discuss how this reading has expanded your knowledge and understanding of medicine and helped you to explore different areas of the field. Finally, if you have had online work experience, such as working remotely for a healthcare organization or participating in virtual internships or volunteer opportunities, you can discuss the skills you developed and how these experiences helped you to gain a better understanding of the healthcare industry. These non-traditional work experiences can help you to demonstrate your passion for medicine and your willingness to explore different aspects of the field',
+                        },
+                        {
+                          textBold: 'What would you do if you do not get accepted ?',
+                          // text: 'Although this would be disappointing, I would remain determined to achieve my dream of pursuing a career in medicine and would re-apply in the following year. I would get additional experience or qualifications, like working in a healthcare setting, volunteering, as well as shadowing doctors. This would enable me to increase my knowledge of working in a healthcare setting and therefore make me a better candidate. I would also look for a part-time job to assist with bills as I would not be eligible for maintenance grants that people rely on during university periods. I would look for something in the healthcare sector, such as a healthcare assistant working on the ward, to gain further work experience at the same time.',
+                          text:"What this question is asking you is that a) you are committed to medicine even in the face of rejection b) are humble enough to accept that this is a possibility c) you are willing to reflect who to improve. Below are some points to mention\r\nAcceptance and commitment: Although I consider myself a strong candidate, I accept that there is a possibility I may not get accepted. However, it would no deter my commitment.\r\nAnalyse and Reflect: I’d critically evaluate my application and interview performance and consult with mentors to identify areas for improvement. I would seek feedback from the admissions committee to understand my application's weaknesses.\r\nEnhance and Grow: I would focus on gaining more experience, possibly taking additional work experience \r\nExecute a Revised Plan: With these improvements, I’d reapply next cycle, more prepared and committed. If necessary, I’d consider related opportunities, such as a master’s program, to further bolster my application.\r\n\r\nAlthough I feel I am a strong candidate i accept that there is a possibility I don’t get accepted. I would remain committed to pursuing my career in medicine. I would start by seeking feedback from the admissions committee to understand where my application might have fallen short. I’d then critically evaluate my application and interview performance, and consult with mentors to identify specific areas for improvement. To strengthen my candidacy, I would focus on gaining more clinical experience, possibly taking additional relevant coursework, and addressing any other areas that need development. With these improvements, I’d reapply next cycle, more prepared and determined. If needed, I would also consider pursuing a master’s program or working in a healthcare-related field to further bolster my application\r\n"
+                        },
+                        // {
+                        //   textBold:
+                        //     'You mentioned you are interested in hospital medicine. Why is that?',
+                        //   text: 'Yes, I am particularly interested in hospital medicine for a number of reasons. One of the main reasons is the complexity of the cases that are encountered in the hospital setting. Hospitalized patients often have multiple medical problems, and the challenge of managing these complex cases is one that I find particularly rewarding. \n\nAdditionally, hospital medicine provides the opportunity to work as part of a multidisciplinary team, collaborating with nurses, social workers, pharmacists, and other healthcare professionals to provide comprehensive care to patients. This collaborative approach to patient care is not only beneficial for the patient but also provides an excellent learning experience for me as a physician. \n\nFurthermore, hospital medicine allows for the opportunity to work in a fast-paced and dynamic environment, which I find exciting. The ability to make rapid and critical decisions in the face of acute illness and emergencies is a skill set that I believe is essential for any physician. \n\nOverall, my interest in hospital medicine is driven by a desire to provide high-quality care to some of the most vulnerable patients while continuously challenging myself to improve my knowledge and clinical skills.',
+                        // },
+                        {
+                          textBold: 'What other careers have you researched about?',
+                          // text: 'This question is not designed to catch you out and make you look indecisive and say no I haven’t researched any other careers because I am certain I want to do medicine. It is more designed to test your integrity and showing you have done your research and looked into alternatives and come to a sound conclusion that this is the career you want to pursue and why it is best suited for you',
+                          text:"This question is not designed to catch you out and make you look indecisive. DO NOT SAY I haven’t researched any other careers because I am certain I want to do medicine. It is more designed to test your integrity and showing you have done your research and looked into alternatives and come to a sound conclusion that this is the career you want to pursue and why it is best suited for you.\r\nThe following are points you can consider covering.\r\nExplored other Healthcare Fields: Researched careers in public health to contribute to disease prevention and health education or allied health professions such as physiotherapy, physician associates.\r\nConsidered Biomedical Research: Looked into biomedical research for discovering new treatments and technologies to improve patient outcomes and possible future transfers to medicine schemes\r\nHealthcare Administration: Considered a role in healthcare administration to impact the management and efficiency of healthcare systems.\r\nCircle back Commitment to Medicine: ‘Despite exploring these options, I realized my true passion is in patient care, reinforcing my commitment to becoming a physician’"
+                        },
+                        {
+                          textBold:
+                            'Is there anything you don’t like look forward to in medical school',
+                          text: 'In this question it is important to convey the message that you are passionate about medicine but you understand it comes with challenges. We have listed a few examples.\r\n\r\nWhile I am extremely excited about the opportunity to attend medical school, I recognize that there will be challenges that come with this rigorous program. One aspect that I anticipate may be difficult is the workload. I understand that medical school requires a significant amount of time and effort, and the material can be challenging to learn. However, I am prepared to devote the necessary time and energy to succeed in the program.\r\n\r\nAnother potential challenge that I am aware of is the competitive nature of medical school. I understand that the program attracts highly motivated and driven individuals, and the pressure to perform at a high level can be intense. However, I believe that competition can be a healthy motivator, and I am looking forward to learning from my peers and collaborating with them in a positive and constructive manner.\r\n\r\nOverall, while there may be aspects of medical school that are challenging or difficult, I am eager to take on these challenges and work hard to achieve my goals. I believe that the rewards of pursuing a career in medicine far outweigh any temporary difficulties I may encounter along the way.\r\n',
+                        },
+                      ],
                     },
+                  },
+                  
+                  {
+                      "title": "Commitment to specialty - Have you decided on a particular specialty ?",
+                      "content": {
+                        "text": "In preparing for the question \"Have you thought about what specialty you want to pursue?\" it’s important to remember that no one expects you to have a definitive answer. Many junior doctors haven’t decided yet, and medical schools understand that students are still exploring the vast field of medicine. Instead, interviewers want to see that you’re open-minded, reflective, and considering your future options thoughtfully.",
+                        "subSection": [
+                          {
+                            "title": "Common Mistakes to Avoid",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Have a Definitive Answer:",
+                                  "text": "Coming across as overly certain can seem unrealistic or even inflexible at this stage. It’s okay to discuss areas of interest without committing to a single path."
+                                },
+                                {
+                                  "textBold": "Basing Decisions on External Influences:",
+                                  "text": "Mentioning a specialty based solely on what’s popular, prestigious, or financially rewarding can give the impression that you aren’t considering what suits you personally or where you can make a unique impact."
+                                },
+                                {
+                                  "textBold": "Focusing Only on Clinical Work:",
+                                  "text": "Many specialties incorporate research, teaching, or administrative work, and omitting these can make it seem like you haven’t fully considered the diversity within medical careers."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "What Are They Looking For?",
+                            "content": {
+                              "text": "The chief thing they are looking for is that you know that there are many different specialties and that there are different pros and cons, and are suited to different people."
+                            }
+                          },
+                          {
+                            "title": "Framework for Choosing a Specialty",
+                            "content": {
+                              "text": "Below is a table to considerations to be made when choosing a specialty.",
+                              "table": {
+                                "col1Header": "Framework Aspect",
+                                "col2Header": "Guiding Question",
+                                "tableData": [
+                                  {
+                                    "quality": "Personal Interests",
+                                    "description": "What aspects of medicine excite or motivate you the most? Do you like long conversations or fast-paced action?"
+                                  },
+                                  {
+                                    "quality": "Work-Life Balance",
+                                    "description": "What level of work-life balance do you envision for yourself? Do you see yourself doing on-call and weekends when you're 60?"
+                                  },
+                                  {
+                                    "quality": "Skill Compatibility",
+                                    "description": "Which specialty best aligns with your natural skills and strengths? Are you good with your hands? If so, surgery is a good choice."
+                                  },
+                                  {
+                                    "quality": "Patient Interaction",
+                                    "description": "How much patient interaction do you want in your daily work?"
+                                  },
+                                  {
+                                    "quality": "Technical vs. Clinical",
+                                    "description": "Do you prefer a hands-on technical role or more patient-focused care?"
+                                  },
+                                  {
+                                    "quality": "Academic Potential",
+                                    "description": "Are you interested in research, teaching, or primarily clinical work?"
+                                  },
+                                  {
+                                    "quality": "Career Longevity",
+                                    "description": "Can you see yourself in this specialty long-term? Some specialties are difficult to do as you age."
+                                  },
+                                  {
+                                    "quality": "Lifestyle Preferences",
+                                    "description": "How does the lifestyle of this specialty align with your personal goals?"
+                                  },
+                                  {
+                                    "quality": "Financial Goals",
+                                    "description": "Are financial outcomes an essential factor in your specialty choice?"
+                                  },
+                                  {
+                                    "quality": "Exposure and Experience",
+                                    "description": "If you mentioned a specialty, have you spent time in this specialty to get a realistic view of it?"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                 },
                     {
-                      quality: 'Academic',
-                      description:
-                        'Love for science and biology, particularly the application of scientific principles in a medical context. Enthusiasm for lifelong learning and the pursuit of knowledge. Intellectual challenge: Medicine is a complex and dynamic field and constantly evolving. Research opportunities. Constant professional growth.',
+                      "title": "What did you learn during your time with doctors?",
+                      "content": {
+                        "text": "This question is an assessment of your commitment to learning about the career in medicine.",
+                        "subSection": [
+                          {
+                            "title": "What is assesses",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Work experience"
+                                },
+                                {
+                                  "textBold": "Knowledge of medical career"
+                                },
+                                {
+                                  "textBold": "Ability to reflect"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "For this question you must:",
+                            "content": {
+                              "subSection": [
+                                {
+                                  "title": "List where you have learned things from",
+                                  "content": {
+                                    "text": "i.e Conversations with Dr’s, Shadowing, reading blogs."
+                                  }
+                                },
+                                {
+                                  "title": "List 3 - 5 qualities you have learned",
+                                  "content": {
+                                    "subSection": [
+                                      {
+                                        "title": "Patient Care and Empathy",
+                                        "content": {
+                                          "text": "What I Saw: Doctors during my shadowing experience showed compassion in challenging patient interactions and diagnoses.\nHow I Demonstrate It: In volunteer roles with a care home, I’ve practiced empathy by actively listening and supporting residents in need of company."
+                                        }
+                                      },
+                                      {
+                                        "title": "Teamwork and Collaboration",
+                                        "content": {
+                                          "text": "What I Saw: During MDT meetings I observed at the hospital I saw seamless collaboration among healthcare teams, including doctors, nurses, and specialists.\nHow I Demonstrate It: I work effectively in team settings, such as group projects such as DOE, ensuring open communication and shared goals."
+                                        }
+                                      },
+                                      {
+                                        "title": "Communication Skills",
+                                        "content": {
+                                          "text": "What I Saw: During my time at a GP practice I saw Doctors skilfully explained complex medical information to patients in understandable terms.\nHow I Demonstrate It: I resemble these communication skills in my life. I can simplify complex information for others, such as helping peers understand difficult concepts in study groups."
+                                        }
+                                      },
+                                      {
+                                        "title": "Emotional Resilience",
+                                        "content": {
+                                          "text": "What I Saw: Healthcare professionals managed stressful situation and remained calm, even in high-pressure situations. Such as a cardiac arrest that I witnessed.\nHow I Demonstrate It: I stay focused and composed during exams or challenging moments, finding solutions without stress overtaking me."
+                                        }
+                                      },
+                                      {
+                                        "title": "Work-Life Balance",
+                                        "content": {
+                                          "text": "What I Saw: Based on conversations I have had. Doctors balanced long hours with personal commitments through strong time-management skills.\nHow I Demonstrate It: I’ve developed strategies to balance academics, work, and personal time, ensuring each area gets proper attention."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "title": "Reflect on why you feel what you learned inspires you to pursue the career",
+                                  "content": {
+                                    "text": "or why you demonstrate you are suited to it."
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ,
+                  {
+                    title: 'Personal qualities and role of a doctor',
+                    content: {
+                      // text: "In this chapter, we will be exploring how to answer questions that focus on your motivation for pursuing a career in medicine. One of the most common types of questions that interviewers ask is about your commitment to medicine. This can include questions such as 'Why do you want to be a doctor?' or 'What motivates you to pursue a career in medicine?' It's important to note that while the questions may be phrased differently, the core of what the interviewer is looking for remains the same. The answer can also be manipulated to answer questions questioning your capabilities. Ultimately, the answers to questions about your commitment to medicine can be broken down into three main categories: clinical points, academic points, and personal points. By understanding how your experiences and motivations fit into these categories, you can craft thoughtful and impactful answers that demonstrate your readiness to become a successful medical professional.",
+                      table: {
+                        col1Header: 'Point of Professionalism',
+                        col2Header: 'Description',
+                        tableData: [
+                          {
+                            quality: 'Commitment to Competence',
+                            description:
+                              'Continuously updating medical knowledge and skills through lifelong learning and staying informed about the latest advancements in medical science.',
+                          },
+                          {
+                            quality: 'Integrity and Honesty',
+                            description:
+                              'Maintaining honesty in all professional interactions, including accurate reporting of patient information, admitting mistakes, and avoiding conflicts of interest',
+                          },
+                          {
+                            quality: 'Respect for Patients',
+                            description:
+                              'Treating all patients with dignity, empathy, and respect, considering their values, preferences, and cultural backgrounds in medical care.\r\n\r\n',
+                          },
+                          {
+                            quality: 'Patient Confidentiality',
+                            description:
+                              'Safeguarding patient information, ensuring that sensitive data is shared only with authorized individuals and used appropriately within the healthcare context.',
+                          },
+                          {
+                            quality: 'Accountability',
+                            description:
+                              'Taking responsibility for their actions and decisions in patient care, and being accountable to patients, colleagues, and the medical profession.',
+                          },
+                          {
+                            quality: 'Commitment to Ethical Practice',
+                            description:
+                              'Adhering to ethical principles in all aspects of medical practice, including obtaining informed consent, avoiding harm, and promoting the well-being of patients.',
+                          },
+                          {
+                            quality: 'Professional Collaboration',
+                            description:
+                              'Working effectively with colleagues and other healthcare professionals to provide coordinated and comprehensive care, and respecting the contributions of all members of the healthcare team.',
+                          },
+                        ],
+                      },
+                      otherText: [
+                        {
+                          textBold: 'What is professionalism to you?',
+                          // text: "I have always been interested in medicine and wish to study it for multiple reasons. On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on people's lives. Academically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first-hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.",
+                          text: 'Professionalism, refers to maintaining a high standard of conduct, ethics, and performance in interactions with others. It involves adhering to established guidelines, principles, and ethical considerations. Professionalism also includes:\n1. Accuracy:\r\nProviding accurate and reliable information to\r\nthe best of my knowledge and abilities.\r\n2. Objectivity: Remaining neutral and unbiased in responses and interactions, avoiding personal opinions or judgments.\r\n3. Respect: Treating users with courtesy, respect, and consideration, regardless of their background or beliefs.\r\n4. Confidentiality: Safeguarding user information and respecting privacy by not disclosing sensitive or personal data.\r\n5. Transparency: Being clear and open about my capabilities, limitations, and the fact that I am a machine learning model.\r\n6.Responsiveness: Providing timely and relevant responses to user queries, and acknowledging limitations when necessary.\r\n7.Adherence to Guidelines: Following ethical guidelines and\r\npolicies set by developers and the platform to ensure responsible use of AI technology.\r\n\r\n ',
+                        },
+                        {
+                          textBold:
+                            'Why do you think professionalism in medicine is important?',
+                          // text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes. \n\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science. \n\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society. \n\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field.',
+                          text: "Professionalism in medicine is crucial for several reasons:\n1. Patient Trust and Safety: Professional conduct builds trust between healthcare providers and patients. When patients have confidence in the professionalism of their healthcare team, they are more likely to communicate openly, follow medical advice, and feel safe in the care provided.\n2. Ethical Practice: Medicine is an inherently ethical field,involving decisions that directly impact patients' lives.Professionalism ensures that healthcare professionals adhere to ethical principles, maintaining the highest standards of integrity and honesty in their interactions with patients, colleagues, and the wider community.\n3. Quality of Care: Professionalism contributes to the delivery of high-quality healthcare. It involves staying current with medical knowledge, continuous learning, and providing evidence-based care. This commitment to excellence enhances the overall quality of healthcare services.\r\n4. Effective Communication: Professionalism encourages effective and empathetic communication between healthcare providers, patients, and their families. Clear communication is essential for understanding patient needs, explaining diagnoses and treatment options, and fostering a collaborative approach to care.\r\n5. Teamwork and Collaboration: In a medical setting, professionals often work as part of a team. Professionalism fosters effective collaboration, ensuring that healthcare providers work together cohesively for the benefit of the patient. This teamwork is essential for delivering comprehensive and integrated care.\r\n6. Maintaining Public Trust: The medical profession relies on public trust. Professional behavior helps to maintain and strengthen this trust. Patients and the broader community are more likely to have confidence in the healthcare system when professionals demonstrate ethical conduct and a commitment to the well-being of patients.\r\n7. Legal and Regulatory Compliance: Professionalism is closely tied to legal and regulatory standards in medicine. Healthcare professionals must comply with laws and regulations to ensure the safety and well-being of patients. Professional behavior helps prevent legal issues and ensures adherence to standards of care.\r\n8. Professional Development: Medicine is an evolving field, and professionals must commit to ongoing education and professional development. Professionalism encourages healthcare providers to stay updated on the latest research, technologies, and best practices to provide the best possible care. ",
+                        },
+                        {
+                          text: 'In summary, professionalism in medicine is foundational to maintaining the trust of patients, delivering high-quality care, and upholding the ethical and legal standards of the medical profession. It is an essential component for the effective functioning of  healthcare systems and the well-being of individuals and communities.',
+                        },
+                        {
+                          textBold: 'Do you sympathise or empathise?',
+                          text: 'It is important to address this question with balance, yes empathy is important but as a doctor it can be very difficult to completely empathise with some patients given their circumstances and the best you can do is sympathise with them.\r\n\r\nThe most important thing to do when addressing patients is to show you are listening to them, you understand their perspective and you are willing to help them in whatever capacity you can.\r\n\r\nGiving examples of times when you have displayed both will help.\r\n',
+                        },
+                        {
+                          textBold:
+                            'Are you born with empathy or is it something you acquire? ',
+                          text: "Empathy is generally considered to be a complex trait that involves both genetic and environmental factors. While some individuals may have a predisposition towards empathy due to their genetic makeup, environmental factors also play a significant role in its development.\r\n\r\nResearch suggests that early experiences, parenting styles, and social interactions can shape a person's capacity for empathy. For instance, individuals who grow up in environments that encourage understanding, perspective-taking, and emotional connection are likely to develop stronger empathetic abilities.\r\n\r\nWhilst people who grew up in environments where there was a lack of understanding, trust and open communication tend to be less empathetic to others situation.\r\n\r\nOverall, I think empathy is something we have a natural tendency towards however the environmental factors shape whether or not how strong our empathetic abilities are.\r\n",
+                        },
+                        {
+                          textBold: 'Are you a leader or a follower? ',
+                          text: 'Depending on the situation you will need to be able to adapt to both, don’t answer this question as one or the other, but rather give examples when you have displayed leadership and been a good team player.',
+                        },
+                        {
+                          textBold: 'Where do you see yourself in 10 years ?',
+                          text: 'Use the camp structure here\r\n\r\nClinical – I would hope to have finished medical school and have progressed significantly in my training or coming towards the end of my training\r\n\r\nAcademic – keep up with knowledge with CPD, doing extra courses\r\n– masters, PhD, academic pathway teaching others\r\n\r\nManagement – managing complex cases – referrals, comprehensive notes, paperwork, organised\r\n\r\nPersonal – I would like to continue my hobbies of football, learning new languages.\r\n',
+                        },
+                        {
+                          textBold:
+                            'What do some people study medicine and end up not practising after they graduate?',
+                          text: 'Again this is a good one to use the camp structure here\r\n\r\nClinical – Some people find the clinical work too demaning, stressful and they feel its not what they thought it would be\r\n\r\nAcademic – even after graduating there is a lot more exams and studying and they feel burnout\r\n\r\nManagement – trying to manage and organise everything becomes very difficult\r\n\r\nPersonal – personal circumstances change and they can no longer pursue the lifestyle of a doctor\r\n',
+                        },
+                        {
+                          textBold:
+                            'You can only pick one: a doctor with good communication skills or a doctor with good knowledge and technical skills? Which would you pick and why?',
+                          text: 'This is a difficult question and a lot of students get caught out with this question and are unsure of what to say.',
+                        },
+                        {
+                          textBold:
+                            'What are some of the challenges facing junior doctors at the moment?',
+                          text: '1. Workload and Burnout: Junior doctors often work long and demanding hours, leading to high levels of stress and burnout. The workload can be intense, affecting both physical and mental well-being.\r\n2. Lack of Work-Life Balance: The demanding nature of medical training and residency programs may result in a lack of work-life balance. Junior doctors might struggle to find time for personal life, self-care, and rest.\r\n3. Educational Debt: Many junior doctors graduate with significant educational debt, which can contribute to financial stress. Paying off loans while managing living expenses can be challenging, especially during the early stages of their careers.\r\n4. Patient Load and Responsibility: Junior doctors often have substantial responsibilities, including patient care and decision-making. Managing a high patient load and making critical decisions can be stressful, particularly when the experience is relatively limited.\r\n5. Mental Health Stigma: There may be a stigma surrounding mental health issues in the medical community, which could discourage junior doctors from seeking help when needed. Mental health support and resources are essential for maintaining well-being.\r\n6. Transition to Practice: The transition from medical school to training and then to independent practice can be challenging. Junior doctors may feel overwhelmed as they adapt to new responsibilities, environments, and expectations.\r\n7. Challenges in Communication: Effective communication within healthcare teams and with patients is critical. Junior doctors may face challenges in navigating communication with senior colleagues, nurses, and other members of the healthcare team.\r\n8. Diversity and Inclusion: Issues related to diversity, inclusion, and equal opportunities within the medical profession may impact junior doctors. Efforts to address disparities and create a more inclusive environment are ongoing.',
+                        },
+                      ],
+                      subSection:[
+                        {
+                          "title": "Should Entry Requirements for Medical School Be Reduced for Individuals from Poorer Backgrounds?",
+                          "content": {
+                            "text": "The question of reducing entry requirements for medical school applicants from poorer backgrounds touches on important themes of equity, diversity, and maintaining high standards in medical education. Balancing fair access to education while ensuring future doctors meet rigorous requirements is key. Below is a table summarizing the argument.",
+                            "table": {
+                              "col1Header": "Arguments For",
+                              "col2Header": "Arguments Against",
+                              "tableData": [
+                                {
+                                  "quality": "Addressing Educational Inequities",
+                                  "description": "Students from disadvantaged backgrounds often face barriers like underfunded schools and fewer academic opportunities, affecting their grades despite having the potential to succeed."
+                                },
+                                {
+                                  "quality": "Maintaining Standards",
+                                  "description": "Lowering entry requirements may compromise the quality of education and patient care by admitting students who may not be academically prepared."
+                                },
+                                {
+                                  "quality": "Promoting Diversity",
+                                  "description": "A diverse medical workforce brings fresh perspectives and improves care, especially for underserved communities. Students from poorer backgrounds can enhance medical education and patient outcomes."
+                                },
+                                {
+                                  "quality": "Alternative Support",
+                                  "description": "Instead of lowering standards, initiatives like outreach programs, preparatory courses, scholarships, and mentorship can help disadvantaged students meet existing entry requirements and succeed."
+                                },
+                                {
+                                  "quality": "Social Mobility",
+                                  "description": "Allowing more students from disadvantaged backgrounds into medical school can help break the cycle of poverty, offering them opportunities for professional success and economic stability."
+                                },
+                                {
+                                  "quality": "Fairness to All",
+                                  "description": "Reducing requirements could be perceived as unfair to those who meet the standard criteria, making it important to find fair solutions that benefit all applicants equally."
+                                }
+                              ]
+                            },
+                            "subSection": [
+                              {
+                                "title": "Conclusion",
+                                "content": {
+                                  "text": "This is a complex question but rather than reducing entry requirements, I believe in contextual admissions, where applicants are evaluated within the context of their socio-economic background. This approach ensures that talented students from disadvantaged backgrounds are considered without lowering academic standards. In conclusion, while it is crucial to address the barriers faced by disadvantaged students, the LONG TERM solution should focus on creating opportunities rather than lowering standards. By offering targeted support such as scholarships, mentorship, and preparatory programs, we can help level the playing field and ensure that all students, regardless of background, have the chance to succeed in medical school while maintaining the integrity of the admissions process."
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "What are you looking most/ least forward to in medical school?",
+                          "content": {
+                            "text": "To structure your answer: Show Enthusiasm: Express excitement about medical school. Key Interests: Focus on clinical experience, research, or knowledge growth. Link to Goals: Relate it to your future as a doctor. Personalize: Tie it to a personal experience or passion. Positive Ending: Show commitment to learning and healthcare.",
+                            "otherText": [
+                              {
+                                "textBold": "Excitement about Medical School",
+                                "text": "There are many things I am excited about. Such as the opportunity to deepen my understanding of human biology and disease, while also developing practical skills through clinical experiences. I’m excited to apply what I learn in real-world settings, working with patients and collaborating with experienced physicians. I also look forward to engaging in research and contributing to advancements in healthcare. Ultimately, medical school will allow me to grow both personally and professionally, shaping me into a compassionate and knowledgeable physician, prepared to make a meaningful impact on my future patients' lives."
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                      
                     },
-                    {
-                      quality: 'Personal',
-                      description:
-                        'Desire to work in a challenging, rewarding profession. Commitment to serving others and making a positive impact on the world. Personal experiences with illness, injury, or caregiving that have inspired a desire to pursue medicine as a career.',
-                    },
-                  ],
-                },
-                otherText: [
-                  {
-                    textBold: 'Why do you want to be a doctor?',
-                    // text: "I have always been interested in medicine and wish to study it for multiple reasons. On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on people's lives. Academically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first-hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.",
-                    text: "‘’I have always been interested in medicine and wish to pursue it for multiple reasons . On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on peoples lives.\r\nAcademically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first- hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.\"\r\n\r\n“I wish to see myself as a custodian of society's care. I believe that doctors have a unique responsibility to not only treat individual patients, but also to contribute to the well-being of the broader community. This can be done in many ways, not just in the clinic room. As a doctor, I would have the opportunity to conduct research and contribute to the advancement of medical knowledge\r\n",
                   },
+                  
                   {
-                    textBold: 'Why do you find medicine interesting?',
-                    // text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes. \n\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science. \n\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society. \n\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field.',
-                    text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes.\r\n\r\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science.\r\n\r\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society.\r\n\r\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field."\r\n',
+                      "title": "What are you not looking forward to about medical school?",
+                      "content": {
+                        "text": "This question assesses whether you have done your research about medical school. Demonstrate you have realistic expectations of medical school but you are still committed to it. Try to balance the negatives quickly with rationales as to why it is a reality. This will make you look well prepared.",
+                        "table3": {
+                          "col1Header": "",
+                          "col2Header": "Drawback",
+                          "col3Header": "Rationale",
+                          "tableData": [
+                            {
+                              "quality": "Heavy Workload",
+                              "description": "The intensity of the workload and long hours. Big jump from A levels.",
+                              "example": "Understand it's necessary for comprehensive training."
+                            },
+                            {
+                              "quality": "Challenging Curriculum",
+                              "description": "High-pressure exams and frequent assessments. New style of exams you may not be experienced in, i.e., Practical.",
+                              "example": "View exams as opportunities to reinforce learning and prove skill."
+                            },
+                            {
+                              "quality": "Emotional Challenges",
+                              "description": "Dealing with difficult or emotionally charged situations.",
+                              "example": "Acknowledge the importance of developing resilience."
+                            },
+                            {
+                              "quality": "Balancing Personal Life",
+                              "description": "Potential difficulty in maintaining work-life balance.",
+                              "example": "Committed to developing time management skills which will be needed as a doctor."
+                            },
+                            {
+                              "quality": "Clinical Rotations",
+                              "description": "Adjusting to different specialties during rotations.",
+                              "example": "See it as a valuable way to gain diverse experiences."
+                            }
+                          ]
+                        },
+                        "subSection": [
+                          {
+                            "title": "Model Answer",
+                            "content": {
+                              "text": "While I’m very excited about starting medical school, there are a few challenges I’m preparing for. The heavy workload and long hours are something I know will be demanding, but I recognize that this rigorous training is crucial for becoming a competent physician. The frequent exams might be stressful, but I see them as valuable opportunities to solidify my knowledge. I also anticipate that dealing with emotionally charged situations, particularly in clinical settings, could be difficult. However, I’m committed to developing the resilience needed to navigate these experiences. Balancing personal life with the demands of medical school is another concern, but I’m ready to enhance my time management skills to maintain a healthy balance. Lastly, while adjusting to different specialties during clinical rotations may be challenging, I’m looking forward to the diverse learning opportunities they will provide."
+                            }
+                          }
+                        ]
+                      }
                   },
+                  
+                  
                   {
-                    textBold:
-                      'What qualities do you have that would make you a good doctor? (Example answer can be manipulated very easy to answer ‘why should we pick you’ or ‘What qualities do you think we are looking for’',
-                    // text: 'I have many qualities that make me fit for a medical career, especially in a clinical environment. I believe that I have strong problem-solving skills, excellent communication skills, empathy towards patients, good clinical judgment, and the ability to work under pressure. I am confident that I can excel in these areas because I have volunteered at a hospital, providing me with the opportunity to develop these qualities by interacting with patients and observing physicians in action. \n\nAcademically, I possess a strong academic and intellectual background with a commitment to lifelong learning, reflected in my consistently excellent performance in science and other related fields. Additionally, I am confident that my critical thinking, analytical, and research skills will be assets in my journey to becoming a successful doctor. \n\nRegarding personal qualities, I believe that being a good doctor requires a genuine passion for helping others, high personal integrity, resilience in the face of adversity, and the ability to remain calm and focused in challenging situations. I have demonstrated these qualities in various ways, such as volunteering at a homeless shelter and care home. \n\nIn summary, I believe that a combination of clinical, academic, and personal qualities is essential for being a good doctor, and I am confident that my experiences, skills, and personal qualities make me well-suited for a career in medicine.',
-                    text: 'I have many qualities that makes me fit a medical career especially in a clinical environment. I believe that I have strong problem- solving skills, excellent communication skills, empathy towards patients, good clinical judgment, and the ability to work under pressure. I am confident that I can excel in these areas because I have volunteered at a hospital, and it has provided me with the opportunity to develop these qualities by interacting with patients and observing physicians in action.\r\n\r\nAcademically, I possess a strong academic and intellectual background with a commitment to lifelong learning, which is reflected in my school record, where I have consistently excelled in science and other related fields. Additionally, I am confident that my critical thinking, analytical, research skills will be an asset in my journey to becoming a successful doctor.\r\n\r\nRegarding personal qualities, I believe that being a good doctor requires a genuine passion for helping others, high personal integrity, resilience in the face of adversity, and the ability to remain calm and focused in challenging situations. I have demonstrated these qualities in various ways, such as volunteering at a homeless shelter and care home.\r\n\r\nIn summary, I believe that a combination of clinical, academic, and personal qualities is essential for being a good doctor, and I am confident that my experiences, skills, and personal qualities make me well-suited for a career in medicine\r\n',
+                      "title": "What do you know of our curriculum/How is medical school structured?",
+                      "content": {
+                        "text": "It is absolutely imperative that you know how the curriculum in the medical school in which you have a university is structured. All this information can be found on the medical school's respective websites. We will however give you a general template on how medical schools are structured in the UK. Most medical schools are structured in the below way. We recommend starting your answer by saying something along these lines: 'Medical schools have all got differences between them however generally medical school is divided into pre-clinical and clinical years.'",
+                        "subSection": [
+                          {
+                            "title": "Pre-clinical (Years 1-2)",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Basic Sciences",
+                                  "text": "Focus on fundamental medical sciences, including anatomy, physiology, biochemistry, and pathology. Can include clinical skills and a few placements."
+                                },
+                                {
+                                  "textBold": "Problem-Based Learning (PBL)",
+                                  "text": "Many schools use PBL to integrate clinical scenarios with theoretical knowledge. Note not all universities are PBL based."
+                                },
+                                {
+                                  "textBold": "Workshops",
+                                  "text": "Clinical skills sessions to learn relevant skills i.e History taking, examinations, and practical procedures."
+                                },
+                                {
+                                  "textBold": "Early Clinical Exposure",
+                                  "text": "Introduction to patient interactions through hospital visits or general practice shadowing."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Clinical Phase (Years 3-5)",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Rotations in Core Specialties",
+                                  "text": "Students rotate through major medical specialties such as medicine, surgery, pediatrics, obstetrics and gynecology, and psychiatry."
+                                },
+                                {
+                                  "textBold": "Clinical Skills Development",
+                                  "text": "Emphasis on practical skills, patient communication, and diagnostic techniques."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Assessment Throughout",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Exams and Assessments",
+                                  "text": "Regular written exams, practical assessments (OSCEs), and reflective essays, scientific paper writing."
+                                },
+                                {
+                                  "textBold": "Continuous Feedback",
+                                  "text": "Assessments and feedback from tutors. Every clinical work placement comes with a sign-off."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Additional Opportunities",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Intercalated Year (Optional)",
+                                  "text": "An additional year spent studying modules not necessarily directly related to medicine but can be as well. Examples include management, neuroscience."
+                                },
+                                {
+                                  "textBold": "Elective",
+                                  "text": "This is classically in 4th or final year and involves a student-selected placement, classically abroad."
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
                   },
-                  {
-                    textBold: 'Why should we pick you over someone else?',
-                    // text: 'There are several reasons why I believe I am the ideal candidate for studying medicine, based on my skills, academic accomplishments, and personal characteristics. \n\nI believe that I will thrive in a clinical setting. My problem-solving, communication, and resilience skills make me an excellent candidate for studying medicine. In particular, I have a proven ability to solve complex problems through critical thinking as well as to communicate effectively with patients and medical professionals. Additionally, I am highly resilient and able to thrive in the demanding and high-pressure environment of medicine. I have a strong academic record, having consistently achieved top grades in subjects such as biology, chemistry, and mathematics. My love for science and medicine has driven me to take on additional academic challenges, including advanced courses in biochemistry, microbiology, and genetics. I am also highly proficient in critical thinking and problem-solving, as evidenced by my participation in various academic competitions and research projects. I possess a range of personal characteristics that are highly suited to the field of medicine. I am an empathetic listener who is skilled at building rapport and trust with patients. I am highly organized and detail-oriented, which is essential for the meticulous record-keeping and analysis required in medicine. I am also a highly responsible individual who takes pride in my work and is committed to making a difference in the lives of others. \n\nIn summary, my strong clinical skills, academic accomplishments, and personal characteristics make me the ideal candidate for studying medicine. I am highly motivated and committed to the field, possess the necessary clinical and academic skills, and have the personal qualities that will make me a compassionate, dedicated, and highly effective physician.',
-                    text: 'There are several reasons why I believe I am the ideal candidate for studying medicine, based on my skills, academic accomplishments, and personal characteristics I believe that I will thrive in a clinical setting. My problem-solving, communication, and resilience skills make me an excellent candidate for studying medicine. In particular, I have a proven ability to solve complex problems through critical thinking as well as to communicate effectively with patients and medical professionals. Additionally, I am highly resilient and able to thrive in the demanding and high-pressure environment of medicine. I have a strong academic record, having consistently achieved top grades in subjects such as biology, chemistry, and mathematics. My love for science and medicine has driven me to take on additional academic challenges, including advanced courses in biochemistry, microbiology, and genetics. I am also highly proficient in critical thinking and problem-solving, as evidenced by my participation in various academic competitions and research projects. I possess a range of personal characteristics that are highly suited to the field of medicine. I am an empathetic listener who is skilled at building rapport and trust with patients. I am highly organized and detail- oriented, which is essential for the meticulous record-keeping and analysis required in medicine. I am also a highly responsible individual who takes pride in my work and is committed to making a difference in the lives of others.\r\n\r\nIn summary, my strong clinical skills, academic accomplishments, and personal characteristics make me the ideal candidate for studying medicine. I am highly motivated and committed to the field, possess the necessary clinical and academic skills, and have the personal qualities that will make me a compassionate, dedicated, and highly effective physician.\r\n.',
-                  },
-                  {
-                    textBold:
-                      'What have you learned from your work experience?  ',
-                    text: "During my time shadowing doctors in a hospital, I learned a great deal about the clinical setting and what it takes to be a doctor. One of the most valuable lessons I learned was the importance of effective communication. I saw how the team spoke calmly and clearly to a patient who was experiencing a medical emergency, which reduced the patient’s anxiety and allowed him to engage better in his own care. \n\nI also learned about the importance of empathy and compassion in healthcare. I saw how doctors took the time to listen to their patients and their families. This showed me that a caring and compassionate healthcare provider can have a significant impact on a patient's experience and outcomes. \n\nAnother important lesson I learned was the value of adapting to new situations as a doctor and being flexible in a clinical setting. I saw firsthand how doctors had to adapt to changes in patient conditions, staffing, and sudden changes in workload.",
-                  },
-                  {
-                    textBold:
-                      'Tip: It can also be good to mention some of the potential negative things that you saw but how you are prepared for them',
-                    text: 'I observed that doctors face long and gruelling work hours, often working 12-hour shifts without a break. They must also deal with high-stress situations, such as making life or death decisions, and dealing with difficult patients and their families. Despite these challenges, I was impressed by the resilience and determination of the doctors I worked with, who remained committed to providing the best possible care for their patients.',
-                  },
-                  {
-                    textBold: "What if you haven't done any work experience",
-                    text: 'We have personally coached many people in to medical school with ZERO work experience. Different universities will have different requirements however it is understood that in a Post COVID world this is harder to achieve. What is more important is the understanding of life as a doctor and weather you have done the research to help you make an informed decision. Its all about how you sell your experience. Non-traditional work experiences can include a variety of activities that can demonstrate your commitment to the medical profession. For example, if you have had the opportunity to speak with doctors online or attend virtual conferences or seminars, you can discuss how these experiences have given you insights into the medical profession and allowed you to connect with healthcare professionals in a meaningful way. Similarly, if you have read books or articles related to healthcare or medical research, you can discuss how this reading has expanded your knowledge and understanding of medicine and helped you to explore different areas of the field. Finally, if you have had online work experience, such as working remotely for a healthcare organization or participating in virtual internships or volunteer opportunities, you can discuss the skills you developed and how these experiences helped you to gain a better understanding of the healthcare industry. These non-traditional work experiences can help you to demonstrate your passion for medicine and your willingness to explore different aspects of the field',
-                  },
-                  {
-                    textBold: 'What would you do if you do not get accepted ?',
-                    text: 'Although this would be disappointing, I would remain determined to achieve my dream of pursuing a career in medicine and would re-apply in the following year. I would get additional experience or qualifications, like working in a healthcare setting, volunteering, as well as shadowing doctors. This would enable me to increase my knowledge of working in a healthcare setting and therefore make me a better candidate. I would also look for a part-time job to assist with bills as I would not be eligible for maintenance grants that people rely on during university periods. I would look for something in the healthcare sector, such as a healthcare assistant working on the ward, to gain further work experience at the same time.',
-                  },
-                  {
-                    textBold:
-                      'You mentioned you are interested in hospital medicine. Why is that?',
-                    text: 'Yes, I am particularly interested in hospital medicine for a number of reasons. One of the main reasons is the complexity of the cases that are encountered in the hospital setting. Hospitalized patients often have multiple medical problems, and the challenge of managing these complex cases is one that I find particularly rewarding. \n\nAdditionally, hospital medicine provides the opportunity to work as part of a multidisciplinary team, collaborating with nurses, social workers, pharmacists, and other healthcare professionals to provide comprehensive care to patients. This collaborative approach to patient care is not only beneficial for the patient but also provides an excellent learning experience for me as a physician. \n\nFurthermore, hospital medicine allows for the opportunity to work in a fast-paced and dynamic environment, which I find exciting. The ability to make rapid and critical decisions in the face of acute illness and emergencies is a skill set that I believe is essential for any physician. \n\nOverall, my interest in hospital medicine is driven by a desire to provide high-quality care to some of the most vulnerable patients while continuously challenging myself to improve my knowledge and clinical skills.',
-                  },
-                  {
-                    textBold: 'What other careers have you researched about?',
-                    text: 'This question is not designed to catch you out and make you look indecisive and say no I haven’t researched any other careers because I am certain I want to do medicine. It is more designed to test your integrity and showing you have done your research and looked into alternatives and come to a sound conclusion that this is the career you want to pursue and why it is best suited for you',
-                  },
-                  {
-                    textBold:
-                      'Is there anything you don’t like look forward to in medical school',
-                    text: 'In this question it is important to convey the message that you are passionate about medicine but you understand it comes with challenges. We have listed a few examples.\r\n\r\nWhile I am extremely excited about the opportunity to attend medical school, I recognize that there will be challenges that come with this rigorous program. One aspect that I anticipate may be difficult is the workload. I understand that medical school requires a significant amount of time and effort, and the material can be challenging to learn. However, I am prepared to devote the necessary time and energy to succeed in the program.\r\n\r\nAnother potential challenge that I am aware of is the competitive nature of medical school. I understand that the program attracts highly motivated and driven individuals, and the pressure to perform at a high level can be intense. However, I believe that competition can be a healthy motivator, and I am looking forward to learning from my peers and collaborating with them in a positive and constructive manner.\r\n\r\nOverall, while there may be aspects of medical school that are challenging or difficult, I am eager to take on these challenges and work hard to achieve my goals. I believe that the rewards of pursuing a career in medicine far outweigh any temporary difficulties I may encounter along the way.\r\n',
-                  },
-                ],
-              },
-            },
-            {
-              title: 'Personal qualities and role of a doctor',
-              content: {
-                // text: "In this chapter, we will be exploring how to answer questions that focus on your motivation for pursuing a career in medicine. One of the most common types of questions that interviewers ask is about your commitment to medicine. This can include questions such as 'Why do you want to be a doctor?' or 'What motivates you to pursue a career in medicine?' It's important to note that while the questions may be phrased differently, the core of what the interviewer is looking for remains the same. The answer can also be manipulated to answer questions questioning your capabilities. Ultimately, the answers to questions about your commitment to medicine can be broken down into three main categories: clinical points, academic points, and personal points. By understanding how your experiences and motivations fit into these categories, you can craft thoughtful and impactful answers that demonstrate your readiness to become a successful medical professional.",
-                table: {
-                  col1Header: 'Point of Professionalism',
-                  col2Header: 'Description',
-                  tableData: [
-                    {
-                      quality: 'Commitment to Competence',
-                      description:
-                        'Continuously updating medical knowledge and skills through lifelong learning and staying informed about the latest advancements in medical science.',
-                    },
-                    {
-                      quality: 'Integrity and Honesty',
-                      description:
-                        'Maintaining honesty in all professional interactions, including accurate reporting of patient information, admitting mistakes, and avoiding conflicts of interest',
-                    },
-                    {
-                      quality: 'Respect for Patients',
-                      description:
-                        'Treating all patients with dignity, empathy, and respect, considering their values, preferences, and cultural backgrounds in medical care.\r\n\r\n',
-                    },
-                    {
-                      quality: 'Patient Confidentiality',
-                      description:
-                        'Safeguarding patient information, ensuring that sensitive data is shared only with authorized individuals and used appropriately within the healthcare context.',
-                    },
-                    {
-                      quality: 'Accountability',
-                      description:
-                        'Taking responsibility for their actions and decisions in patient care, and being accountable to patients, colleagues, and the medical profession.',
-                    },
-                    {
-                      quality: 'Commitment to Ethical Practice',
-                      description:
-                        'Adhering to ethical principles in all aspects of medical practice, including obtaining informed consent, avoiding harm, and promoting the well-being of patients.',
-                    },
-                    {
-                      quality: 'Professional Collaboration',
-                      description:
-                        'Working effectively with colleagues and other healthcare professionals to provide coordinated and comprehensive care, and respecting the contributions of all members of the healthcare team.',
-                    },
-                  ],
-                },
-                otherText: [
-                  {
-                    textBold: 'What is professionalism to you?',
-                    // text: "I have always been interested in medicine and wish to study it for multiple reasons. On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on people's lives. Academically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first-hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.",
-                    text: 'Professionalism, refers to maintaining a high standard of conduct, ethics, and performance in interactions with others. It involves adhering to established guidelines, principles, and ethical considerations. Professionalism also includes:\n1. Accuracy:\r\nProviding accurate and reliable information to\r\nthe best of my knowledge and abilities.\r\n2. Objectivity: Remaining neutral and unbiased in responses and interactions, avoiding personal opinions or judgments.\r\n3. Respect: Treating users with courtesy, respect, and consideration, regardless of their background or beliefs.\r\n4. Confidentiality: Safeguarding user information and respecting privacy by not disclosing sensitive or personal data.\r\n5. Transparency: Being clear and open about my capabilities, limitations, and the fact that I am a machine learning model.\r\n6.Responsiveness: Providing timely and relevant responses to user queries, and acknowledging limitations when necessary.\r\n7.Adherence to Guidelines: Following ethical guidelines and\r\npolicies set by developers and the platform to ensure responsible use of AI technology.\r\n\r\n ',
-                  },
-                  {
-                    textBold:
-                      'Why do you think professionalism in medicine is important?',
-                    // text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes. \n\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science. \n\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society. \n\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field.',
-                    text: "Professionalism in medicine is crucial for several reasons:\n1. Patient Trust and Safety: Professional conduct builds trust between healthcare providers and patients. When patients have confidence in the professionalism of their healthcare team, they are more likely to communicate openly, follow medical advice, and feel safe in the care provided.\n2. Ethical Practice: Medicine is an inherently ethical field,involving decisions that directly impact patients' lives.Professionalism ensures that healthcare professionals adhere to ethical principles, maintaining the highest standards of integrity and honesty in their interactions with patients, colleagues, and the wider community.\n3. Quality of Care: Professionalism contributes to the delivery of high-quality healthcare. It involves staying current with medical knowledge, continuous learning, and providing evidence-based care. This commitment to excellence enhances the overall quality of healthcare services.\r\n4. Effective Communication: Professionalism encourages effective and empathetic communication between healthcare providers, patients, and their families. Clear communication is essential for understanding patient needs, explaining diagnoses and treatment options, and fostering a collaborative approach to care.\r\n5. Teamwork and Collaboration: In a medical setting, professionals often work as part of a team. Professionalism fosters effective collaboration, ensuring that healthcare providers work together cohesively for the benefit of the patient. This teamwork is essential for delivering comprehensive and integrated care.\r\n6. Maintaining Public Trust: The medical profession relies on public trust. Professional behavior helps to maintain and strengthen this trust. Patients and the broader community are more likely to have confidence in the healthcare system when professionals demonstrate ethical conduct and a commitment to the well-being of patients.\r\n7. Legal and Regulatory Compliance: Professionalism is closely tied to legal and regulatory standards in medicine. Healthcare professionals must comply with laws and regulations to ensure the safety and well-being of patients. Professional behavior helps prevent legal issues and ensures adherence to standards of care.\r\n8. Professional Development: Medicine is an evolving field, and professionals must commit to ongoing education and professional development. Professionalism encourages healthcare providers to stay updated on the latest research, technologies, and best practices to provide the best possible care. ",
-                  },
-                  {
-                    text: 'In summary, professionalism in medicine is foundational to maintaining the trust of patients, delivering high-quality care, and upholding the ethical and legal standards of the medical profession. It is an essential component for the effective functioning of  healthcare systems and the well-being of individuals and communities.',
-                  },
-                  {
-                    textBold: 'Do you sympathise or empathise?',
-                    text: 'It is important to address this question with balance, yes empathy is important but as a doctor it can be very difficult to completely empathise with some patients given their circumstances and the best you can do is sympathise with them.\r\n\r\nThe most important thing to do when addressing patients is to show you are listening to them, you understand their perspective and you are willing to help them in whatever capacity you can.\r\n\r\nGiving examples of times when you have displayed both will help.\r\n',
-                  },
-                  {
-                    textBold:
-                      'Are you born with empathy or is it something you acquire? ',
-                    text: "Empathy is generally considered to be a complex trait that involves both genetic and environmental factors. While some individuals may have a predisposition towards empathy due to their genetic makeup, environmental factors also play a significant role in its development.\r\n\r\nResearch suggests that early experiences, parenting styles, and social interactions can shape a person's capacity for empathy. For instance, individuals who grow up in environments that encourage understanding, perspective-taking, and emotional connection are likely to develop stronger empathetic abilities.\r\n\r\nWhilst people who grew up in environments where there was a lack of understanding, trust and open communication tend to be less empathetic to others situation.\r\n\r\nOverall, I think empathy is something we have a natural tendency towards however the environmental factors shape whether or not how strong our empathetic abilities are.\r\n",
-                  },
-                  {
-                    textBold: 'Are you a leader or a follower? ',
-                    text: 'Depending on the situation you will need to be able to adapt to both, don’t answer this question as one or the other, but rather give examples when you have displayed leadership and been a good team player.',
-                  },
-                  {
-                    textBold: 'Where do you see yourself in 10 years ?',
-                    text: 'Use the camp structure here\r\n\r\nClinical – I would hope to have finished medical school and have progressed significantly in my training or coming towards the end of my training\r\n\r\nAcademic – keep up with knowledge with CPD, doing extra courses\r\n– masters, PhD, academic pathway teaching others\r\n\r\nManagement – managing complex cases – referrals, comprehensive notes, paperwork, organised\r\n\r\nPersonal – I would like to continue my hobbies of football, learning new languages.\r\n',
-                  },
-                  {
-                    textBold:
-                      'What do some people study medicine and end up not practising after they graduate?',
-                    text: 'Again this is a good one to use the camp structure here\r\n\r\nClinical – Some people find the clinical work too demaning, stressful and they feel its not what they thought it would be\r\n\r\nAcademic – even after graduating there is a lot more exams and studying and they feel burnout\r\n\r\nManagement – trying to manage and organise everything becomes very difficult\r\n\r\nPersonal – personal circumstances change and they can no longer pursue the lifestyle of a doctor\r\n',
-                  },
-                  {
-                    textBold:
-                      'You can only pick one: a doctor with good communication skills or a doctor with good knowledge and technical skills? Which would you pick and why?',
-                    text: 'This is a difficult question and a lot of students get caught out with this question and are unsure of what to say.',
-                  },
-                  {
-                    textBold:
-                      'What are some of the challenges facing junior doctors at the moment?',
-                    text: '1. Workload and Burnout: Junior doctors often work long and demanding hours, leading to high levels of stress and burnout. The workload can be intense, affecting both physical and mental well-being.\r\n2. Lack of Work-Life Balance: The demanding nature of medical training and residency programs may result in a lack of work-life balance. Junior doctors might struggle to find time for personal life, self-care, and rest.\r\n3. Educational Debt: Many junior doctors graduate with significant educational debt, which can contribute to financial stress. Paying off loans while managing living expenses can be challenging, especially during the early stages of their careers.\r\n4. Patient Load and Responsibility: Junior doctors often have substantial responsibilities, including patient care and decision-making. Managing a high patient load and making critical decisions can be stressful, particularly when the experience is relatively limited.\r\n5. Mental Health Stigma: There may be a stigma surrounding mental health issues in the medical community, which could discourage junior doctors from seeking help when needed. Mental health support and resources are essential for maintaining well-being.\r\n6. Transition to Practice: The transition from medical school to training and then to independent practice can be challenging. Junior doctors may feel overwhelmed as they adapt to new responsibilities, environments, and expectations.\r\n7. Challenges in Communication: Effective communication within healthcare teams and with patients is critical. Junior doctors may face challenges in navigating communication with senior colleagues, nurses, and other members of the healthcare team.\r\n8. Diversity and Inclusion: Issues related to diversity, inclusion, and equal opportunities within the medical profession may impact junior doctors. Efforts to address disparities and create a more inclusive environment are ongoing.',
-                  },
-                ],
-              },
-            },
+                  
+                  
+                   {
+                      "title": "Tell me about any advancements in medicine you have read about?",
+                      "content": {
+                        "text": "This question is not looking for PHD level information in your answer. What they are looking for is you have put some effort into reading material outside your normal activities. This question should be easy if you are already in a scientific undergraduate degree.",
+                        "otherText": [
+                          {
+                            "textBold": "CRISPR Gene Editing",
+                            "text": "Allows precise modifications to DNA. Potential to cure genetic diseases like sickle cell anemia and cystic fibrosis."
+                          },
+                          {
+                            "textBold": "mRNA Vaccine Technology",
+                            "text": "Revolutionized vaccine development, particularly with COVID-19 vaccines. Offers rapid and effective immunization strategies."
+                          },
+                          {
+                            "textBold": "Artificial Intelligence in Diagnostics",
+                            "text": "Enhances diagnostic accuracy, especially in early detection of diseases like cancer. Assists in analyzing medical data for more informed decision-making."
+                          },
+                          {
+                            "textBold": "Telemedicine",
+                            "text": "Expands access to healthcare, especially in remote areas. Facilitates patient monitoring and follow-up care from a distance."
+                          },
+                          {
+                            "textBold": "3D Printing in Medicine",
+                            "text": "Creates custom implants, prosthetics, and bioengineered tissues. Paves the way for personalized medical treatments and potential organ creation."
+                          },
+                          {
+                            "textBold": "Immunotherapy for Cancer",
+                            "text": "Uses the body’s immune system to fight cancer. Provides new treatment options for patients when traditional therapies fail."
+                          }
+                        ]
+                      }
+                  }
+                  
+                  
+                  
+
+                ]
+              }
+            
+          },
+            // {
+            //   title: 'Personal qualities and role of a doctor',
+            //   content: {
+            //     // text: "In this chapter, we will be exploring how to answer questions that focus on your motivation for pursuing a career in medicine. One of the most common types of questions that interviewers ask is about your commitment to medicine. This can include questions such as 'Why do you want to be a doctor?' or 'What motivates you to pursue a career in medicine?' It's important to note that while the questions may be phrased differently, the core of what the interviewer is looking for remains the same. The answer can also be manipulated to answer questions questioning your capabilities. Ultimately, the answers to questions about your commitment to medicine can be broken down into three main categories: clinical points, academic points, and personal points. By understanding how your experiences and motivations fit into these categories, you can craft thoughtful and impactful answers that demonstrate your readiness to become a successful medical professional.",
+            //     table: {
+            //       col1Header: 'Point of Professionalism',
+            //       col2Header: 'Description',
+            //       tableData: [
+            //         {
+            //           quality: 'Commitment to Competence',
+            //           description:
+            //             'Continuously updating medical knowledge and skills through lifelong learning and staying informed about the latest advancements in medical science.',
+            //         },
+            //         {
+            //           quality: 'Integrity and Honesty',
+            //           description:
+            //             'Maintaining honesty in all professional interactions, including accurate reporting of patient information, admitting mistakes, and avoiding conflicts of interest',
+            //         },
+            //         {
+            //           quality: 'Respect for Patients',
+            //           description:
+            //             'Treating all patients with dignity, empathy, and respect, considering their values, preferences, and cultural backgrounds in medical care.\r\n\r\n',
+            //         },
+            //         {
+            //           quality: 'Patient Confidentiality',
+            //           description:
+            //             'Safeguarding patient information, ensuring that sensitive data is shared only with authorized individuals and used appropriately within the healthcare context.',
+            //         },
+            //         {
+            //           quality: 'Accountability',
+            //           description:
+            //             'Taking responsibility for their actions and decisions in patient care, and being accountable to patients, colleagues, and the medical profession.',
+            //         },
+            //         {
+            //           quality: 'Commitment to Ethical Practice',
+            //           description:
+            //             'Adhering to ethical principles in all aspects of medical practice, including obtaining informed consent, avoiding harm, and promoting the well-being of patients.',
+            //         },
+            //         {
+            //           quality: 'Professional Collaboration',
+            //           description:
+            //             'Working effectively with colleagues and other healthcare professionals to provide coordinated and comprehensive care, and respecting the contributions of all members of the healthcare team.',
+            //         },
+            //       ],
+            //     },
+            //     otherText: [
+            //       {
+            //         textBold: 'What is professionalism to you?',
+            //         // text: "I have always been interested in medicine and wish to study it for multiple reasons. On the clinical side, I am fascinated by the complex processes of the human body and how they interact with each other to maintain health. I am also drawn to the challenge of diagnosing and treating illnesses and injuries, and I want to use my knowledge and skills to make a positive impact on people's lives. Academically, I have always been strong in the sciences, and I am eager to continue learning and developing my knowledge in these areas. On a personal level, I have always been driven by a desire to help others and make a difference in the world. I have seen first-hand the impact that a skilled doctor can have on a patient's life, and I want to be able to provide that same level of care and compassion to my own patients. I believe that being a doctor is not just a job, but a calling, and I am eager to answer that call and make a positive impact in the lives of my patients.",
+            //         text: 'Professionalism, refers to maintaining a high standard of conduct, ethics, and performance in interactions with others. It involves adhering to established guidelines, principles, and ethical considerations. Professionalism also includes:\n1. Accuracy:\r\nProviding accurate and reliable information to\r\nthe best of my knowledge and abilities.\r\n2. Objectivity: Remaining neutral and unbiased in responses and interactions, avoiding personal opinions or judgments.\r\n3. Respect: Treating users with courtesy, respect, and consideration, regardless of their background or beliefs.\r\n4. Confidentiality: Safeguarding user information and respecting privacy by not disclosing sensitive or personal data.\r\n5. Transparency: Being clear and open about my capabilities, limitations, and the fact that I am a machine learning model.\r\n6.Responsiveness: Providing timely and relevant responses to user queries, and acknowledging limitations when necessary.\r\n7.Adherence to Guidelines: Following ethical guidelines and\r\npolicies set by developers and the platform to ensure responsible use of AI technology.\r\n\r\n ',
+            //       },
+            //       {
+            //         textBold:
+            //           'Why do you think professionalism in medicine is important?',
+            //         // text: 'I find medicine to be a highly fascinating field for a number of reasons. Clinically, I am intrigued by the complexity of the human body and how it functions. I am fascinated by the diagnosis and treatment of medical conditions, and I am eager to gain a deeper understanding of the mechanisms behind these processes. \n\nAcademically, I am drawn to the interdisciplinary nature of medicine. The integration of knowledge from a wide range of fields, including biology, chemistry, physics, and psychology, to name a few, is what makes medicine such a complex and challenging field. I am motivated by the prospect of constantly learning and growing as a medical professional, and I am eager to make new discoveries and advancements in medical science. \n\nOn a personal level, I am drawn to medicine because it aligns with my interests and values. I have always been fascinated by the human body and how it functions, and I believe that medicine provides me with the opportunity to pursue this interest in a meaningful and impactful way. Additionally, I am motivated by the opportunity to make a difference in the world, and I believe that medicine offers a unique platform for making a positive impact on society. \n\nOverall, the combination of clinical, academic, and personal factors is what makes medicine such a compelling and rewarding field for me, and I am eager to continue growing and making a positive impact in this field.',
+            //         text: "Professionalism in medicine is crucial for several reasons:\n1. Patient Trust and Safety: Professional conduct builds trust between healthcare providers and patients. When patients have confidence in the professionalism of their healthcare team, they are more likely to communicate openly, follow medical advice, and feel safe in the care provided.\n2. Ethical Practice: Medicine is an inherently ethical field,involving decisions that directly impact patients' lives.Professionalism ensures that healthcare professionals adhere to ethical principles, maintaining the highest standards of integrity and honesty in their interactions with patients, colleagues, and the wider community.\n3. Quality of Care: Professionalism contributes to the delivery of high-quality healthcare. It involves staying current with medical knowledge, continuous learning, and providing evidence-based care. This commitment to excellence enhances the overall quality of healthcare services.\r\n4. Effective Communication: Professionalism encourages effective and empathetic communication between healthcare providers, patients, and their families. Clear communication is essential for understanding patient needs, explaining diagnoses and treatment options, and fostering a collaborative approach to care.\r\n5. Teamwork and Collaboration: In a medical setting, professionals often work as part of a team. Professionalism fosters effective collaboration, ensuring that healthcare providers work together cohesively for the benefit of the patient. This teamwork is essential for delivering comprehensive and integrated care.\r\n6. Maintaining Public Trust: The medical profession relies on public trust. Professional behavior helps to maintain and strengthen this trust. Patients and the broader community are more likely to have confidence in the healthcare system when professionals demonstrate ethical conduct and a commitment to the well-being of patients.\r\n7. Legal and Regulatory Compliance: Professionalism is closely tied to legal and regulatory standards in medicine. Healthcare professionals must comply with laws and regulations to ensure the safety and well-being of patients. Professional behavior helps prevent legal issues and ensures adherence to standards of care.\r\n8. Professional Development: Medicine is an evolving field, and professionals must commit to ongoing education and professional development. Professionalism encourages healthcare providers to stay updated on the latest research, technologies, and best practices to provide the best possible care. ",
+            //       },
+            //       {
+            //         text: 'In summary, professionalism in medicine is foundational to maintaining the trust of patients, delivering high-quality care, and upholding the ethical and legal standards of the medical profession. It is an essential component for the effective functioning of  healthcare systems and the well-being of individuals and communities.',
+            //       },
+            //       {
+            //         textBold: 'Do you sympathise or empathise?',
+            //         text: 'It is important to address this question with balance, yes empathy is important but as a doctor it can be very difficult to completely empathise with some patients given their circumstances and the best you can do is sympathise with them.\r\n\r\nThe most important thing to do when addressing patients is to show you are listening to them, you understand their perspective and you are willing to help them in whatever capacity you can.\r\n\r\nGiving examples of times when you have displayed both will help.\r\n',
+            //       },
+            //       {
+            //         textBold:
+            //           'Are you born with empathy or is it something you acquire? ',
+            //         text: "Empathy is generally considered to be a complex trait that involves both genetic and environmental factors. While some individuals may have a predisposition towards empathy due to their genetic makeup, environmental factors also play a significant role in its development.\r\n\r\nResearch suggests that early experiences, parenting styles, and social interactions can shape a person's capacity for empathy. For instance, individuals who grow up in environments that encourage understanding, perspective-taking, and emotional connection are likely to develop stronger empathetic abilities.\r\n\r\nWhilst people who grew up in environments where there was a lack of understanding, trust and open communication tend to be less empathetic to others situation.\r\n\r\nOverall, I think empathy is something we have a natural tendency towards however the environmental factors shape whether or not how strong our empathetic abilities are.\r\n",
+            //       },
+            //       {
+            //         textBold: 'Are you a leader or a follower? ',
+            //         text: 'Depending on the situation you will need to be able to adapt to both, don’t answer this question as one or the other, but rather give examples when you have displayed leadership and been a good team player.',
+            //       },
+            //       {
+            //         textBold: 'Where do you see yourself in 10 years ?',
+            //         text: 'Use the camp structure here\r\n\r\nClinical – I would hope to have finished medical school and have progressed significantly in my training or coming towards the end of my training\r\n\r\nAcademic – keep up with knowledge with CPD, doing extra courses\r\n– masters, PhD, academic pathway teaching others\r\n\r\nManagement – managing complex cases – referrals, comprehensive notes, paperwork, organised\r\n\r\nPersonal – I would like to continue my hobbies of football, learning new languages.\r\n',
+            //       },
+            //       {
+            //         textBold:
+            //           'What do some people study medicine and end up not practising after they graduate?',
+            //         text: 'Again this is a good one to use the camp structure here\r\n\r\nClinical – Some people find the clinical work too demaning, stressful and they feel its not what they thought it would be\r\n\r\nAcademic – even after graduating there is a lot more exams and studying and they feel burnout\r\n\r\nManagement – trying to manage and organise everything becomes very difficult\r\n\r\nPersonal – personal circumstances change and they can no longer pursue the lifestyle of a doctor\r\n',
+            //       },
+            //       {
+            //         textBold:
+            //           'You can only pick one: a doctor with good communication skills or a doctor with good knowledge and technical skills? Which would you pick and why?',
+            //         text: 'This is a difficult question and a lot of students get caught out with this question and are unsure of what to say.',
+            //       },
+            //       {
+            //         textBold:
+            //           'What are some of the challenges facing junior doctors at the moment?',
+            //         text: '1. Workload and Burnout: Junior doctors often work long and demanding hours, leading to high levels of stress and burnout. The workload can be intense, affecting both physical and mental well-being.\r\n2. Lack of Work-Life Balance: The demanding nature of medical training and residency programs may result in a lack of work-life balance. Junior doctors might struggle to find time for personal life, self-care, and rest.\r\n3. Educational Debt: Many junior doctors graduate with significant educational debt, which can contribute to financial stress. Paying off loans while managing living expenses can be challenging, especially during the early stages of their careers.\r\n4. Patient Load and Responsibility: Junior doctors often have substantial responsibilities, including patient care and decision-making. Managing a high patient load and making critical decisions can be stressful, particularly when the experience is relatively limited.\r\n5. Mental Health Stigma: There may be a stigma surrounding mental health issues in the medical community, which could discourage junior doctors from seeking help when needed. Mental health support and resources are essential for maintaining well-being.\r\n6. Transition to Practice: The transition from medical school to training and then to independent practice can be challenging. Junior doctors may feel overwhelmed as they adapt to new responsibilities, environments, and expectations.\r\n7. Challenges in Communication: Effective communication within healthcare teams and with patients is critical. Junior doctors may face challenges in navigating communication with senior colleagues, nurses, and other members of the healthcare team.\r\n8. Diversity and Inclusion: Issues related to diversity, inclusion, and equal opportunities within the medical profession may impact junior doctors. Efforts to address disparities and create a more inclusive environment are ongoing.',
+            //       },
+            //     ],
+            //   },
+            // },
             {
               title: '2.3 Academic and knowledge of medical school',
   
@@ -1259,14 +2026,118 @@ const data = {
               content: {
                 // text: 'To prepare for the interview, practice common interview questions. Research the types of questions that are typically asked in medical school interviews, and practice answering them. You can also practice answering questions in a group setting, with a friend or mentor, or using a mock interview service. We encourage practicing with medical trained professionals trained in feedback This book will cover the majority of question styles that come up ',
                 subSection: [
+                  
+                    {
+                      "title": "Knowledge of NHS",
+                      "content": {
+                        "text": "You are not expected to know the full details of how the NHS is structured. Frankly, a lot of doctors are not familiar. We have summarised the overall structure below followed by a good way to answer the question.",
+                        "subSection": [
+                          {
+                            "title": "Department of Health and Social Care (DHSC)",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Responsible for overall health policy and funding allocation.",
+                                  "text": "Oversees the NHS through NHS England. Secretary of Health is in charge."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "NHS England",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Provides national leadership and oversight.",
+                                  "text": "Allocates funding to integrated care boards and directly commissions certain services. Merged with NHS Improvement, Health Education England, and NHS Digital to streamline operations."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Integrated Care Systems (ICSs)",
+                            "content": {
+                              "text": "42 ICSs across England, responsible for planning and coordinating local NHS services. Comprised of Integrated Care Boards (ICBs) and Integrated Care Partnerships (ICPs).",
+                              "subSection": [
+                                {
+                                  "title": "Integrated Care Boards (ICBs)",
+                                  "content": {
+                                    "text": "ICBs manage NHS services and are accountable for health outcomes and financial performance."
+                                  }
+                                },
+                                {
+                                  "title": "Integrated Care Partnerships (ICPs)",
+                                  "content": {
+                                    "text": "ICPs focus on integrating health and social care services."
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Local Partnerships within ICSs",
+                            "content": {
+                              "text": "Place-based partnerships operate at a more local level to integrate services. Primary Care Networks (PCNs) consist of groups of GP practices working with other local services."
+                            }
+                          },
+                          {
+                            "title": "NHS Trusts and Providers",
+                            "content": {
+                              "text": "Include NHS trusts, foundation trusts, and private/voluntary sector providers. Deliver a wide range of healthcare services, including acute care, mental health, and community services."
+                            }
+                          },
+                          {
+                            "title": "Regulation and Accountability",
+                            "content": {
+                              "text": "The Care Quality Commission (CQC) regulates and monitors the quality of care provided. NHS England and DHSC are accountable to Parliament."
+                            }
+                          },
+                          {
+                            "title": "Summary of NHS Structure",
+                            "content": {
+                              "text": "The NHS in England is organized to provide comprehensive healthcare, starting with the Department of Health and Social Care, which oversees health policy and funding. NHS England, operating under the Department, provides national leadership, allocates resources, and manages services like primary care.",
+                              "subSection": [
+                                {
+                                  "title": "Levels of Care",
+                                  "content": {
+                                    "subSection": [
+                                      {
+                                        "title": "Primary care",
+                                        "content": {
+                                          "text": "Patients first access services through GPs and community health."
+                                        }
+                                      },
+                                      {
+                                        "title": "Secondary care",
+                                        "content": {
+                                          "text": "Involves specialist treatments typically in hospitals."
+                                        }
+                                      },
+                                      {
+                                        "title": "Tertiary care",
+                                        "content": {
+                                          "text": "Offers highly specialized treatments like organ transplants in advanced medical centers."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                  },
+                  
+                  
                   {
-                    title: 'How is the NHS structured?',
+                    title: 'Organizations that work along side the NHS. It is important to mention these briefly at the end of your answer',
                     content: {
-                      text: 'The National Health Service (NHS) is a publicly funded healthcare system in the United Kingdom that provides comprehensive healthcare services to all residents, free at the point of use. It is structured in a hierarchical manner with several layers of management and service delivery.\n\nAt the top of the NHS hierarchy is the Department of Health and Social Care, which sets overall policy and provides funding to the NHS. The department is responsible for ensuring that the NHS meets the health needs of the population and that services are delivered effectively. It also sets targets, such as the four-hour wait target in the emergency department.\n\nBelow the Department of Health and Social Care is NHS England, which is responsible for overseeing and managing the NHS in England. It directly oversees GP services and very specialist care, such as lung transplants.\n\nUnder NHS England are Clinical Commissioning Groups (CCGs), which are responsible for planning health services in their local areas. They are a group of GPs and managers that are responsible for making decisions as to which healthcare center can provide which service. However, they are not involved in the commissioning of services to GPs and hyper-specialist services, which is governed by NHS England.\n\nAt the next level of the hierarchy are NHS Trusts and Healthcare providers, which are responsible for delivering healthcare services in hospitals and community settings. There are several types of trusts, including acute trusts, which provide hospital-based care, and mental health trusts, which provide mental health services.\n\nThe NHS is structured in a way that ensures that healthcare services are delivered efficiently and effectively to meet the health needs of the population.',
+                      // text: 'The National Health Service (NHS) is a publicly funded healthcare system in the United Kingdom that provides comprehensive healthcare services to all residents, free at the point of use. It is structured in a hierarchical manner with several layers of management and service delivery.\n\nAt the top of the NHS hierarchy is the Department of Health and Social Care, which sets overall policy and provides funding to the NHS. The department is responsible for ensuring that the NHS meets the health needs of the population and that services are delivered effectively. It also sets targets, such as the four-hour wait target in the emergency department.\n\nBelow the Department of Health and Social Care is NHS England, which is responsible for overseeing and managing the NHS in England. It directly oversees GP services and very specialist care, such as lung transplants.\n\nUnder NHS England are Clinical Commissioning Groups (CCGs), which are responsible for planning health services in their local areas. They are a group of GPs and managers that are responsible for making decisions as to which healthcare center can provide which service. However, they are not involved in the commissioning of services to GPs and hyper-specialist services, which is governed by NHS England.\n\nAt the next level of the hierarchy are NHS Trusts and Healthcare providers, which are responsible for delivering healthcare services in hospitals and community settings. There are several types of trusts, including acute trusts, which provide hospital-based care, and mental health trusts, which provide mental health services.\n\nThe NHS is structured in a way that ensures that healthcare services are delivered efficiently and effectively to meet the health needs of the population.',
                       otherText: [
                         {
-                          textBold:
-                            'Organizations that work along side the NHS. It is important to mention these briefly at the end of your answer',
+                          // textBold:
+                            // 'Organizations that work along side the NHS. It is important to mention these briefly at the end of your answer',
                           text: "The National Health Service works alongside but closely with other organisations that don't necessarily influence directly the provision of healthcare. These include:\n\nGeneral Medical Council (GMC) - The GMC is an independent organisation that regulates doctors and sets standards for medical education and practice.\n\nCare Quality Commission (CQC) - The CQC is an independent regulator of health and social care services in England. It checks whether hospitals, care homes, and other healthcare providers are meeting government standards of quality and safety.\n\nNational Institute for Health and Care Excellence (NICE) - NICE provides guidance and advice to the NHS on which treatments and technologies are most effective and cost-effective. It also develops clinical guidelines and quality standards.\n\nHealth and Safety Executive (HSE) - The HSE is a non-departmental public body responsible for regulating workplace health and safety in the UK. It works closely with the NHS to ensure that healthcare workers are safe and healthy.\n\nPublic Health England (PHE) - PHE is an executive agency of the UK Department of Health and Social Care. Its role is to protect and improve the nation's health and wellbeing, and it works closely with the NHS on a range of public health issues, such as disease prevention and health promotion.\n\nHealth Education England (HEE) - HEE is responsible for ensuring that the NHS has a skilled workforce. It provides education and training for healthcare professionals and works with universities and other partners to develop and deliver courses and qualifications.\n\nNHS Digital - NHS Digital is the national information and technology partner of the NHS. It provides digital services, information, and data to support healthcare providers and patients.",
                         },
                       ],
@@ -1376,60 +2247,101 @@ const data = {
                       ],
                     },
                   },
-                  {
-                    "title": "Why did the coronavirus affect the BAME community more?",
-                    "content": {
-                      "text": "The impact of the coronavirus on different communities, including the Black, Asian, and Minority Ethnic (BAME) community, has been a complex and multifaceted issue. Several factors contribute to the disproportionate impact on the BAME community, although it's important to note that the situation can vary across regions and populations. Some of the key factors include:\r\n",
-                      "subSection": [
-                        {
-                          "title": "Socioeconomic Factors",
-                          "content": {
-                            "text": "Members of the BAME community are often overrepresented in lower-income jobs that require close contact with others, such as healthcare, transportation, and retail. This increases their risk of exposure to the virus."
-                          }
-                        },
-                        {
-                          "title": "Pre-existing Health Conditions",
-                          "content": {
-                            "text": "BAME individuals are more likely to have underlying health conditions, such as diabetes, hypertension, and cardiovascular diseases. These conditions can increase the severity of COVID-19 outcomes."
-                          }
-                        },
-                        {
-                          "title": "Housing and Living Conditions",
-                          "content": {
-                            "text": "BAME communities may face overcrowded living conditions, making it difficult to practice social distancing and self-isolation. This can contribute to the rapid spread of the virus within households."
-                          }
-                        },
-                        {
-                          "title": "Access to Healthcare",
-                          "content": {
-                            "text": "In some cases, members of the BAME community may face barriers in accessing healthcare, including language barriers, cultural differences, and a lack of trust in the healthcare system. This can lead to delayed or inadequate medical care."
-                          }
-                        },
-                        {
-                          "title": "Discrimination and Systemic Inequalities",
-                          "content": {
-                            "text": "Structural racism and systemic inequalities can result in disparities in healthcare, education, and employment opportunities. These factors contribute to overall poorer health outcomes and increased vulnerability to the impacts of the pandemic."
-                          }
-                        },
-                        {
-                          "title": "Immigration Status",
-                          "content": {
-                            "text": "Some members of the BAME community may have uncertain immigration statuses, leading to fear of seeking medical help due to concerns about potential legal consequences."
-                          }
-                        },
-                        {
-                          "title": "Public health messaging",
-                          "content": {
-                            "text": "Communication strategies may not always effectively reach diverse communities, leading to lower awareness of preventive measures and public health recommendations\r\n"
-                          }
-                        }
-                      ],
-                      textBellowSubsection:[{
-                        text:"It's crucial to address these underlying issues to mitigate the disproportionate impact of future health crises on vulnerable populations. Public health interventions should be tailored to consider the specific needs of different communities and address the root causes of health disparities"
-                      }]
-                    },
+                  // {
+                  //   "title": "Why did the coronavirus affect the BAME community more?",
+                  //   "content": {
+                  //     "text": "The impact of the coronavirus on different communities, including the Black, Asian, and Minority Ethnic (BAME) community, has been a complex and multifaceted issue. Several factors contribute to the disproportionate impact on the BAME community, although it's important to note that the situation can vary across regions and populations. Some of the key factors include:\r\n",
+                  //     "subSection": [
+                  //       {
+                  //         "title": "Socioeconomic Factors",
+                  //         "content": {
+                  //           "text": "Members of the BAME community are often overrepresented in lower-income jobs that require close contact with others, such as healthcare, transportation, and retail. This increases their risk of exposure to the virus."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Pre-existing Health Conditions",
+                  //         "content": {
+                  //           "text": "BAME individuals are more likely to have underlying health conditions, such as diabetes, hypertension, and cardiovascular diseases. These conditions can increase the severity of COVID-19 outcomes."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Housing and Living Conditions",
+                  //         "content": {
+                  //           "text": "BAME communities may face overcrowded living conditions, making it difficult to practice social distancing and self-isolation. This can contribute to the rapid spread of the virus within households."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Access to Healthcare",
+                  //         "content": {
+                  //           "text": "In some cases, members of the BAME community may face barriers in accessing healthcare, including language barriers, cultural differences, and a lack of trust in the healthcare system. This can lead to delayed or inadequate medical care."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Discrimination and Systemic Inequalities",
+                  //         "content": {
+                  //           "text": "Structural racism and systemic inequalities can result in disparities in healthcare, education, and employment opportunities. These factors contribute to overall poorer health outcomes and increased vulnerability to the impacts of the pandemic."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Immigration Status",
+                  //         "content": {
+                  //           "text": "Some members of the BAME community may have uncertain immigration statuses, leading to fear of seeking medical help due to concerns about potential legal consequences."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Public health messaging",
+                  //         "content": {
+                  //           "text": "Communication strategies may not always effectively reach diverse communities, leading to lower awareness of preventive measures and public health recommendations\r\n"
+                  //         }
+                  //       }
+                  //     ],
+                  //     textBellowSubsection:[{
+                  //       text:"It's crucial to address these underlying issues to mitigate the disproportionate impact of future health crises on vulnerable populations. Public health interventions should be tailored to consider the specific needs of different communities and address the root causes of health disparities"
+                  //     }]
+                  //   },
                     
+                  // },
+                  
+                  {
+                      "title": "Why did the coronavirus affect the BAME community more?",
+                      "content": {
+                        "text": "Impact of COVID-19 on BAME Communities  ",
+                        "subSection": [
+                          {
+                            "title": "Higher Exposure in Front-Line Jobs",
+                            "content": {
+                              "text": "BAME individuals often work in essential roles like healthcare, public transport, etc., increasing their exposure."
+                            }
+                          },
+                          {
+                            "title": "Health Disparities",
+                            "content": {
+                              "text": "Pre-existing conditions such as diabetes, heart disease, and hypertension are more common in BAME communities, leading to severe outcomes."
+                            }
+                          },
+                          {
+                            "title": "Overcrowded Housing",
+                            "content": {
+                              "text": "Many BAME individuals live in multi-generational or overcrowded homes, making social distancing difficult."
+                            }
+                          },
+                          {
+                            "title": "Limited Healthcare Access",
+                            "content": {
+                              "text": "Systemic barriers, including access to healthcare, worsen health outcomes in these communities."
+                            }
+                          },
+                          {
+                            "title": "Structural Inequalities",
+                            "content": {
+                              "text": "Long-standing inequalities in wealth, education, and healthcare access increase the vulnerability of BAME communities."
+                            }
+                          }
+                        ]
+                      }
                   },
+                  
+                  
                   {
                     "title": "Should the coronavirus vaccine become mandatory for the entire general public?",
                     "content": {
@@ -1499,6 +2411,71 @@ const data = {
                       }]
                     }
                   },
+                  
+                  
+                  {
+                      "title": "Should vaccines be made mandatory for the public?",
+                      "content": {
+                        "text": "Remember that with questions surrounding ethics follow the SUP BO method mentioned in the beginning of the ethics section. We recommend an introduction like this – 'This is an ethically complex question which requires reflection on the Pillars of ethical governance which are Autonomy, Beneficence, non-maleficence and justice.' Then you can list some pros and cons (2-3 each) below.",
+                        "table": {
+                          "col1Header": "Key Attribute",
+                          "col2Header": "Description",
+                          "tableData": [
+                            {
+                              "quality": "Protects Public Health",
+                              "description": "Mandatory vaccination helps achieve herd immunity, reducing the virus spread and protecting those who cannot get vaccinated."
+                            },
+                            {
+                              "quality": "Infringes on Personal Autonomy",
+                              "description": "Making vaccines compulsory can be seen as a violation of individual autonomy and freedom of choice."
+                            },
+                            {
+                              "quality": "Prevents Overburdened Healthcare Systems",
+                              "description": "Vaccination lowers severe cases and hospitalizations, ensuring that healthcare systems aren't overwhelmed."
+                            },
+                            {
+                              "quality": "Mistrust in Government",
+                              "description": "Mandating vaccines may lead to increased mistrust in government or health authorities, especially in skeptical communities."
+                            },
+                            {
+                              "quality": "Ensures Equity in Protection",
+                              "description": "Everyone, including vulnerable groups and those in high-risk jobs, gets vaccinated, preventing large-scale outbreaks."
+                            },
+                            {
+                              "quality": "Ethical Concerns",
+                              "description": "Forced vaccination raises ethical questions about bodily autonomy and personal consent."
+                            },
+                            {
+                              "quality": "Supports Economic Recovery",
+                              "description": "A fully vaccinated population reduces the need for lockdowns and restrictions, promoting economic stability."
+                            },
+                            {
+                              "quality": "Potential for Exemptions",
+                              "description": "Religious or medical exemptions could create loopholes, complicating enforcement and leading to inequities."
+                            },
+                            {
+                              "quality": "Prevents Mutations and Variants",
+                              "description": "Widespread vaccination reduces the chances of new variants developing, which can prolong the pandemic."
+                            },
+                            {
+                              "quality": "Risk of Side Effects",
+                              "description": "Some individuals may experience rare but severe side effects, causing maleficence."
+                            },
+                            {
+                              "quality": "Global Precedents",
+                              "description": "Many countries successfully implemented mandatory vaccinations for other diseases like polio and measles, demonstrating its effectiveness."
+                            },
+                            {
+                              "quality": "Polarization and Resistance",
+                              "description": "Mandates may intensify opposition from anti-vaccine groups, potentially leading to protests or non-compliance."
+                          }
+                          ]
+                        }
+                      }
+                  },
+                                    
+                  
+                  
                   {
                     "title": "What do you understand by the term public health?",
                     "content": {
@@ -1772,21 +2749,314 @@ const data = {
                         text:"It's important to note that these challenges can evolve, and the NHS continually works to adapt and find solutions to ensure the\r\ndelivery of high-quality and accessible healthcare services to the population. For the most current information, it is advisable to refer to recent reports and updates from official NHS sources and healthcare authorities.\r\n"
                       }]
                     }
+                  },
+                  {
+                    "title": "NHS Hot Topics :What is your opinion on physician associates?",
+                    "content": {
+                      "subSection": [
+                        {
+                          "title": "Introduction",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Definition and Role",
+                                "text": "Physician associates (PAs) are healthcare professionals who work closely with doctors to provide medical care, including diagnosing and managing patients, under the supervision of a physician. Their role has expanded to help improve access to healthcare and address staffing needs."
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "The Benefits of Physician Associates",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Enhancing Access to Care",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Access",
+                                      "text": "PAs can help meet the growing demand for healthcare, especially in underserved areas where there might be a shortage of doctors."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Team-Based Care",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Collaborative Healthcare Approach",
+                                      "text": "PAs serve as valuable team members working alongside doctors, nurses, and other healthcare professionals, contributing to integrated care."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Cost-Effectiveness",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Efficient Use of Resources",
+                                      "text": "PAs can reduce healthcare costs by providing high-quality care, allowing physicians to focus on more complex cases."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Long-Term Staff",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Continuity of Care",
+                                      "text": "PAs tend to be long-term staff members, which contributes to continuity in patient care over time."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Potential Challenges and Concerns",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Scope of Practice",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Training and Qualifications",
+                                      "text": "Concerns exist about the differences in training between PAs and doctors. While PAs have a shorter training period, their practice is supervised and defined by physicians."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Patient Perception and Acceptance",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Understanding PA Roles",
+                                      "text": "Some patients may not fully understand the role of PAs or may prefer to see a doctor. Patient education and clear communication are essential in these cases."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Regulation and Autonomy",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Supervision and Accountability",
+                                      "text": "Debate exists regarding the level of autonomy PAs should have. For years, PAs practiced without regulation by a registration body, raising questions about accountability."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Effect on Resident Doctors",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Impact on Training",
+                                      "text": "Concerns have been raised about how PAs may negatively affect the training of resident doctors, as PAs’ long-term presence can create challenges in resource allocation."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "The Future of Physician Associates in Healthcare",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Expanding Roles",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Greater Autonomy",
+                                      "text": "The role of PAs is evolving, with some advocating for increased autonomy and responsibilities. This shift could impact patient care in both positive and challenging ways."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Interdisciplinary Collaboration",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Integrated Care Teams",
+                                      "text": "The trend toward team-based care emphasizes the need for diverse healthcare roles, including PAs, to improve outcomes and manage population health."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Adapting to Healthcare Needs",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Meeting System Demands",
+                                      "text": "With an aging population and an increased chronic disease burden, PAs can help alleviate pressure on healthcare systems."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Personal Opinion",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Balanced View",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Acknowledging Pros and Cons",
+                                      "text": "PAs bring valuable benefits to healthcare but also present challenges that need to be carefully managed."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Commitment to Team-Based Care",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Collaboration and Respect",
+                                      "text": "I believe in the importance of collaboration and respecting the contributions of all healthcare roles, including PAs."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Desire for Continuous Improvement",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Openness to Evolving Models",
+                                      "text": "I support evolving care models and am open to adapting as healthcare needs change."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Comparing with Other Novel Roles",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Advanced Nurse Practitioners",
+                                      "text": "There have been other novel roles in healthcare, such as Advanced Nurse Practitioners (ANPs), that have proven beneficial. PAs could provide similar advantages."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Conclusion",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Final Thoughts",
+                                "text": "Ultimately, physician associates play a valuable role in modern healthcare. As future doctors, it’s essential to understand and embrace their contributions to deliver comprehensive and efficient patient care."
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
+                  
                 ],
               },
             },
             {
               title: '2.6 Medical ethics',
               content: {
-                text: 'The ethics section of this medical interview question book is designed to help prepare aspiring healthcareprofessionals for these challenges by exploring some of the most common ethical issues they may face in their  practice. In this section, we will cover a wide range of topics, including patient autonomy, informed consent,confidentiality, end-of-life care, and the use of emerging technologies in healthcare. We will also discuss the role of healthcare professionals in promoting social justice and eliminating health disparities, as well as theethical considerations that arise in the context of medical research. \n\nBy engaging with these ethical issues and considering the various perspectives and principles that informmedical decision-making, readers will gain a deeper understanding of the ethical responsibilities and challengesof healthcare practice. Our hope is that this section will equip readers with the tools they need to make ethical decisions in their practice, maintain the trust of their patients, and provide compassionate care that upholds the highest ethical standards. A good structure to follow is PUS BO for answering ethnical questions\r\nP - Principles: Identify the ethical principles at play\r\nU- Understand the question clearly\r\nS - State the ethical the complexity of the issue ‘I appreciate this is an complex ethnical problem’\r\nB - Balance: Consider multiple perspectives and provide a balanced argument\r\nO - Opinion: Offer your own opinion clearly but recognise it is difficult\r\n',
+                text: 'The ethics section of this medical interview question book is designed to help prepare aspiring healthcareprofessionals for these challenges by exploring some of the most common ethical issues they may face in their  practice. In this section, we will cover a wide range of topics, including patient autonomy, informed consent,confidentiality, end-of-life care, and the use of emerging technologies in healthcare. We will also discuss the role of healthcare professionals in promoting social justice and eliminating health disparities, as well as theethical considerations that arise in the context of medical research. \n\nBy engaging with these ethical issues and considering the various perspectives and principles that informmedical decision-making, readers will gain a deeper understanding of the ethical responsibilities and challengesof healthcare practice. Our hope is that this section will equip readers with the tools they need to make ethical decisions in their practice, maintain the trust of their patients, and provide compassionate care that upholds the highest ethical standards.A good structure to follow is SUP BO for answering ethnical questions \n\n    S - State the ethical the complexity of the issue ‘I appreciate this is an complex ethnical problem’\r\nU- Understand the question clearly\r\nP - Principles: Identify the 4 ethical principles  (autonomy, non maleficence, beneficence \r\nB - Balance: Consider multiple perspectives and provide a balanced argument\r\nO - Opinion: Offer your own opinion clearly but recognise it is difficult. Recognise that both side of the argument have valid points\r\n',
                 subSection: [
+                  // {
+                  //   title: 'Abortion',
+                  //   content: {
+                  //     text: "When faced with any ethical dilemmas we have an obligation to uphold the principles of medical ethics which are autonomy, beneficence, non-maleficence, and justice. When it comes to the question of whether doctors should take part in abortions, there are arguments for and against it.\n\nArguments for doctors taking part in abortions include upholding patient autonomy, providing access to safe and legal medical procedures, and preventing harm to the patient who may resort to unsafe or illegal methods. In the case of victims of rape, the decision to have an abortion can be particularly difficult. The mother may have to contend with the emotional trauma of the rape, in addition to the decision of whether to continue the pregnancy. In these cases, doctors have a responsibility to provide compassionate and supportive care to the mother, as well as access to safe and legal abortion services.\n\nOn the other hand, arguments against doctors participating in abortions may be based on personal or religious beliefs, ethical concerns related to the sanctity of life, or the notion that it goes against the physician's duty to do no harm.\n\nOverall, the decision of whether to participate in abortions is a personal and complex one that must be based on a physician's individual beliefs, values, and principles. Ultimately, physicians should aim to uphold their ethical obligations while providing the best possible care to their patients.",
+                  //   },
+                  // },
+                  
                   {
-                    title: 'Abortion',
-                    content: {
-                      text: "When faced with any ethical dilemmas we have an obligation to uphold the principles of medical ethics which are autonomy, beneficence, non-maleficence, and justice. When it comes to the question of whether doctors should take part in abortions, there are arguments for and against it.\n\nArguments for doctors taking part in abortions include upholding patient autonomy, providing access to safe and legal medical procedures, and preventing harm to the patient who may resort to unsafe or illegal methods. In the case of victims of rape, the decision to have an abortion can be particularly difficult. The mother may have to contend with the emotional trauma of the rape, in addition to the decision of whether to continue the pregnancy. In these cases, doctors have a responsibility to provide compassionate and supportive care to the mother, as well as access to safe and legal abortion services.\n\nOn the other hand, arguments against doctors participating in abortions may be based on personal or religious beliefs, ethical concerns related to the sanctity of life, or the notion that it goes against the physician's duty to do no harm.\n\nOverall, the decision of whether to participate in abortions is a personal and complex one that must be based on a physician's individual beliefs, values, and principles. Ultimately, physicians should aim to uphold their ethical obligations while providing the best possible care to their patients.",
-                    },
+                      "title": "Abortion",
+                      "content": {
+                        "text": "There are many ways this topic can arise, such as ‘What are your thoughts on abortion’ or ‘do you think Doctors should perform abortion’.",
+                        "subSection": [
+                          {
+                            "title": "Introduction",
+                            "content": {
+                              "text": "Abortion is a complex and sensitive issue that involves medical, ethical, and personal considerations. There are strong arguments both for and against doctors facilitating abortions, which I will discuss based on the 4 core principles of ethics."
+                            , "table": {
+                              "col1Header": "Pros of Doctors Facilitating Abortions",
+                              "col2Header": "Cons of Doctors Facilitating Abortions",
+                              "tableData": [
+                                {
+                                  "quality": "Upholding Patient Autonomy",
+                                  "description": "Doctors are bound to respect patients' right to make decisions about their own bodies and reproductive health, including abortion."
+                                },
+                                {
+                                  "quality": "Conflicts with Personal or Religious Beliefs",
+                                  "description": "Some doctors may have ethical or religious objections to performing abortions, leading to moral conflicts."
+                                },
+                                {
+                                  "quality": "Ensuring Safe, Legal Procedures",
+                                  "description": "When doctors perform abortions, they ensure the procedure is done safely, reducing the risks associated with unsafe, illegal abortions."
+                                },
+                                {
+                                  "quality": "Moral Dilemmas",
+                                  "description": "Some argue that performing an abortion involves ending a potential life, which may conflict with a doctor's duty to preserve life."
+                                },
+                                {
+                                  "quality": "Protecting Women's Health",
+                                  "description": "In cases where continuing a pregnancy poses health risks to the mother, doctors can provide life-saving care through abortion."
+                                },
+                                {
+                                  "quality": "Potential for Emotional Distress",
+                                  "description": "Facilitating abortions may contribute to emotional or psychological distress for both patients and healthcare providers."
+                                },
+                                {
+                                  "quality": "Fetal Reasons",
+                                  "description": "When the fetus is not likely to survive or is born with serious deformities and health issues."
+                                },
+                                {
+                                  "quality": "Concerns About Fetal Rights",
+                                  "description": "Some argue that doctors have a responsibility to protect the fetus’s potential right to life, raising ethical issues around abortion."
+                                },
+                                {
+                                  "quality": "Reduces Socioeconomic Burden",
+                                  "description": "Abortion can prevent the financial and social burden of an unplanned or unwanted pregnancy, particularly for women who may not be in a position to support a child."
+                                },
+                                {
+                                  "quality": "Alternative Option",
+                                  "description": "Alternative options can be provided that avoid abortion, such as adoptions."
+                                }
+                              ]
+                            }
+                            }
+                          },
+                          
+                          {
+                            "title": "Conclusion",
+                            "content": {
+                              "text": "In my view, doctors should prioritize patient-centred care. This means respecting a woman’s right to make decisions about her own body and facilitating abortions when it is in the best interest of her health and well-being. However, I believe that doctors who have personal or religious objections should be able to exercise conscientious objection. It is essential, though, that they refer the patient to another doctor who can provide the care without causing delays or impacting the patient’s health. Ultimately, in my opinion, the priority should always be the health, safety, and autonomy of the patient."
+                            }
+                          }
+                        ]
+                      }
                   },
+                  
+                  
                   {
                     "title": "Should People from Lower Socio-Economic Backgrounds Be Accepted into Medical School with Lesser Academic Achievement?",
                     "content": {
@@ -1970,67 +3240,249 @@ const data = {
                       }]
                     }
                   },
+                  // {
+                  //   "title": "You are a GP and a 14 year old comes to you asking for contraception. What do you do?",
+                  //   "content": {
+                  //     text:"This question can catch people out. Thankfully the guidance is quite clear. The table below demonstrates the points you have to take. As well as the guidelines, it important you address all the soft skills needed.",
+                  //     "subSection": [
+                  //       {
+                  //         "title": "Confidentiality",
+                  //         "content": {
+                  //           "text": "Emphasize the importance of confidentiality. Assure the patient that their privacy will be respected, but also explain the limits to confidentiality, such as situations involving harm to self or others."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Establish Trust",
+                  //         "content": {
+                  //           "text": "Create a safe and non-judgmental environment to encourage open communication. It's important for the young person to feel comfortable discussing their concerns."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Assessment",
+                  //         "content": {
+                  //           "text": "Conduct a thorough medical and sexual health assessment, considering the patient's age, sexual history, and any potential risk factors. Assessing the patient's understanding of contraception and sexual health is crucial."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Education",
+                  //         "content": {
+                  //           "text": "Provide age-appropriate information about contraception options, including their effectiveness, potential side effects, and proper usage. Discuss the importance of protection against sexually transmitted infections (STIs)."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Informed Consent",
+                  //         "content": {
+                  //           "text": "Ensure the patient understands the information provided and ask for their informed consent before proceeding with any medical interventions. Discuss the implications of engaging in sexual activity, and the importance of mutual consent and communication."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Involve Parents or Guardians",
+                  //         "content": {
+                  //           "text": "If you suspect rape or abuse, it may be advisable to involve the patient's parents or guardians in the discussion. However, it is best to discuss this with the patient first and see how they feel about it."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Provide Contraception",
+                  //         "content": {
+                  //           "text": "If appropriate and after considering the individual's circumstances, prescribe or provide the chosen method of contraception. This could include options such as condoms, hormonal contraceptives, or other suitable methods."
+                  //         }
+                  //       },
+                  //       {
+                  //         "title": "Follow-Up",
+                  //         "content": {
+                  //           "text": "Offer the patient the opportunity to contact the department if they have any concerns or questions."
+                  //         }
+                  //       }
+                  //     ],
+                  //     textBellowSubsection:[{
+                  //       text:"It's important to approach the situation with sensitivity and prioritize the patient's health and safety. In some cases, healthcare providers may be obligated to involve child protection services if there are concerns about the young person's well-being or if they disclose experiences of abuse.\r\n"
+                  //     }]
+                  //   },
+
+                  // },
+                  // {
+                    
+                  //     "title": "A 14-Year-Old Requests Contraception at GP Practice - Gillick Competence",
+                  //     "content": {
+                  //       "text": "Before answering the question, it is important to understand the background behind Gillick competence.",
+                  //       "subSection": [
+                  //         {
+                  //           "title": "Introduction to Gillick Competence",
+                  //           "content": {
+                  //             "text": "Gillick competence assesses if a child under 16 can make their own healthcare decisions. It checks if they fully understand the treatment, its risks, and its benefits. If they are deemed competent, they can make medical choices without parental consent."
+                  //           }
+                  //         },
+                  //         {
+                  //           "title": "History",
+                  //           "content": {
+                  //             "text": "The concept comes from a 1980s legal case where Victoria Gillick challenged doctors prescribing contraception to minors without parental consent. The courts ruled that children under 16 can consent to medical treatment if they have enough understanding and intelligence to make the decision. It is commonly used in situations like contraception requests or other sensitive healthcare matters."
+                  //           }
+                  //         },
+                  //         {
+                  //           "title": "Important Points to Cover When Answering the Question",
+                  //           "content": {
+                  //             "subSection": [
+                  //               {
+                  //                 "title": "Ensure Confidentiality",
+                  //                 "content": {
+                  //                   "text": "Explain confidentiality to reassure the patient that the conversation is confidential, but also outline the limits of confidentiality (e.g., if there is a risk of harm to her or others, this may need to be disclosed). Build trust by creating a safe, non-judgmental environment to encourage openness."
+                  //                 }
+                  //               },
+                  //               {
+                  //                 "title": "Assess Understanding and Capacity",
+                  //                 "content": {
+                  //                   "text": "Assess Gillick competence to determine if the girl has the maturity and understanding to make informed decisions about contraception. This includes evaluating her ability to understand the risks, benefits, and implications of her request and ensuring she can give informed consent without external pressure."
+                  //                 }
+                  //               },
+                  //               {
+                  //                 "title": "Explore the Situation",
+                  //                 "content": {
+                  //                   "text": "Discuss her reasons for seeking contraception in a sensitive, non-judgmental manner. Understand her sexual activity, her partner’s age, and whether the relationship is consensual. Assess for safeguarding issues, such as coercion, exploitation, or abuse, especially if the partner is significantly older. If safeguarding issues arise, follow appropriate protocols."
+                  //                 }
+                  //               },
+                  //               {
+                  //                 "title": "Provide Information and Education",
+                  //                 "content": {
+                  //                   "text": "Explain the various types of contraception available, including their effectiveness and side effects, ensuring she understands how each method works. Discuss the importance of protection against sexually transmitted infections (STIs) and advise on condom use even if other contraception is used."
+                  //                 }
+                  //               },
+                  //               {
+                  //                 "title": "Offer Support and Follow-Up",
+                  //                 "content": {
+                  //                   "text": "Ask if she has any support from trusted adults and offer to discuss further if appropriate. Signpost to local services like sexual health clinics or counseling if needed. Arrange a follow-up appointment to review her health, contraceptive choice, and overall well-being. Offer STI testing and sexual health screening if appropriate."
+                  //                 }
+                  //               }
+                  //             ]
+                  //           }
+                  //         }
+                  //       ]
+                  //     }
+                    
+                  // },
                   {
-                    "title": "You are a GP and a 14 year old comes to you asking for contraception. What do you do?",
+                    "title": "A 14-Year-Old Requests Contraception at GP Practice - Gillick Competence",
                     "content": {
-                      text:"This question can catch people out. Thankfully the guidance is quite clear. The table below demonstrates the points you have to take. As well as the guidelines, it important you address all the soft skills needed.",
+                      "text": "Before answering the question, it is important to understand the background behind Gillick competence.",
                       "subSection": [
                         {
-                          "title": "Confidentiality",
+                          "title": "Introduction to Gillick Competence",
                           "content": {
-                            "text": "Emphasize the importance of confidentiality. Assure the patient that their privacy will be respected, but also explain the limits to confidentiality, such as situations involving harm to self or others."
+                            "text": "Gillick competence assesses if a child under 16 can make their own healthcare decisions. It checks if they fully understand the treatment, its risks, and its benefits. If they are deemed competent, they can make medical choices without parental consent."
                           }
                         },
                         {
-                          "title": "Establish Trust",
+                          "title": "History",
                           "content": {
-                            "text": "Create a safe and non-judgmental environment to encourage open communication. It's important for the young person to feel comfortable discussing their concerns."
+                            "text": "The concept comes from a 1980s legal case where Victoria Gillick challenged doctors prescribing contraception to minors without parental consent. The courts ruled that children under 16 can consent to medical treatment if they have enough understanding and intelligence to make the decision. It is commonly used in situations like contraception requests or other sensitive healthcare matters."
                           }
                         },
                         {
-                          "title": "Assessment",
+                          "title": "Important Points to Cover When Answering the Question",
                           "content": {
-                            "text": "Conduct a thorough medical and sexual health assessment, considering the patient's age, sexual history, and any potential risk factors. Assessing the patient's understanding of contraception and sexual health is crucial."
-                          }
-                        },
-                        {
-                          "title": "Education",
-                          "content": {
-                            "text": "Provide age-appropriate information about contraception options, including their effectiveness, potential side effects, and proper usage. Discuss the importance of protection against sexually transmitted infections (STIs)."
-                          }
-                        },
-                        {
-                          "title": "Informed Consent",
-                          "content": {
-                            "text": "Ensure the patient understands the information provided and ask for their informed consent before proceeding with any medical interventions. Discuss the implications of engaging in sexual activity, and the importance of mutual consent and communication."
-                          }
-                        },
-                        {
-                          "title": "Involve Parents or Guardians",
-                          "content": {
-                            "text": "If you suspect rape or abuse, it may be advisable to involve the patient's parents or guardians in the discussion. However, it is best to discuss this with the patient first and see how they feel about it."
-                          }
-                        },
-                        {
-                          "title": "Provide Contraception",
-                          "content": {
-                            "text": "If appropriate and after considering the individual's circumstances, prescribe or provide the chosen method of contraception. This could include options such as condoms, hormonal contraceptives, or other suitable methods."
-                          }
-                        },
-                        {
-                          "title": "Follow-Up",
-                          "content": {
-                            "text": "Offer the patient the opportunity to contact the department if they have any concerns or questions."
+                            "subSection": [
+                              {
+                                "title": "Ensure Confidentiality",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Explain Confidentiality",
+                                      "content": {
+                                        "text": "Reassure the patient that the conversation is confidential, but also explain the limits of confidentiality (e.g., if there is a risk of harm to her or others, this may need to be disclosed)."
+                                      }
+                                    },
+                                    {
+                                      "title": "Build Trust",
+                                      "content": {
+                                        "text": "Create a safe, non-judgmental environment to encourage openness."
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Assess Understanding and Capacity",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Gillick Competence",
+                                      "content": {
+                                        "text": "Assess whether the girl has the maturity and understanding to make informed decisions about contraception. This involves evaluating her ability to understand the risks, benefits, and implications of her request."
+                                      }
+                                    },
+                                    {
+                                      "title": "Consent",
+                                      "content": {
+                                        "text": "Ensure she is able to give informed consent without external pressure."
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Explore the Situation",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Discuss Reasons",
+                                      "content": {
+                                        "text": "Ask about her reasons for seeking contraception in a sensitive, non-judgmental manner. Understand her sexual activity, her partner’s age, and whether the relationship is consensual."
+                                      }
+                                    },
+                                    {
+                                      "title": "Assess for Safeguarding Issues",
+                                      "content": {
+                                        "text": "Determine if there are any safeguarding concerns, such as coercion, exploitation, or abuse, especially if the partner is significantly older. If safeguarding issues arise, follow appropriate protocols."
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Provide Information and Education",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Contraceptive Options",
+                                      "content": {
+                                        "text": "Explain the various types of contraception available, including their effectiveness and side effects. Ensure she understands how each method works."
+                                      }
+                                    },
+                                    {
+                                      "title": "Sexual Health Education",
+                                      "content": {
+                                        "text": "Discuss the importance of protecting against sexually transmitted infections (STIs) and advise on using condoms even if contraception is used."
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Offer Support and Follow-Up",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Additional Support",
+                                      "content": {
+                                        "text": "Ask if she has any support from trusted adults and offer to discuss this further if appropriate. Signpost to local services like sexual health clinics or counseling if needed."
+                                      }
+                                    },
+                                    {
+                                      "title": "Follow-Up Plan",
+                                      "content": {
+                                        "text": "Arrange a follow-up appointment to review her health, contraceptive choice, and overall well-being. Offer STI testing and sexual health screening if appropriate."
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
                           }
                         }
-                      ],
-                      textBellowSubsection:[{
-                        text:"It's important to approach the situation with sensitivity and prioritize the patient's health and safety. In some cases, healthcare providers may be obligated to involve child protection services if there are concerns about the young person's well-being or if they disclose experiences of abuse.\r\n"
-                      }]
+                      ]
                     }
                   },
                   {
-                    title:'"You are a medical student and are required to make a ethical code for all medical students, what would you include"?',
+                    title:'You are a medical student and are required to make a ethical code for all medical students, what would you include?',
                     content:{
                       text:"Creating an ethical code for medical students involves outlining principles and standards that guide their behavior and decision- making throughout their medical education and future careers. Here's a suggested ethical code for medical students:\r\n",
                       subSection:[
@@ -2112,6 +3564,7 @@ const data = {
                       }]
                     }
                   },
+
                   {
                     "title": "You visited a care home on placement as a medical student and were given an envelope from the patient as a thank you. When you return home, you notice a thank you card with £100 in it. What do you do in this scenario?",
                     content:{
@@ -2160,6 +3613,424 @@ const data = {
                     }
                   },
                   {
+                    title:'The Cheater',
+                    content:{
+                      text:"You are studying for an exam with a friend who has been struggling with the material. You leave the room for a moment to get a snack, and when you return, you notice that your friend has opened their textbook and has copied some answers that have been leaked onto their note sheet."
+                      ,otherText:[
+                        {
+                          textBold:'What would you do in this situation?'
+                        },
+                        {
+                          "textBold": "S - Seek Information:",
+                          "text": "If I catch a fellow medical student with exam questions and suspect cheating, my first step would be to seek more information about the situation. I would approach the student and ask them how they obtained the exam questions."
+                        },
+                        {
+                          "textBold": "P - Problem:",
+                          "text": "Cheating violates the ethical standards of the medical profession and can result in serious consequences, both for the individual and the profession as a whole."
+                        },
+                        {
+                          "textBold": "I - Initiative:",
+                          "text": "After seeking more information, I would take the initiative to encourage the student to report the incident themselves. I would explain to them the importance of upholding the ethical standards of the medical profession and the consequences of cheating. I would let them know that reporting the incident themselves would be the right thing to do and could mitigate any potential consequences."
+                        },
+                        {
+                          "textBold": "E - Escalate:",
+                          "text": "If the student does not admit to cheating or if the situation is not resolved, I would escalate the issue to a higher authority. It is crucial to ensure that the exam is fair and unbiased for all students and to maintain the integrity of the profession."
+                        },
+                        {
+                          "textBold": "S - Support:",
+                          "text": "Throughout the entire process, I would seek support from my classmates, professors, and advisors. It is essential to work together to maintain the standards of the medical profession and to ensure that all students are held accountable for their actions."
+                        },
+                        
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Confidentiality: A 35-Year-Old Man with HIV",
+                    "content": {
+                      "subSection": [
+                        {
+                          "title": "Scenario",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Overview",
+                                "text": "A 35-year-old man attends your GP practice. He had a blood test which shows he has HIV. He refuses to tell his wife. What do you do?"
+                              },
+                              {
+                                "textBold": "Core Concepts",
+                                "text": "Concepts covered in this scenario surround the balance of the patient's autonomy and justice to his wife. In situations where there is a risk to others, such as a known partner who may be at risk of transmission, healthcare professionals may encourage the patient to inform their partner(s). If the patient refuses to disclose and there is a significant risk to others, a clinician may consider breaking confidentiality but usually only after consulting with the patient and exploring all options."
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Situations Where Breaking Confidentiality May Be Needed",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Legal Requirement",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Court Orders or Legal Investigations", "text": "Court orders or legal investigations." },
+                                    { "textBold": "Statutory Obligations", "text": "Reporting certain infectious diseases." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Public Interest",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Preventing Serious Harm", "text": "Preventing serious harm to others (e.g., spreading a serious infection, preventing someone driving ie poorly managed epileptics)." },
+                                    { "textBold": "Preventing Serious Crime", "text": "Preventing serious crime (e.g., violent offenses, terrorism)." },
+                                    { "textBold": "Protecting Vulnerable Individuals", "text": "Protecting vulnerable individuals (e.g., safeguarding children or adults at risk)." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Consent Obtained",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Explicit Consent",
+                                      "text": "The patient gives explicit, informed consent to share their information."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Considerations When Needing to Break Confidentiality",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Legal Framework",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Compliance with Relevant Laws", "text": "Ensure compliance with relevant laws (e.g., Data Protection Act, GDPR) and ethical guidelines." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Necessity and Proportionality",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Essential Disclosure", "text": "Confirm disclosure is essential to prevent harm or meet legal requirements." },
+                                    { "textBold": "Limit Disclosure", "text": "Limit disclosure to the minimum information needed." },
+                                    { "textBold": "Example", "text": "If you break confidentiality about a partner’s HIV status you do not need to go into detail about complications, how it was contracted, etc." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Empathy Constantly",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Empathy", "text": "Demonstrate an understanding that you know the situation is difficult and that you do not take breaking confidentiality lightly." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Patient Involvement",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Inform the Patient", "text": "Inform the patient and seek consent where possible." },
+                                    { "textBold": "Consider Patient’s Wishes", "text": "Consider the patient’s wishes and concerns." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Limiting the Scope of Disclosure",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Share Only What’s Necessary", "text": "Share only with those who need to know." },
+                                    { "textBold": "Anonymize Information", "text": "Anonymize information when feasible." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Documentation",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Record the Process", "text": "Record the reasons for the decision, advice sought, and details of the disclosure." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Seeking Professional Advice",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Consult Colleagues or Legal Advisors", "text": "Consult senior colleagues or legal advisors if needed." }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "How to Answer the Question",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "1. State Complexity",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Opening Statement",
+                                      "text": "“This is a tricky situation because it involves balancing the patient’s right to keep their HIV status private and the Doctor’s responsibility to protect the patient’s partner from harm. There are strong ethical and legal factors at play, making it a challenging decision.”"
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "2. State Ethical Principles",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Autonomy",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Patient Rights", "text": "The patient has the right to autonomy. But this right isn’t unlimited when someone else is at risk." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Beneficence and Non-maleficence",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Avoid Harm", "text": "The Doctor must do what’s best for the patient while avoiding harm to others. Not telling the partner could cause serious harm, but breaking confidentiality could damage the Doctor-patient relationship." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Justice",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Duty to Partner", "text": "The Doctor also has a duty to protect the partner, who deserves to be safe from health risks. HIV if not treated can have devastating effects." }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "3. Balance Argument",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Encourage Patient Disclosure",
+                                      "text": "The Doctor should first encourage the patient to tell their partner. This respects the patient’s choice while promoting responsibility."
+                                    },
+                                    {
+                                      "textBold": "Disclosure as a Last Resort",
+                                      "text": "If the patient refuses and the partner is at real risk, the Doctor might have to step in and inform the partner. This is a last resort because it could harm the trust between the patient and Doctor, but it may be necessary to protect the partner’s health."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "4. Offer Opinion and Other Considerations",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Patient-Led Disclosure",
+                                      "text": "I think the Doctor should always try to get the patient to tell their partner first. But if the partner is in danger and the patient won’t disclose, the Doctor must inform the partner to protect them. It’s a tough decision, but it’s about balancing the safety of everyone involved."
+                                    },
+                                    {
+                                      "textBold": "Empathy and Legal Advice",
+                                      "text": "I would however be empathetic to the patient at how distressing this situation is. I will seek legal advice from my seniors and potential legal experts."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Should Euthanasia Be Made Legal?",
+                    "content": {
+                      "subSection": [
+                        {
+                          "title": "Definition of Euthanasia",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Overview",
+                                "text": "Euthanasia is the deliberate act of ending someone's life to relieve suffering, typically in cases of severe or terminal illness."
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Current Legal Status in the UK",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Active Euthanasia and Assisted Suicide",
+                                "text": "In the UK, active euthanasia and assisted suicide are illegal."
+                              },
+                              {
+                                "textBold": "Suicide Act 1961",
+                                "text": "Assisted suicide is criminalized under the Suicide Act 1961, with penalties of up to 14 years in prison."
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ethical Debate on Euthanasia",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Arguments For Euthanasia",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Autonomy and Compassion", "text": "Advocates emphasize autonomy and compassionate care for those suffering." }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Arguments Against Euthanasia",
+                                "content": {
+                                  "otherText": [
+                                    { "textBold": "Sanctity of Life and Vulnerability Concerns", "text": "Opponents stress the sanctity of life and risks to vulnerable individuals." }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "International Perspectives",
+                          "content": {
+                            "otherText": [
+                              {
+                                "textBold": "Countries Permitting Euthanasia",
+                                "text": "Some countries (e.g., Switzerland, Belgium, Netherlands) permit euthanasia under strict conditions."
+                              },
+                              {
+                                "textBold": "UK’s Conservative Stance",
+                                "text": "The UK focuses on the principle to 'do no harm,' taking a conservative approach."
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "SUP BO Framework: Should Euthanasia Be Allowed?",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "S - State Complexity",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Complexity",
+                                      "text": "Euthanasia is a deeply complex issue with strong arguments on both sides, involving ethics, law, and personal values. Balances between compassion, respect for life, and protections for the vulnerable make it challenging."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "U - Understand the Question",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Question",
+                                      "text": "The question asks whether euthanasia aligns with medical ethics or contradicts them. It requires examining arguments for patient autonomy and relief from suffering, balanced against the duty to protect life and prevent harm."
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "P - The Four Pillars of Medical Ethics",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Autonomy",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Patient Rights", "text": "Supports a patient's right to make their own choices, including ending their suffering in terminal illness." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Beneficence",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Acting in Best Interest", "text": "Encourages acting in the patient's best interest; euthanasia may provide compassionate relief from relentless pain." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Non-Maleficence",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Medical Commitment to 'Do No Harm'", "text": "Raises concern around the medical commitment to 'do no harm,' as some view euthanasia as conflicting with this commitment." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Justice",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Fairness and Protection", "text": "Involves fairness and protecting vulnerable individuals from coercion; safeguards are necessary to prevent pressure to choose euthanasia." }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "B - Balanced Argument",
+                                "content": {
+                                  "subSection": [
+                                    {
+                                      "title": "Arguments For Euthanasia",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Autonomy and Choice", "text": "Respects patient’s right to make informed choices about their life." },
+                                          { "textBold": "Relief from Suffering", "text": "Provides a compassionate option for those with unmanageable, terminal suffering." },
+                                          { "textBold": "Global Examples", "text": "Countries with regulated euthanasia offer potential models for end-of-life care." }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Arguments Against Euthanasia",
+                                      "content": {
+                                        "otherText": [
+                                          { "textBold": "Risk of Coercion", "text": "Could put vulnerable people at risk due to societal, familial, or financial pressures." },
+                                          { "textBold": "Non-Maleficence Concerns", "text": "Conflicts with 'do no harm' as it involves intentionally ending life." },
+                                          { "textBold": "Slippery Slope", "text": "Risks expanding euthanasia beyond terminal illness, complicating ethical boundaries." }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "O - Offer Opinion",
+                                "content": {
+                                  "otherText": [
+                                    {
+                                      "textBold": "Cautious Approach",
+                                      "text": "Euthanasia should be approached with caution. Specific cases may justify euthanasia, but legalization requires strict ethical and legal safeguards."
+                                    },
+                                    {
+                                      "textBold": "Balanced Protections",
+                                      "text": "Such protections would ensure respect for autonomy, justice, and non-maleficence, balancing compassionate care with necessary oversight."
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
                     title:'Social Mobility and Medical School',
                     content:{
                       otherText:[
@@ -2203,7 +4074,507 @@ const data = {
                         }
                       ]
                     }
-                  }
+                  },
+                 
+                  {
+                    title: 'Confidentiality',
+                    content: {
+                      subSection:[
+                        // {
+                        //   title:'The Cheater',
+                        //   content:{
+                        //     text:"You are studying for an exam with a friend who has been struggling with the material. You leave the room for a moment to get a snack, and when you return, you notice that your friend has opened their textbook and has copied some answers that have been leaked onto their note sheet."
+                        //     ,otherText:[
+                        //       {
+                        //         textBold:'What would you do in this situation?'
+                        //       },
+                        //       {
+                        //         "textBold": "S - Seek Information:",
+                        //         "text": "If I catch a fellow medical student with exam questions and suspect cheating, my first step would be to seek more information about the situation. I would approach the student and ask them how they obtained the exam questions."
+                        //       },
+                        //       {
+                        //         "textBold": "P - Problem:",
+                        //         "text": "Cheating violates the ethical standards of the medical profession and can result in serious consequences, both for the individual and the profession as a whole."
+                        //       },
+                        //       {
+                        //         "textBold": "I - Initiative:",
+                        //         "text": "After seeking more information, I would take the initiative to encourage the student to report the incident themselves. I would explain to them the importance of upholding the ethical standards of the medical profession and the consequences of cheating. I would let them know that reporting the incident themselves would be the right thing to do and could mitigate any potential consequences."
+                        //       },
+                        //       {
+                        //         "textBold": "E - Escalate:",
+                        //         "text": "If the student does not admit to cheating or if the situation is not resolved, I would escalate the issue to a higher authority. It is crucial to ensure that the exam is fair and unbiased for all students and to maintain the integrity of the profession."
+                        //       },
+                        //       {
+                        //         "textBold": "S - Support:",
+                        //         "text": "Throughout the entire process, I would seek support from my classmates, professors, and advisors. It is essential to work together to maintain the standards of the medical profession and to ensure that all students are held accountable for their actions."
+                        //       },
+                              
+                        //     ]
+                        //   }
+                        // },
+                        // {
+                        //   title:'Data interpretation and calculation',
+                        //   content:{
+                        //     otherText:[
+                        //       {
+                        //         textBold:'You have a 1% solution of drug B. you need to give 250 micrograms. how many mls do you need?',
+                        //         text:"A 1% solution means that 1 gram of the drug is dissolved in 100 mL of the solution. An easy way to remember how many milligrams per ml in a % solution is to multiple the % by 10. For examples a 1% solution was 10mg per ml. a 10% solution has 100mg. A 100% solution has 1000mg which equals 1g.\r\nTo find the amount of drug in 1 mL of the solution, we need to divide 1 gram by 100 mL, which gives us 0.01 grams or 10 milligrams (mg) per mL.\r\nTo calculate how many mL of the 1% solution we need to give 250 micrograms (mcg) of the drug, we can use the following equation by converting to milligrams:\r\n250 mcg ÷ 1000 = 0.25 mg\r\nNow we know that we need to give 0.25 mg of the drug. We can use the following equation to calculate how many mL of the 1% solution contains 0.25 mg of the drug:\r\n0.25 mg ÷ 10 mg/mL = 0.025 mL\r\n",
+                                                  
+                        //       }
+                        //     ]
+                        //   }
+                        // },
+                        // {
+                        //   title:'Role Play',
+                        //   content:{
+                        //     text:"Role-playing is a widely used tool for assessing the communication and problem-solving skills of medical professionals in the UK. During medical school interviews, candidates are often asked to participate in role-playing exercises that simulate real-world scenarios that they may encounter in their medical practice. These exercises are designed to test the candidate's ability to think critically, communicate effectively, and demonstrate empathy and professionalism under pressure. In this section, we will discuss the role-playing exercises that are commonly used in medical school interviews in the UK and provide tips for candidates to help them succeed in this aspect of the interview process. By mastering the art of role-playing, candidates can demonstrate their readiness to tackle the challenges of the medical profession with confidence and competence.",
+                        //     otherText:[
+                        //       {
+                        //         textBold:'Breaking Bad News',
+                        //         text:"Breaking bad news is an important and challenging part of medicine and it can be especially difficult for high school students who may not have had much experience with this situation.\r\nLearning how to break bad news in a sensitive and effective way is a crucial skill to have as a doctor. We understand that this may be a new and daunting experience for many high school students, which is why we've put together some tips and strategies to help make the process a little easier. By learning how to communicate with empathy and clarity, students can build stronger relationships and support systems, both now and in the future.\r\n"
+                        //       },
+                        //       {
+                        //         textBold:'Discussing concerns you have for a child with a close family member',
+                        //         text:"It is important to address the concerns you have without coming across confrontational and show you are understanding of their situation and you simply want to help."
+                        //       },
+                        //       {
+                        //         textBold:'Getting someone to tie their laces with verbal instructions only',
+                        //         text:"This is simply testing you are able to communicate effectively and explain instructions clearly."
+                        //       },
+                        //       {
+                        //         textBold:'Moving objects whilst the actor is blind folded',
+                        //         text:"This is similar to the previous scenario but with the added challenge the individual is blind folded and relying completely on your instructions and vision.\r\n"
+                        //       }
+                        //     ],
+                        //     subSection:[
+                        //       {
+                        //         title:'Do',
+                        //         content:{
+                        //           text:"1. Begin by introducing yourself and establishing a rapport with the patient or their family member\r\n2. Use plain language and avoid medical jargon or technical terms\r\n3. Give warning shots before you break the bad news. For example. Gavin there is something I need to talk you about\r\n4. Encourage questions and provide a clear plan for next steps\r\n5. Offer emotional support and refer the patient to\r\nappropriate resources if needed.\r\n6. Practice active listening and show empathy for the\r\npatient's situation.\r\n"
+                        //         }
+                        //       },
+                        //       {
+                        //         title:"Don't",
+                        //         content:{
+                        //           text:"1. Rush the conversation\r\n2. Deliver the news abruptly\r\n3. Use euphemisms or vague language to soften the blow\r\n4. Make assumptions about the patient's beliefs or values\r\n5. Overwhelm the person with information or technical\r\ndetails\r\n6. Minimize the seriousness of the situation or offer false hope\r\n7. Disregard patient spiritual beleifs\r\n8. Display unprofessional behaviour, such as using a\r\ndismissive tone or appearing disinterested in the persons concerns.\r\n"
+                        //         }
+                        //       }
+                        //     ]
+                        //   }
+                        // },
+                        // {
+                        //   "title": "Confidentiality: A 35-Year-Old Man with HIV",
+                        //   "content": {
+                        //     "subSection": [
+                        //       {
+                        //         "title": "Scenario",
+                        //         "content": {
+                        //           "otherText": [
+                        //             {
+                        //               "textBold": "Overview",
+                        //               "text": "A 35-year-old man attends your GP practice. He had a blood test which shows he has HIV. He refuses to tell his wife. What do you do?"
+                        //             },
+                        //             {
+                        //               "textBold": "Core Concepts",
+                        //               "text": "Concepts covered in this scenario surround the balance of the patient's autonomy and justice to his wife. In situations where there is a risk to others, such as a known partner who may be at risk of transmission, healthcare professionals may encourage the patient to inform their partner(s). If the patient refuses to disclose and there is a significant risk to others, a clinician may consider breaking confidentiality but usually only after consulting with the patient and exploring all options."
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "Situations Where Breaking Confidentiality May Be Needed",
+                        //         "content": {
+                        //           "subSection": [
+                        //             {
+                        //               "title": "Legal Requirement",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Court Orders or Legal Investigations", "text": "Court orders or legal investigations." },
+                        //                   { "textBold": "Statutory Obligations", "text": "Reporting certain infectious diseases." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Public Interest",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Preventing Serious Harm", "text": "Preventing serious harm to others (e.g., spreading a serious infection, preventing someone driving ie poorly managed epileptics)." },
+                        //                   { "textBold": "Preventing Serious Crime", "text": "Preventing serious crime (e.g., violent offenses, terrorism)." },
+                        //                   { "textBold": "Protecting Vulnerable Individuals", "text": "Protecting vulnerable individuals (e.g., safeguarding children or adults at risk)." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Consent Obtained",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Explicit Consent",
+                        //                     "text": "The patient gives explicit, informed consent to share their information."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "Considerations When Needing to Break Confidentiality",
+                        //         "content": {
+                        //           "subSection": [
+                        //             {
+                        //               "title": "Legal Framework",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Compliance with Relevant Laws", "text": "Ensure compliance with relevant laws (e.g., Data Protection Act, GDPR) and ethical guidelines." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Necessity and Proportionality",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Essential Disclosure", "text": "Confirm disclosure is essential to prevent harm or meet legal requirements." },
+                        //                   { "textBold": "Limit Disclosure", "text": "Limit disclosure to the minimum information needed." },
+                        //                   { "textBold": "Example", "text": "If you break confidentiality about a partner’s HIV status you do not need to go into detail about complications, how it was contracted, etc." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Empathy Constantly",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Empathy", "text": "Demonstrate an understanding that you know the situation is difficult and that you do not take breaking confidentiality lightly." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Patient Involvement",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Inform the Patient", "text": "Inform the patient and seek consent where possible." },
+                        //                   { "textBold": "Consider Patient’s Wishes", "text": "Consider the patient’s wishes and concerns." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Limiting the Scope of Disclosure",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Share Only What’s Necessary", "text": "Share only with those who need to know." },
+                        //                   { "textBold": "Anonymize Information", "text": "Anonymize information when feasible." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Documentation",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Record the Process", "text": "Record the reasons for the decision, advice sought, and details of the disclosure." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Seeking Professional Advice",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Consult Colleagues or Legal Advisors", "text": "Consult senior colleagues or legal advisors if needed." }
+                        //                 ]
+                        //               }
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "How to Answer the Question",
+                        //         "content": {
+                        //           "subSection": [
+                        //             {
+                        //               "title": "1. State Complexity",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Opening Statement",
+                        //                     "text": "“This is a tricky situation because it involves balancing the patient’s right to keep their HIV status private and the Doctor’s responsibility to protect the patient’s partner from harm. There are strong ethical and legal factors at play, making it a challenging decision.”"
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "2. State Ethical Principles",
+                        //               "content": {
+                        //                 "subSection": [
+                        //                   {
+                        //                     "title": "Autonomy",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Patient Rights", "text": "The patient has the right to autonomy. But this right isn’t unlimited when someone else is at risk." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Beneficence and Non-maleficence",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Avoid Harm", "text": "The Doctor must do what’s best for the patient while avoiding harm to others. Not telling the partner could cause serious harm, but breaking confidentiality could damage the Doctor-patient relationship." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Justice",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Duty to Partner", "text": "The Doctor also has a duty to protect the partner, who deserves to be safe from health risks. HIV if not treated can have devastating effects." }
+                        //                       ]
+                        //                     }
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "3. Balance Argument",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Encourage Patient Disclosure",
+                        //                     "text": "The Doctor should first encourage the patient to tell their partner. This respects the patient’s choice while promoting responsibility."
+                        //                   },
+                        //                   {
+                        //                     "textBold": "Disclosure as a Last Resort",
+                        //                     "text": "If the patient refuses and the partner is at real risk, the Doctor might have to step in and inform the partner. This is a last resort because it could harm the trust between the patient and Doctor, but it may be necessary to protect the partner’s health."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "4. Offer Opinion and Other Considerations",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Patient-Led Disclosure",
+                        //                     "text": "I think the Doctor should always try to get the patient to tell their partner first. But if the partner is in danger and the patient won’t disclose, the Doctor must inform the partner to protect them. It’s a tough decision, but it’s about balancing the safety of everyone involved."
+                        //                   },
+                        //                   {
+                        //                     "textBold": "Empathy and Legal Advice",
+                        //                     "text": "I would however be empathetic to the patient at how distressing this situation is. I will seek legal advice from my seniors and potential legal experts."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             }
+                        //           ]
+                        //         }
+                        //       }
+                        //     ]
+                        //   }
+                        // },
+                        // {
+                        //   "title": "Should Euthanasia Be Made Legal?",
+                        //   "content": {
+                        //     "subSection": [
+                        //       {
+                        //         "title": "Definition of Euthanasia",
+                        //         "content": {
+                        //           "otherText": [
+                        //             {
+                        //               "textBold": "Overview",
+                        //               "text": "Euthanasia is the deliberate act of ending someone's life to relieve suffering, typically in cases of severe or terminal illness."
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "Current Legal Status in the UK",
+                        //         "content": {
+                        //           "otherText": [
+                        //             {
+                        //               "textBold": "Active Euthanasia and Assisted Suicide",
+                        //               "text": "In the UK, active euthanasia and assisted suicide are illegal."
+                        //             },
+                        //             {
+                        //               "textBold": "Suicide Act 1961",
+                        //               "text": "Assisted suicide is criminalized under the Suicide Act 1961, with penalties of up to 14 years in prison."
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "Ethical Debate on Euthanasia",
+                        //         "content": {
+                        //           "subSection": [
+                        //             {
+                        //               "title": "Arguments For Euthanasia",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Autonomy and Compassion", "text": "Advocates emphasize autonomy and compassionate care for those suffering." }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "Arguments Against Euthanasia",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   { "textBold": "Sanctity of Life and Vulnerability Concerns", "text": "Opponents stress the sanctity of life and risks to vulnerable individuals." }
+                        //                 ]
+                        //               }
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "International Perspectives",
+                        //         "content": {
+                        //           "otherText": [
+                        //             {
+                        //               "textBold": "Countries Permitting Euthanasia",
+                        //               "text": "Some countries (e.g., Switzerland, Belgium, Netherlands) permit euthanasia under strict conditions."
+                        //             },
+                        //             {
+                        //               "textBold": "UK’s Conservative Stance",
+                        //               "text": "The UK focuses on the principle to 'do no harm,' taking a conservative approach."
+                        //             }
+                        //           ]
+                        //         }
+                        //       },
+                        //       {
+                        //         "title": "SUP BO Framework: Should Euthanasia Be Allowed?",
+                        //         "content": {
+                        //           "subSection": [
+                        //             {
+                        //               "title": "S - State Complexity",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Complexity",
+                        //                     "text": "Euthanasia is a deeply complex issue with strong arguments on both sides, involving ethics, law, and personal values. Balances between compassion, respect for life, and protections for the vulnerable make it challenging."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "U - Understand the Question",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Question",
+                        //                     "text": "The question asks whether euthanasia aligns with medical ethics or contradicts them. It requires examining arguments for patient autonomy and relief from suffering, balanced against the duty to protect life and prevent harm."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "P - The Four Pillars of Medical Ethics",
+                        //               "content": {
+                        //                 "subSection": [
+                        //                   {
+                        //                     "title": "Autonomy",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Patient Rights", "text": "Supports a patient's right to make their own choices, including ending their suffering in terminal illness." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Beneficence",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Acting in Best Interest", "text": "Encourages acting in the patient's best interest; euthanasia may provide compassionate relief from relentless pain." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Non-Maleficence",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Medical Commitment to 'Do No Harm'", "text": "Raises concern around the medical commitment to 'do no harm,' as some view euthanasia as conflicting with this commitment." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Justice",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Fairness and Protection", "text": "Involves fairness and protecting vulnerable individuals from coercion; safeguards are necessary to prevent pressure to choose euthanasia." }
+                        //                       ]
+                        //                     }
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "B - Balanced Argument",
+                        //               "content": {
+                        //                 "subSection": [
+                        //                   {
+                        //                     "title": "Arguments For Euthanasia",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Autonomy and Choice", "text": "Respects patient’s right to make informed choices about their life." },
+                        //                         { "textBold": "Relief from Suffering", "text": "Provides a compassionate option for those with unmanageable, terminal suffering." },
+                        //                         { "textBold": "Global Examples", "text": "Countries with regulated euthanasia offer potential models for end-of-life care." }
+                        //                       ]
+                        //                     }
+                        //                   },
+                        //                   {
+                        //                     "title": "Arguments Against Euthanasia",
+                        //                     "content": {
+                        //                       "otherText": [
+                        //                         { "textBold": "Risk of Coercion", "text": "Could put vulnerable people at risk due to societal, familial, or financial pressures." },
+                        //                         { "textBold": "Non-Maleficence Concerns", "text": "Conflicts with 'do no harm' as it involves intentionally ending life." },
+                        //                         { "textBold": "Slippery Slope", "text": "Risks expanding euthanasia beyond terminal illness, complicating ethical boundaries." }
+                        //                       ]
+                        //                     }
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             },
+                        //             {
+                        //               "title": "O - Offer Opinion",
+                        //               "content": {
+                        //                 "otherText": [
+                        //                   {
+                        //                     "textBold": "Cautious Approach",
+                        //                     "text": "Euthanasia should be approached with caution. Specific cases may justify euthanasia, but legalization requires strict ethical and legal safeguards."
+                        //                   },
+                        //                   {
+                        //                     "textBold": "Balanced Protections",
+                        //                     "text": "Such protections would ensure respect for autonomy, justice, and non-maleficence, balancing compassionate care with necessary oversight."
+                        //                   }
+                        //                 ]
+                        //               }
+                        //             }
+                        //           ]
+                        //         }
+                        //       }
+                        //     ]
+                        //   }
+                        // }
+                        
+                        
+                        
+                        
+                    ],
+                      otherText:[
+                        {
+                          textBold:'You are working in a GP as a medical junior doctor and a man storm in asking about his wife’s fertility test. How do you address the situation?'
+                          ,text:"Seek Information: The first step is to seek information from the man to better understand his concerns and the situation at hand. I would approach the man calmly and introduce myself, asking him to share more about the fertility test and his concerns. I would listen actively and empathetically, asking questions to clarify any uncertainties and gain a better understanding of the situation.\nPatient Safety: As a doctor, my primary concern is always the safety and well-being of my patients. In this case, I would assess whether the man's wife is a patient at our practice and if she has given permission for her medical information to be shared. If not, I would explain that we are unable to discuss the details of her test without her permission. If the man's wife is our patient, I would ensure that we follow all privacy and confidentiality protocols to protect her personal information.\nInitiative: To address the man's concerns, I would take the initiative to offer support and provide guidance. I would explain the possible reasons why fertility tests may be performed, including male and female factors, and offer to arrange a consultation with a specialist or a referral to a fertility clinic. If appropriate, I would offer to discuss potential lifestyle changes that could improve fertility and provide information about fertility treatments.\nEscalate: If the situation escalates, and the man becomes aggressive or threatening, I would seek assistance from other staff members or security personnel to ensure the safety of everyone involved. If necessary, I would escalate the situation to the practice manager or senior doctor for further assistance and support.\nSupport: Finally, I would offer support to the man and his wife, reassuring them that we are here to help and providing them with any relevant information or resources they may need. I would also encourage them to make follow-up appointments and offer to answer any further questions or concerns they may have.\n"
+                        },
+                        {
+                          textBold:'What if the man persists?',
+                          text:"If the man persists in demanding information about his wife's medical results despite being told that such information cannot be disclosed due to patient confidentiality laws, it is important for the healthcare provider to remain firm in their stance while also showing empathy and understanding for the man's concerns.\r\nThe healthcare provider can reiterate that due to patient confidentiality laws, they cannot disclose any medical information about his wife without her express consent. The healthcare provider can then explore other options for addressing the man's concerns, such as encouraging him to have an open and honest conversation with his wife or offering additional resources and support for addressing any fertility concerns or difficulties. It is important to maintain a professional and respectful demeanour and prioritize the well-being and privacy of the patient.\r\n\r\n",
+                        }
+                      ],
+                      textBellowSubsection:[
+                        {
+                          textBold:"Whistleblowing – what is whistle blowing and why is it important in medicine?"
+                        },
+                       
+                        {
+                          textBold:"You are a medical student on placement in a care home, after you complete the placement you are given an envelop by one of the patients, when you return home you open to find a thank you card with £100, what do you do in this situation?\r\n"
+                        }
+                      ]
+                     
+                    },
+                  },
                   
                 ],
               },
@@ -2281,114 +4652,1259 @@ const data = {
               },
             },
             {
-              title: 'Confidentiality',
-              content: {
+              title:'2.8 Abstract Questions',
+              content:{
                 subSection:[
+                  
+                    {
+                      "title": "Question - Describe this photo?",
+                      "content": {
+                        "text": "In this question, what is likely to happen is that the interviewer will show you a random photo that is not necessarily related to hospitals or medicine. They will ask you to analyse the photo and then describe it. You may also be asked why you think the question is important.",
+                        "subSection": [
+                          {
+                            "title": "What They Are Assessing",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "textBold": "Observation Skills:",
+                                  "text": "Your ability to notice important details and nuances within a scene."
+                                },
+                                {
+                                  "textBold": "Attention to Detail:",
+                                  "text": "How thoroughly you analyse and describe what’s in the image."
+                                },
+                                {
+                                  "textBold": "Critical Thinking:",
+                                  "text": "How you process and interpret what you see, drawing meaningful insights."
+                                },
+                                {
+                                  "textBold": "Making Connections:",
+                                  "text": "Your ability to relate unrelated scenarios to medical themes like empathy, diversity, and well-being."
+                                },
+                                {
+                                  "textBold": "Communications:",
+                                  "text": "Drs routinely have to be able to describe something they have seen and communicate it to someone who has not seen the same thing directly. Examples include handovers."
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Why This is Important",
+                            "content": {
+                              text: "In essence, this assessment measures how well you can bring together observation, analysis, and empathy—critical components of being an effective physician.",
+
+                              "subSection": [
+                                {
+                                  "title": "Quick Decision-Making",
+                                  "content": {
+                                    "text": "As a doctor, you’ll need to assess situations rapidly and accurately."
+                                  }
+                                },
+                                {
+                                  "title": "Interpretation of Complex Information",
+                                  "content": {
+                                    "text": "This exercise mirrors the ability to gather and make sense of complex medical data."
+                                  }
+                                },
+                                {
+                                  "title": "Holistic Thinking",
+                                  "content": {
+                                    "text": "Connecting the photo to broader themes like patient care and wellness shows that you understand the importance of treating patients as whole individuals."
+                                  }
+                                },
+                                {
+                                  "title": "Creative Problem-Solving",
+                                  "content": {
+                                    "text": "It demonstrates how you can apply creative thinking to everyday experiences and medical practice."
+                                  }
+                                },
+                                {
+                                  "title": "Communicating to a Third Party",
+                                  "content": {
+                                    "text": "Resident Drs very often have to get advice from seniors who haven’t seen patients. Being able to describe the appearance of something is vital."
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          // {
+                          //   "title": "In essence, this assessment measures how well you can bring together observation, analysis, and empathy—critical components of being an effective physician.",
+                          //   "content": {
+                          //     "subSection": [
+                          //       {
+                          //         "title": "Framework for Answering the Question: OK MAT (Overview, Key specific features, Mood, Action, Theme)",
+                          //         "content": {
+                          //           "subSection": [
+                          //             {
+                          //               "title": "Overview",
+                          //               "content": {
+                          //                 "text": "If there are any dates or time please comment on them straight away. ‘This is a photograph of a busy street taken on the 4th October’ or ‘this is a painting of a man made in 2021’ etc. Comment on anything that strikes out at first glance."
+                          //               }
+                          //             },
+                          //             {
+                          //               "title": "Key Specific Features",
+                          //               "content": {
+                          //                 "text": "Divide the photo into 4 and describe what you see specifically. What are people wearing? What are they doing? Comment on the likely time of day. Comment on the weather. Be specific – If you are describing a group of cars – how many, what colour etc."
+                          //               }
+                          //             },
+                          //             {
+                          //               "title": "Mood",
+                          //               "content": {
+                          //                 "text": "Describe the emotional tone: is it busy, quiet, professional, or casual?"
+                          //               }
+                          //             },
+                          //             {
+                          //               "title": "Action",
+                          //               "content": {
+                          //                 "text": "Describe the details of what’s happening in the photo."
+                          //               }
+                          //             },
+                          //             {
+                          //               "title": "Theme",
+                          //               "content": {
+                          //                 "text": "Discuss the deeper significance or message of the image."
+                          //               }
+                          //             }
+                          //           ]
+                          //         }
+                          //       },
+                                
+                          //       {
+                          //           "title": "Describe this Photo",
+                          //           "content": {
+                          //             image:snap,
+                          //             "text": "Here is a real life example. Please see the attached photo and the recommended framework we offer.",
+                          //             "subSection": [
+                          //               {
+                          //                 "title": "Overview",
+                          //                 "content": {
+                          //                   "text": "This is a photo with no specific time or date. It captures a bustling urban street at night, filled with a large crowd of people, indicating it is a Friday or weekend night. The scene is illuminated by bright lights from surrounding buildings and neon signs, with several officers in high-visibility vests dispersed throughout the area. The location appears to be a popular nightlife district, with people gathered outside of venues and moving through the street."
+                          //                 }
+                          //               },
+                          //               {
+                          //                 "title": "Key Specific Features",
+                          //                 "content": {
+                          //                   "subSection": [
+                          //                     {
+                          //                       "title": "Top Left",
+                          //                       "content": {
+                          //                         "text": "A neon sign reading 'G-A-Y' suggests a club or bar. People are standing near the entrance, possibly waiting or chatting with others. Some people in vests, likely bouncers."
+                          //                       }
+                          //                     },
+                          //                     {
+                          //                       "title": "Top Right",
+                          //                       "content": {
+                          //                         "text": "The street is packed with more people in the distance, moving through the brightly lit area. The scene stretches into the background with a vibrant cityscape."
+                          //                       }
+                          //                     },
+                          //                     {
+                          //                       "title": "Bottom Left",
+                          //                       "content": {
+                          //                         "text": "A group of people in casual clothing are standing and talking, one person holding a drink, suggesting a relaxed and social setting."
+                          //                       }
+                          //                     },
+                          //                     {
+                          //                       "title": "Bottom Right",
+                          //                       "content": {
+                          //                         "text": "More individuals are gathered closely together, with one woman embracing another person suggesting a close relationship. At least 5 police officers in high-visibility vests are nearby, overseeing the crowd."
+                          //                       }
+                          //                     }
+                          //                   ]
+                          //                 }
+                          //               },
+                          //               {
+                          //                 "title": "Mood",
+                          //                 "content": {
+                          //                   "text": "The mood of the photo feels lively and energetic. There’s a strong sense of social interaction, with people conversing and moving through the crowded street. Despite the presence of police, the atmosphere appears relaxed and informal, likely indicating a night of enjoyment and socializing."
+                          //                 }
+                          //               },
+                          //               {
+                          //                 "title": "Action",
+                          //                 "content": {
+                          //                   "text": "Social Interactions: People are talking in groups, some holding drinks, others standing casually outside the establishments. Movement: The crowd is fluid, with people walking through the street and interacting with each other. Police Presence: Officers are present, scattered throughout the crowd, watching over the scene without engaging directly, suggesting crowd control rather than intervention."
+                          //                 }
+                          //               },
+                          //               {
+                          //                 "title": "Theme",
+                          //                 "content": {
+                          //                   "text": "The photo reflects the vibrant energy of urban nightlife and how large gatherings in public spaces are managed. The presence of police alongside a carefree crowd highlights the balance between public safety and social freedom. The photo also hints at diversity and inclusion, as it appears to capture a wide range of individuals in a social, lively environment, underscoring the blend of community and celebration in city life."
+                          //                 }
+                          //               },
+                          //               {
+                          //                 "title": "Guidance for Answering",
+                          //                 "content": {
+                          //                   "text": "Stay structured: Follow this framework to keep your answer organized, starting broad and then narrowing down to details before tying it all together. Be observant: Focus on what you see but also what the photo makes you think or feel. Don’t just describe—interpret. Connect the dots: Try to relate the scene to universal themes like time, history, community, or culture. Showing that you can think beyond the image itself will impress interviewers. Be thoughtful: End with a meaningful reflection that captures the bigger picture of what the photo represents. By following this approach, you demonstrate not only good observational skills but also critical thinking and the ability to connect everyday scenes to larger ideas, which are key qualities interviewers look for."
+                          //                 }
+                          //               }
+                          //             ]
+                          //           }
+                          //         },
+                                
+                                
+                                
+                                  
+                                
+                          //     ],
+                              
+                          //   }
+                          // },
+                          {
+                            "title": "Framework for Answering the Question: OK MAT (Overview, Key specific features, Mood, Action, Theme)",
+                            "content": {
+                              "subSection": [
+                                {
+                                  "title": "Overview",
+                                  "content": {
+                                    "text": "If there are any dates or time please comment on them straight away. ‘This is a photograph of a busy street taken on the 4th October’ or ‘this is a painting of a man made in 2021’ etc. Comment on anything that strikes out at first glance."
+                                  }
+                                },
+                                {
+                                  "title": "Key Specific Features",
+                                  "content": {
+                                    "text": "Divide the photo into 4 and describe what you see specifically. What are people wearing? What are they doing? Comment on the likely time of day. Comment on the weather. Be specific – If you are describing a group of cars – how many, what colour etc."
+                                  }
+                                },
+                                {
+                                  "title": "Mood",
+                                  "content": {
+                                    "text": "Describe the emotional tone: is it busy, quiet, professional, or casual?"
+                                  }
+                                },
+                                {
+                                  "title": "Action",
+                                  "content": {
+                                    "text": "Describe the details of what’s happening in the photo."
+                                  }
+                                },
+                                {
+                                  "title": "Theme",
+                                  "content": {
+                                    "text": "Discuss the deeper significance or message of the image."
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          
+                          {
+                              "title": "Describe this Photo",
+                              "content": {
+                                image:snap,
+                                "text": "Here is a real life example. Please see the attached photo and the recommended framework we offer.",
+                                "subSection": [
+                                  {
+                                    "title": "Overview",
+                                    "content": {
+                                      "text": "This is a photo with no specific time or date. It captures a bustling urban street at night, filled with a large crowd of people, indicating it is a Friday or weekend night. The scene is illuminated by bright lights from surrounding buildings and neon signs, with several officers in high-visibility vests dispersed throughout the area. The location appears to be a popular nightlife district, with people gathered outside of venues and moving through the street."
+                                    }
+                                  },
+                                  {
+                                    "title": "Key Specific Features",
+                                    "content": {
+                                      "subSection": [
+                                        {
+                                          "title": "Top Left",
+                                          "content": {
+                                            "text": "A neon sign reading 'G-A-Y' suggests a club or bar. People are standing near the entrance, possibly waiting or chatting with others. Some people in vests, likely bouncers."
+                                          }
+                                        },
+                                        {
+                                          "title": "Top Right",
+                                          "content": {
+                                            "text": "The street is packed with more people in the distance, moving through the brightly lit area. The scene stretches into the background with a vibrant cityscape."
+                                          }
+                                        },
+                                        {
+                                          "title": "Bottom Left",
+                                          "content": {
+                                            "text": "A group of people in casual clothing are standing and talking, one person holding a drink, suggesting a relaxed and social setting."
+                                          }
+                                        },
+                                        {
+                                          "title": "Bottom Right",
+                                          "content": {
+                                            "text": "More individuals are gathered closely together, with one woman embracing another person suggesting a close relationship. At least 5 police officers in high-visibility vests are nearby, overseeing the crowd."
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "title": "Mood",
+                                    "content": {
+                                      "text": "The mood of the photo feels lively and energetic. There’s a strong sense of social interaction, with people conversing and moving through the crowded street. Despite the presence of police, the atmosphere appears relaxed and informal, likely indicating a night of enjoyment and socializing."
+                                    }
+                                  },
+                                  {
+                                    "title": "Action",
+                                    "content": {
+                                      "text": "Social Interactions: People are talking in groups, some holding drinks, others standing casually outside the establishments. Movement: The crowd is fluid, with people walking through the street and interacting with each other. Police Presence: Officers are present, scattered throughout the crowd, watching over the scene without engaging directly, suggesting crowd control rather than intervention."
+                                    }
+                                  },
+                                  {
+                                    "title": "Theme",
+                                    "content": {
+                                      "text": "The photo reflects the vibrant energy of urban nightlife and how large gatherings in public spaces are managed. The presence of police alongside a carefree crowd highlights the balance between public safety and social freedom. The photo also hints at diversity and inclusion, as it appears to capture a wide range of individuals in a social, lively environment, underscoring the blend of community and celebration in city life."
+                                    }
+                                  },
+                                  {
+                                    "title": "Guidance for Answering",
+                                    "content": {
+                                      "text": "Stay structured: Follow this framework to keep your answer organized, starting broad and then narrowing down to details before tying it all together. Be observant: Focus on what you see but also what the photo makes you think or feel. Don’t just describe—interpret. Connect the dots: Try to relate the scene to universal themes like time, history, community, or culture. Showing that you can think beyond the image itself will impress interviewers. Be thoughtful: End with a meaningful reflection that captures the bigger picture of what the photo represents. By following this approach, you demonstrate not only good observational skills but also critical thinking and the ability to connect everyday scenes to larger ideas, which are key qualities interviewers look for."
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                     
+                        ]
+                      }
+                    },
+                    {
+                      title:'Role Play',
+                      content:{
+                        text:"Role-playing is a widely used tool for assessing the communication and problem-solving skills of medical professionals in the UK. During medical school interviews, candidates are often asked to participate in role-playing exercises that simulate real-world scenarios that they may encounter in their medical practice. These exercises are designed to test the candidate's ability to think critically, communicate effectively, and demonstrate empathy and professionalism under pressure. In this section, we will discuss the role-playing exercises that are commonly used in medical school interviews in the UK and provide tips for candidates to help them succeed in this aspect of the interview process. By mastering the art of role-playing, candidates can demonstrate their readiness to tackle the challenges of the medical profession with confidence and competence.",
+                        otherText:[
+                          {
+                            textBold:'Breaking Bad News',
+                            text:"Breaking bad news is an important and challenging part of medicine and it can be especially difficult for high school students who may not have had much experience with this situation.\r\nLearning how to break bad news in a sensitive and effective way is a crucial skill to have as a doctor. We understand that this may be a new and daunting experience for many high school students, which is why we've put together some tips and strategies to help make the process a little easier. By learning how to communicate with empathy and clarity, students can build stronger relationships and support systems, both now and in the future.\r\n"
+                          },
+                          {
+                            textBold:'Discussing concerns you have for a child with a close family member',
+                            text:"It is important to address the concerns you have without coming across confrontational and show you are understanding of their situation and you simply want to help."
+                          },
+                          {
+                            textBold:'Getting someone to tie their laces with verbal instructions only',
+                            text:"This is simply testing you are able to communicate effectively and explain instructions clearly."
+                          },
+                          {
+                            textBold:'Moving objects whilst the actor is blind folded',
+                            text:"This is similar to the previous scenario but with the added challenge the individual is blind folded and relying completely on your instructions and vision.\r\n"
+                          }
+                        ],
+                        subSection:[
+                          {
+                            title:'Do',
+                            content:{
+                              text:"1. Begin by introducing yourself and establishing a rapport with the patient or their family member\r\n2. Use plain language and avoid medical jargon or technical terms\r\n3. Give warning shots before you break the bad news. For example. Gavin there is something I need to talk you about\r\n4. Encourage questions and provide a clear plan for next steps\r\n5. Offer emotional support and refer the patient to\r\nappropriate resources if needed.\r\n6. Practice active listening and show empathy for the\r\npatient's situation.\r\n"
+                            }
+                          },
+                          {
+                            title:"Don't",
+                            content:{
+                              text:"1. Rush the conversation\r\n2. Deliver the news abruptly\r\n3. Use euphemisms or vague language to soften the blow\r\n4. Make assumptions about the patient's beliefs or values\r\n5. Overwhelm the person with information or technical\r\ndetails\r\n6. Minimize the seriousness of the situation or offer false hope\r\n7. Disregard patient spiritual beleifs\r\n8. Display unprofessional behaviour, such as using a\r\ndismissive tone or appearing disinterested in the persons concerns.\r\n"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                  
+                    {
+                      "title": "Explain how to tie a shoelace",
+                      "content": {
+                        "subSection": [
+                          {
+                            "title": "Key concepts assessed",
+                            "content": {
+                              "otherText": [
+                                {
+                                  "text": "Ability to think under pressure"
+                                },
+                                {
+                                  "text": "Communicate clearly"
+                                },
+                                {
+                                  "text": "Empathy"
+                                },
+                                {
+                                  "text": "Ability to gauge understanding"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "This question can be replaced by any task",
+                            "content": {
+                              "text": "This question can be replaced by any task such as ‘explain to someone how to draw a box’. The overall principles are the same either way and can be applied to majority of situations."
+                            }
+                          },
+                          {
+                            "title": "Follow up questions",
+                            "content": {
+                              "subSection": [
+                                {
+                                  "title": "Why is this question important?",
+                                  "content": {
+                                    "text": "In medicine we will often have to explain complex matters i.e treatment plan and their complications to people who have wide arrays of IQ and understanding. Therefore, doctors should be able to explain matters at very rudimentary levels."
+                                  }
+                                },
+                                {
+                                  "title": "What is this question assessing?",
+                                  "content": {
+                                    "text": "Covered In key concepts"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "title": "Some useful tips",
+                            "content": {
+                              "subSection": [
+                                {
+                                  "title": "Keep it Simple",
+                                  "content": {
+                                    "text": "Use clear, simple language, especially if your audience is unfamiliar with the concept."
+                                  }
+                                },
+                                {
+                                  "title": "Use Analogies",
+                                  "content": {
+                                    "text": "Relate the steps to something familiar, like 'bunny ears' for the loops, which helps make the process more understandable."
+                                  }
+                                },
+                                {
+                                  "title": "Assess the Audience",
+                                  "content": {
+                                    "text": "Assess what the person knows. Do they have any previous experience? Have they ever tied shoelaces? Have they ever done something similar like bow ties?"
+                                  }
+                                },
+                                {
+                                  "title": "Break it Down Step-by-Step",
+                                  "content": {
+                                    "text": "Avoid giving too much information at once. Walk through each step slowly and clearly."
+                                  }
+                                },
+                                {
+                                  "title": "Demonstrate Visually",
+                                  "content": {
+                                    "text": "If possible, use hand motions or a physical demonstration while explaining. Seeing it can make it easier to understand."
+                                  }
+                                },
+                                {
+                                  "title": "Pause for Understanding",
+                                  "content": {
+                                    "text": "After explaining a step, pause to make sure the listener is following before moving to the next step."
+                                  }
+                                },
+                                {
+                                  "title": "Use Repetition",
+                                  "content": {
+                                    "text": "Repeat the steps briefly at the end to reinforce understanding."
+                                  }
+                                },
+                                {
+                                  "title": "Highlight Key Actions",
+                                  "content": {
+                                    "text": "Emphasize important steps, such as 'tightening the knot' or 'making two loops,' to keep the process clear."
+                                  }
+                                },
+                                {
+                                  "title": "Encourage Practice",
+                                  "content": {
+                                    "text": "Remind your listener that it might take a few tries, and practice makes perfect."
+                                  }
+                                },
+                                {
+                                  "title": "Be Patient",
+                                  "content": {
+                                    "text": "If the person doesn't get it right away, calmly walk them through the steps again without rushing."
+                                  }
+                                },
+                                {
+                                  "title": "Check for Questions",
+                                  "content": {
+                                    "text": "Ask if they have any questions or need clarification on any part of the process."
+                                  }
+                                },
+                                {
+                                  "title": "Do Not Worry",
+                                  "content": {
+                                    "text": "If the person does not manage to tie the lace, this does not mean you have failed. What they are actually assessing is the features mentioned earlier."
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                  
+                  
                   {
-                    title:'The Cheater',
-                    content:{
-                      text:"You are studying for an exam with a friend who has been struggling with the material. You leave the room for a moment to get a snack, and when you return, you notice that your friend has opened their textbook and has copied some answers that have been leaked onto their note sheet."
-                      ,otherText:[
+                    "title": "Communication Skills: Giving Directions",
+                    "content": {
+                      "text": "In this station, you are shown a diagram of a street from an aerial view and asked to provide directions from Point A to the post office. After you give your instructions, the interviewer may ask why you were given this task.",
+                      "subSection": [
                         {
-                          textBold:'What would you do in this situation?'
-                        },
-                        {
-                          "textBold": "S - Seek Information:",
-                          "text": "If I catch a fellow medical student with exam questions and suspect cheating, my first step would be to seek more information about the situation. I would approach the student and ask them how they obtained the exam questions."
-                        },
-                        {
-                          "textBold": "P - Problem:",
-                          "text": "Cheating violates the ethical standards of the medical profession and can result in serious consequences, both for the individual and the profession as a whole."
-                        },
-                        {
-                          "textBold": "I - Initiative:",
-                          "text": "After seeking more information, I would take the initiative to encourage the student to report the incident themselves. I would explain to them the importance of upholding the ethical standards of the medical profession and the consequences of cheating. I would let them know that reporting the incident themselves would be the right thing to do and could mitigate any potential consequences."
-                        },
-                        {
-                          "textBold": "E - Escalate:",
-                          "text": "If the student does not admit to cheating or if the situation is not resolved, I would escalate the issue to a higher authority. It is crucial to ensure that the exam is fair and unbiased for all students and to maintain the integrity of the profession."
-                        },
-                        {
-                          "textBold": "S - Support:",
-                          "text": "Throughout the entire process, I would seek support from my classmates, professors, and advisors. It is essential to work together to maintain the standards of the medical profession and to ensure that all students are held accountable for their actions."
-                        },
-                        
-                      ]
-                    }
-                  },
-                  {
-                    title:'Data interpretation and calculation',
-                    content:{
-                      otherText:[
-                        {
-                          textBold:'You have a 1% solution of drug B. you need to give 250 micrograms. how many mls do you need?',
-                          text:"A 1% solution means that 1 gram of the drug is dissolved in 100 mL of the solution. An easy way to remember how many milligrams per ml in a % solution is to multiple the % by 10. For examples a 1% solution was 10mg per ml. a 10% solution has 100mg. A 100% solution has 1000mg which equals 1g.\r\nTo find the amount of drug in 1 mL of the solution, we need to divide 1 gram by 100 mL, which gives us 0.01 grams or 10 milligrams (mg) per mL.\r\nTo calculate how many mL of the 1% solution we need to give 250 micrograms (mcg) of the drug, we can use the following equation by converting to milligrams:\r\n250 mcg ÷ 1000 = 0.25 mg\r\nNow we know that we need to give 0.25 mg of the drug. We can use the following equation to calculate how many mL of the 1% solution contains 0.25 mg of the drug:\r\n0.25 mg ÷ 10 mg/mL = 0.025 mL\r\n",
-                                            
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    title:'Role Play',
-                    content:{
-                      text:"Role-playing is a widely used tool for assessing the communication and problem-solving skills of medical professionals in the UK. During medical school interviews, candidates are often asked to participate in role-playing exercises that simulate real-world scenarios that they may encounter in their medical practice. These exercises are designed to test the candidate's ability to think critically, communicate effectively, and demonstrate empathy and professionalism under pressure. In this section, we will discuss the role-playing exercises that are commonly used in medical school interviews in the UK and provide tips for candidates to help them succeed in this aspect of the interview process. By mastering the art of role-playing, candidates can demonstrate their readiness to tackle the challenges of the medical profession with confidence and competence.",
-                      otherText:[
-                        {
-                          textBold:'Breaking Bad News',
-                          text:"Breaking bad news is an important and challenging part of medicine and it can be especially difficult for high school students who may not have had much experience with this situation.\r\nLearning how to break bad news in a sensitive and effective way is a crucial skill to have as a doctor. We understand that this may be a new and daunting experience for many high school students, which is why we've put together some tips and strategies to help make the process a little easier. By learning how to communicate with empathy and clarity, students can build stronger relationships and support systems, both now and in the future.\r\n"
-                        },
-                        {
-                          textBold:'Discussing concerns you have for a child with a close family member',
-                          text:"It is important to address the concerns you have without coming across confrontational and show you are understanding of their situation and you simply want to help."
-                        },
-                        {
-                          textBold:'Getting someone to tie their laces with verbal instructions only',
-                          text:"This is simply testing you are able to communicate effectively and explain instructions clearly."
-                        },
-                        {
-                          textBold:'Moving objects whilst the actor is blind folded',
-                          text:"This is similar to the previous scenario but with the added challenge the individual is blind folded and relying completely on your instructions and vision.\r\n"
-                        }
-                      ],
-                      subSection:[
-                        {
-                          title:'Do',
-                          content:{
-                            text:"1. Begin by introducing yourself and establishing a rapport with the patient or their family member\r\n2. Use plain language and avoid medical jargon or technical terms\r\n3. Give warning shots before you break the bad news. For example. Gavin there is something I need to talk you about\r\n4. Encourage questions and provide a clear plan for next steps\r\n5. Offer emotional support and refer the patient to\r\nappropriate resources if needed.\r\n6. Practice active listening and show empathy for the\r\npatient's situation.\r\n"
+                          "title": "Approach",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Orient Yourself",
+                                "content": {
+                                  "text": "Start by identifying Point A and locating the post office on the diagram. Look for any landmarks, street names, or other reference points that could help guide the route. Be very descriptive in identifying things for example you will see a Caucasian man with grey hair holding a cup to teat."
+                                }
+                              },
+                              {
+                                "title": "Break Down the Directions",
+                                "content": {
+                                  "text": "Describe the route step by step to make the instructions clear and structured. Use phrases like 'first,' 'next,' and 'continue straight' to guide the listener smoothly through each part of the journey."
+                                }
+                              },
+                              {
+                                "title": "Identify the Skills Being Tested",
+                                "content": {
+                                  "text": "Reflect on why this exercise is relevant to medicine. The interviewer is evaluating your ability to communicate effectively and interpret visual information, skills that are essential for medical practice."
+                                }
+                              }
+                            ]
                           }
                         },
                         {
-                          title:"Don't",
-                          content:{
-                            text:"1. Rush the conversation\r\n2. Deliver the news abruptly\r\n3. Use euphemisms or vague language to soften the blow\r\n4. Make assumptions about the patient's beliefs or values\r\n5. Overwhelm the person with information or technical\r\ndetails\r\n6. Minimize the seriousness of the situation or offer false hope\r\n7. Disregard patient spiritual beleifs\r\n8. Display unprofessional behaviour, such as using a\r\ndismissive tone or appearing disinterested in the persons concerns.\r\n"
+                          "title": "Relevance to Medicine",
+                          "content": {
+                            "text": "This task assesses your ability to convey clear and accurate instructions, a skill crucial for doctors when explaining treatment plans or guiding patients through medical procedures. Additionally, it tests your capacity to interpret visual information, similar to how doctors analyze scans, charts, or diagnostic images. Practicing these skills helps ensure you can meet the demands of medical training and practice, where effective communication and visual interpretation are key components of patient care."
                           }
                         }
                       ]
                     }
-                  }
-              ],
-                otherText:[
-                  {
-                    textBold:'You are working in a GP as a medical junior doctor and a man storm in asking about his wife’s fertility test. How do you address the situation?'
-                    ,text:"Seek Information: The first step is to seek information from the man to better understand his concerns and the situation at hand. I would approach the man calmly and introduce myself, asking him to share more about the fertility test and his concerns. I would listen actively and empathetically, asking questions to clarify any uncertainties and gain a better understanding of the situation.\nPatient Safety: As a doctor, my primary concern is always the safety and well-being of my patients. In this case, I would assess whether the man's wife is a patient at our practice and if she has given permission for her medical information to be shared. If not, I would explain that we are unable to discuss the details of her test without her permission. If the man's wife is our patient, I would ensure that we follow all privacy and confidentiality protocols to protect her personal information.\nInitiative: To address the man's concerns, I would take the initiative to offer support and provide guidance. I would explain the possible reasons why fertility tests may be performed, including male and female factors, and offer to arrange a consultation with a specialist or a referral to a fertility clinic. If appropriate, I would offer to discuss potential lifestyle changes that could improve fertility and provide information about fertility treatments.\nEscalate: If the situation escalates, and the man becomes aggressive or threatening, I would seek assistance from other staff members or security personnel to ensure the safety of everyone involved. If necessary, I would escalate the situation to the practice manager or senior doctor for further assistance and support.\nSupport: Finally, I would offer support to the man and his wife, reassuring them that we are here to help and providing them with any relevant information or resources they may need. I would also encourage them to make follow-up appointments and offer to answer any further questions or concerns they may have.\n"
                   },
                   {
-                    textBold:'What if the man persists?',
-                    text:"If the man persists in demanding information about his wife's medical results despite being told that such information cannot be disclosed due to patient confidentiality laws, it is important for the healthcare provider to remain firm in their stance while also showing empathy and understanding for the man's concerns.\r\nThe healthcare provider can reiterate that due to patient confidentiality laws, they cannot disclose any medical information about his wife without her express consent. The healthcare provider can then explore other options for addressing the man's concerns, such as encouraging him to have an open and honest conversation with his wife or offering additional resources and support for addressing any fertility concerns or difficulties. It is important to maintain a professional and respectful demeanour and prioritize the well-being and privacy of the patient.\r\n\r\n",
-                  }
-                ],
-                textBellowSubsection:[
-                  {
-                    textBold:"Whistleblowing – what is whistle blowing and why is it important in medicine?"
+                    "title": "How many people drink coffee in London?",
+                    "content": {
+                      text:"What this question is assessing is not whether you know the answer. Frankly the answer is not known, and the interviewer certainly does not know.\r\n                      \r\nThese sorts of questions can take other form such as how much does a building weigh or how many leaves are in a tree etc.\r\n\r\nWhat these sorts of questions test is more to do with is: \r\n1. Lateral thinking skills\r\n2. Critical reasoning skills \r\n3. Deduction skills\r\n4.Ability to cope under pressure\r\n5. Ability to systemically construct a plan\r\n6. Ability to define a problem\r\n7. Ability to define an answer. Ie Are they looking for a number or percentile.\r\n",
+                      "subSection": [
+                        {
+                          "title": "If allowed ask questions great but If not then say how you would find out information that is critical to you answering the question.",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "What is the population of London?",
+                                "content": {
+                                  "text": "Are you including greater London or a particular post code."
+                                }
+                              },
+                              {
+                                "title": "What counts as a coffee drinker?",
+                                "content": {
+                                  "text": "Ie once a week, daily etc."
+                                }
+                              },
+                              {
+                                "title": "What counts as a coffee drink?",
+                                "content": {
+                                  "text": "Ie do iced sweet drinks that are caffeinated count as a coffee drink."
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Steps to Estimate Coffee Drinkers",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Step 1: Define 'Coffee Drinker'",
+                                "content": {
+                                  "text": "For this estimate, I’ll define 'coffee drinker' as an individual who consumes at least one cup of coffee daily, as this narrows our estimate to regular drinkers."
+                                }
+                              },
+                              {
+                                "title": "Step 2: Start with London’s Population",
+                                "content": {
+                                  "text": "London has a current population of approximately 10 million. To focus on likely coffee drinkers, let's assume that 70% of the population are above 16 who I think are more likely to be coffee drinkers. This gives us an estimate of 7 million potentials."
+                                }
+                              },
+                              {
+                                "title": "Step 3: Estimate Coffee Consumption Rates",
+                                "content": {
+                                  "text": "Let's consider these points: 1. the urban nature of London, 2. the professional environment of the nation's capital which is often associated with caffeine intake, 3. how busy coffee shops tend to be. Considering these points, I will deduce that at least 75% of adults in London drink coffee."
+                                }
+                              },
+                              {
+                                "title": "Step 4: Calculate an Approximate Number",
+                                "content": {
+                                  "text": "75% of 7 million = 5.25 million"
+                                }
+                              },
+                              {
+                                "title": "Step 5: Acknowledge Assumptions and Limitations",
+                                "content": {
+                                  "text": "This estimate relies on general consumption patterns and assumes that London’s urban setting encourages higher coffee consumption. Variability could exist due to lifestyle, age, or cultural preferences within London’s diverse population."
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   },
-                 
                   {
-                    textBold:"You are a medical student on placement in a care home, after you complete the placement you are given an envelop by one of the patients, when you return home you open to find a thank you card with £100, what do you do in this situation?\r\n"
+                    "title": "Imagine you are stranded on a remote island.",
+                    "content": {
+                      text:"Imagine you are stranded on a remote island. You have a list of items you can choose from to bring with you. Name three items you would choose and explain your reasoning.\r\n1.Water purification tablets\r\n2.A first aid kit\r\n3.A Swiss army knife\r\n4.A large waterproof tarp\r\n5.A fishing net\r\n6.A warm coat\r\n7.A lighter\r\n8.A Pot and pan\r\n9.A sturdy rope\r\n",
+                      "subSection": [
+                        {
+                          "title": "Framework for Answering the Question",
+                          "content": {
+                            "subSection": [
+                              {
+                                "title": "Identify and Categorize Priorities",
+                                "content": {
+                                  "text": "Start by recognizing the main challenges of surviving on a remote island: access to clean water, food, shelter, protection, and potential rescue. This shows you understand the critical elements of survival and can prioritize effectively."
+                                }
+                              },
+                              {
+                                "title": "Justify Each Choice Based on Needs",
+                                "content": {
+                                  "text": "Select three items that cover these priorities. Explain how each item addresses one of these essential survival needs. Connect each item to its specific utility (e.g., sustaining life, aiding rescue, or maintaining safety). Ideally pick items that have multiple uses."
+                                }
+                              },
+                              {
+                                "title": "Demonstrate Resourcefulness and Flexibility",
+                                "content": {
+                                  "text": "Highlight how each item can be used in multiple ways. This shows adaptability, a trait valuable in medicine where resources can sometimes be limited. Ie A knife can be used to hunt, defend, help in cutting wood to make fires, as well as making other tools. Mention that in real-life situations, being able to repurpose items or make do with limited resources is essential."
+                                }
+                              },
+                              {
+                                "title": "Balance Immediate Needs and Long-Term Survival",
+                                "content": {
+                                  "text": "Show that you are thinking about both immediate and ongoing needs, which reflects forward-thinking—a quality needed in medical professionals."
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Example Answer",
+                          "content": {
+                            "text": "If I were stranded on a remote island, I would first group my survival needs into five main categories: water, food, shelter, protection, and rescue. I’d focus on items that could cover more than one category, maximizing my chances of survival. If I were stranded on a remote island, I’d start by grouping my survival needs into five main categories: water, food, shelter, protection, and rescue. I would then select items that could cover multiple needs effectively.",
+                            "subSection": [
+                              {
+                                "title": "Item 1: Water Purification Tablets",
+                                "content": {
+                                  "text": "Water is essential for survival, as it’s needed within the first few days. Purification tablets would allow me to drink from local sources safely, addressing my need for clean water with minimal effort and preparation."
+                                }
+                              },
+                              {
+                                "title": "Item 2: A Large Waterproof Tarp",
+                                "content": {
+                                  "text": "The tarp addresses shelter and protection by providing cover from rain, sun, and wind. It’s crucial for maintaining body temperature and general safety from the elements. Additionally, it can serve as a water collection tool, particularly if it rains, helping to provide a sustainable water source."
+                                }
+                              },
+                              {
+                                "title": "Item 3: A Swiss Army Knife",
+                                "content": {
+                                  "text": "A knife is an incredibly versatile tool for food preparation, building shelter, and general protection. It could be used to prepare food (such as fish), cut branches for shelter, and handle various survival tasks. Its multi-functionality supports all survival priorities, showing that the right tool can address multiple needs in one."
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 ]
-               
-              },
+                
+              }
             },
+            
+            {
+                "title": "2.9 Basic Maths",
+                "content": {
+                  "text": "It has been known for basic mathematics to come up in MMI interviews usually in the context of drug doses. The maths will be basic and you will probably have a calculator but this is not guaranteed. The question usually surrounds converting dose units and finding out how much drug to give. We have listed some basic information for you to know in order to excel.",
+                  "subSection": [
+                    {
+                      "title": "How to Convert Units on Doses?",
+                      "content": {
+                        "table3": {
+                          "col1Header": "Conversion",
+                          "col2Header": "Multiply / Divide By",
+                          "col3Header": "Example",
+                          "tableData": [
+                            {
+                              "quality": "g → mg",
+                              "description": "Multiply by 1,000",
+                              "example": "2 g × 1,000 = 2,000 mg"
+                            },
+                            {
+                              "quality": "mg → g",
+                              "description": "Divide by 1,000",
+                              "example": "500 mg ÷ 1,000 = 0.5 g"
+                            },
+                            {
+                              "quality": "mg → mcg",
+                              "description": "Multiply by 1,000",
+                              "example": "3 mg × 1,000 = 3,000 mcg"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "title": "How to Calculate Percentage Solutions",
+                      "content": {
+                        "text": "Percentage solutions express the concentration of a substance in a solvent as a percentage. You may be asked to calculate how much drug to give based on % solution. Weight/Volume (% w/v): grams of solute per 100 mL of solution. So 5g of a drug in 100mls of fluid means it is a 5% solution."
+                      }
+                    },
+                    {
+                      "title": "How to Calculate mg/mL Based on a % Solution",
+                      "content": {
+                        "text": "This sounds hard but actually is very simple. There is an easy cheat code. You simply multiply by 10 and you get your answer. For example, Drug A comes as a 10% solution concentration. From the above explanation, you know that 10% solution means 10g in 100mls. This means 100mls contains 10,000mg (1g=1000mg). Therefore, 1ml contains 100mg (10,000mg/100mls=100)."
+                      }
+                    },
+                    {
+                      "title": "Example Question 1",
+                      "content": {
+                        "text": "A patient requires a dosage of 50 mg per kg of a medication. The medication is available in a concentration of 10 mg per mL, and the patient weighs 100 kg. How many milliliters of the medication are needed for this patient? To calculate the required dosage:",
+                        "subSection": [
+                          {
+                            "title": "Calculate the total dose in mg:",
+                            "content": {
+                              "text": "50mg×100kg=5000mg"
+                            }
+                          },
+                          {
+                            "title": "Calculate how many ml you need to get to the desired dose (10 mg/mL):",
+                            "content": {
+                              "text": "5000mg÷10mg/mL=500mL. The patient needs 500 mL of the drug."
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Example Question 2",
+                      "content": {
+                        "text": "Drug X is available as a 0.5% solution. You need to administer a dose of 50 mg. How many milliliters of the solution should be given to achieve this dose? To find the volume needed for a 0.5% solution to deliver 50 mg of Drug X:",
+                        "subSection": [
+                          {
+                            "title": "Understand what a 0.5% solution means:",
+                            "content": {
+                              "text": "A 0.5% solution contains 0.5 grams of the drug per 100 mL of solution. This is equivalent to 500 mg in 100 mL."
+                            }
+                          },
+                          {
+                            "title": "Calculate the concentration in mg/mL:",
+                            "content": {
+                              "text": "This is simply 0.5% multiplied by 10, which is 5mg/ml."
+                            }
+                          },
+                          {
+                            "title": "Determine the volume needed to give 50 mg:",
+                            "content": {
+                              "text": "5x10=50mg. You need to administer 10 mL of the 0.5% solution to give 50 mg of Drug X."
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+            },
+             
+            
+            
+            // {
+            //   title: 'Confidentiality',
+            //   content: {
+            //     subSection:[
+            //       {
+            //         title:'The Cheater',
+            //         content:{
+            //           text:"You are studying for an exam with a friend who has been struggling with the material. You leave the room for a moment to get a snack, and when you return, you notice that your friend has opened their textbook and has copied some answers that have been leaked onto their note sheet."
+            //           ,otherText:[
+            //             {
+            //               textBold:'What would you do in this situation?'
+            //             },
+            //             {
+            //               "textBold": "S - Seek Information:",
+            //               "text": "If I catch a fellow medical student with exam questions and suspect cheating, my first step would be to seek more information about the situation. I would approach the student and ask them how they obtained the exam questions."
+            //             },
+            //             {
+            //               "textBold": "P - Problem:",
+            //               "text": "Cheating violates the ethical standards of the medical profession and can result in serious consequences, both for the individual and the profession as a whole."
+            //             },
+            //             {
+            //               "textBold": "I - Initiative:",
+            //               "text": "After seeking more information, I would take the initiative to encourage the student to report the incident themselves. I would explain to them the importance of upholding the ethical standards of the medical profession and the consequences of cheating. I would let them know that reporting the incident themselves would be the right thing to do and could mitigate any potential consequences."
+            //             },
+            //             {
+            //               "textBold": "E - Escalate:",
+            //               "text": "If the student does not admit to cheating or if the situation is not resolved, I would escalate the issue to a higher authority. It is crucial to ensure that the exam is fair and unbiased for all students and to maintain the integrity of the profession."
+            //             },
+            //             {
+            //               "textBold": "S - Support:",
+            //               "text": "Throughout the entire process, I would seek support from my classmates, professors, and advisors. It is essential to work together to maintain the standards of the medical profession and to ensure that all students are held accountable for their actions."
+            //             },
+                        
+            //           ]
+            //         }
+            //       },
+            //       {
+            //         title:'Data interpretation and calculation',
+            //         content:{
+            //           otherText:[
+            //             {
+            //               textBold:'You have a 1% solution of drug B. you need to give 250 micrograms. how many mls do you need?',
+            //               text:"A 1% solution means that 1 gram of the drug is dissolved in 100 mL of the solution. An easy way to remember how many milligrams per ml in a % solution is to multiple the % by 10. For examples a 1% solution was 10mg per ml. a 10% solution has 100mg. A 100% solution has 1000mg which equals 1g.\r\nTo find the amount of drug in 1 mL of the solution, we need to divide 1 gram by 100 mL, which gives us 0.01 grams or 10 milligrams (mg) per mL.\r\nTo calculate how many mL of the 1% solution we need to give 250 micrograms (mcg) of the drug, we can use the following equation by converting to milligrams:\r\n250 mcg ÷ 1000 = 0.25 mg\r\nNow we know that we need to give 0.25 mg of the drug. We can use the following equation to calculate how many mL of the 1% solution contains 0.25 mg of the drug:\r\n0.25 mg ÷ 10 mg/mL = 0.025 mL\r\n",
+                                            
+            //             }
+            //           ]
+            //         }
+            //       },
+            //       {
+            //         title:'Role Play',
+            //         content:{
+            //           text:"Role-playing is a widely used tool for assessing the communication and problem-solving skills of medical professionals in the UK. During medical school interviews, candidates are often asked to participate in role-playing exercises that simulate real-world scenarios that they may encounter in their medical practice. These exercises are designed to test the candidate's ability to think critically, communicate effectively, and demonstrate empathy and professionalism under pressure. In this section, we will discuss the role-playing exercises that are commonly used in medical school interviews in the UK and provide tips for candidates to help them succeed in this aspect of the interview process. By mastering the art of role-playing, candidates can demonstrate their readiness to tackle the challenges of the medical profession with confidence and competence.",
+            //           otherText:[
+            //             {
+            //               textBold:'Breaking Bad News',
+            //               text:"Breaking bad news is an important and challenging part of medicine and it can be especially difficult for high school students who may not have had much experience with this situation.\r\nLearning how to break bad news in a sensitive and effective way is a crucial skill to have as a doctor. We understand that this may be a new and daunting experience for many high school students, which is why we've put together some tips and strategies to help make the process a little easier. By learning how to communicate with empathy and clarity, students can build stronger relationships and support systems, both now and in the future.\r\n"
+            //             },
+            //             {
+            //               textBold:'Discussing concerns you have for a child with a close family member',
+            //               text:"It is important to address the concerns you have without coming across confrontational and show you are understanding of their situation and you simply want to help."
+            //             },
+            //             {
+            //               textBold:'Getting someone to tie their laces with verbal instructions only',
+            //               text:"This is simply testing you are able to communicate effectively and explain instructions clearly."
+            //             },
+            //             {
+            //               textBold:'Moving objects whilst the actor is blind folded',
+            //               text:"This is similar to the previous scenario but with the added challenge the individual is blind folded and relying completely on your instructions and vision.\r\n"
+            //             }
+            //           ],
+            //           subSection:[
+            //             {
+            //               title:'Do',
+            //               content:{
+            //                 text:"1. Begin by introducing yourself and establishing a rapport with the patient or their family member\r\n2. Use plain language and avoid medical jargon or technical terms\r\n3. Give warning shots before you break the bad news. For example. Gavin there is something I need to talk you about\r\n4. Encourage questions and provide a clear plan for next steps\r\n5. Offer emotional support and refer the patient to\r\nappropriate resources if needed.\r\n6. Practice active listening and show empathy for the\r\npatient's situation.\r\n"
+            //               }
+            //             },
+            //             {
+            //               title:"Don't",
+            //               content:{
+            //                 text:"1. Rush the conversation\r\n2. Deliver the news abruptly\r\n3. Use euphemisms or vague language to soften the blow\r\n4. Make assumptions about the patient's beliefs or values\r\n5. Overwhelm the person with information or technical\r\ndetails\r\n6. Minimize the seriousness of the situation or offer false hope\r\n7. Disregard patient spiritual beleifs\r\n8. Display unprofessional behaviour, such as using a\r\ndismissive tone or appearing disinterested in the persons concerns.\r\n"
+            //               }
+            //             }
+            //           ]
+            //         }
+            //       },
+            //       {
+            //         "title": "Confidentiality: A 35-Year-Old Man with HIV",
+            //         "content": {
+            //           "subSection": [
+            //             {
+            //               "title": "Scenario",
+            //               "content": {
+            //                 "otherText": [
+            //                   {
+            //                     "textBold": "Overview",
+            //                     "text": "A 35-year-old man attends your GP practice. He had a blood test which shows he has HIV. He refuses to tell his wife. What do you do?"
+            //                   },
+            //                   {
+            //                     "textBold": "Core Concepts",
+            //                     "text": "Concepts covered in this scenario surround the balance of the patient's autonomy and justice to his wife. In situations where there is a risk to others, such as a known partner who may be at risk of transmission, healthcare professionals may encourage the patient to inform their partner(s). If the patient refuses to disclose and there is a significant risk to others, a clinician may consider breaking confidentiality but usually only after consulting with the patient and exploring all options."
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "Situations Where Breaking Confidentiality May Be Needed",
+            //               "content": {
+            //                 "subSection": [
+            //                   {
+            //                     "title": "Legal Requirement",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Court Orders or Legal Investigations", "text": "Court orders or legal investigations." },
+            //                         { "textBold": "Statutory Obligations", "text": "Reporting certain infectious diseases." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Public Interest",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Preventing Serious Harm", "text": "Preventing serious harm to others (e.g., spreading a serious infection, preventing someone driving ie poorly managed epileptics)." },
+            //                         { "textBold": "Preventing Serious Crime", "text": "Preventing serious crime (e.g., violent offenses, terrorism)." },
+            //                         { "textBold": "Protecting Vulnerable Individuals", "text": "Protecting vulnerable individuals (e.g., safeguarding children or adults at risk)." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Consent Obtained",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Explicit Consent",
+            //                           "text": "The patient gives explicit, informed consent to share their information."
+            //                         }
+            //                       ]
+            //                     }
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "Considerations When Needing to Break Confidentiality",
+            //               "content": {
+            //                 "subSection": [
+            //                   {
+            //                     "title": "Legal Framework",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Compliance with Relevant Laws", "text": "Ensure compliance with relevant laws (e.g., Data Protection Act, GDPR) and ethical guidelines." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Necessity and Proportionality",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Essential Disclosure", "text": "Confirm disclosure is essential to prevent harm or meet legal requirements." },
+            //                         { "textBold": "Limit Disclosure", "text": "Limit disclosure to the minimum information needed." },
+            //                         { "textBold": "Example", "text": "If you break confidentiality about a partner’s HIV status you do not need to go into detail about complications, how it was contracted, etc." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Empathy Constantly",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Empathy", "text": "Demonstrate an understanding that you know the situation is difficult and that you do not take breaking confidentiality lightly." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Patient Involvement",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Inform the Patient", "text": "Inform the patient and seek consent where possible." },
+            //                         { "textBold": "Consider Patient’s Wishes", "text": "Consider the patient’s wishes and concerns." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Limiting the Scope of Disclosure",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Share Only What’s Necessary", "text": "Share only with those who need to know." },
+            //                         { "textBold": "Anonymize Information", "text": "Anonymize information when feasible." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Documentation",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Record the Process", "text": "Record the reasons for the decision, advice sought, and details of the disclosure." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Seeking Professional Advice",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Consult Colleagues or Legal Advisors", "text": "Consult senior colleagues or legal advisors if needed." }
+            //                       ]
+            //                     }
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "How to Answer the Question",
+            //               "content": {
+            //                 "subSection": [
+            //                   {
+            //                     "title": "1. State Complexity",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Opening Statement",
+            //                           "text": "“This is a tricky situation because it involves balancing the patient’s right to keep their HIV status private and the Doctor’s responsibility to protect the patient’s partner from harm. There are strong ethical and legal factors at play, making it a challenging decision.”"
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "2. State Ethical Principles",
+            //                     "content": {
+            //                       "subSection": [
+            //                         {
+            //                           "title": "Autonomy",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Patient Rights", "text": "The patient has the right to autonomy. But this right isn’t unlimited when someone else is at risk." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Beneficence and Non-maleficence",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Avoid Harm", "text": "The Doctor must do what’s best for the patient while avoiding harm to others. Not telling the partner could cause serious harm, but breaking confidentiality could damage the Doctor-patient relationship." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Justice",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Duty to Partner", "text": "The Doctor also has a duty to protect the partner, who deserves to be safe from health risks. HIV if not treated can have devastating effects." }
+            //                             ]
+            //                           }
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "3. Balance Argument",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Encourage Patient Disclosure",
+            //                           "text": "The Doctor should first encourage the patient to tell their partner. This respects the patient’s choice while promoting responsibility."
+            //                         },
+            //                         {
+            //                           "textBold": "Disclosure as a Last Resort",
+            //                           "text": "If the patient refuses and the partner is at real risk, the Doctor might have to step in and inform the partner. This is a last resort because it could harm the trust between the patient and Doctor, but it may be necessary to protect the partner’s health."
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "4. Offer Opinion and Other Considerations",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Patient-Led Disclosure",
+            //                           "text": "I think the Doctor should always try to get the patient to tell their partner first. But if the partner is in danger and the patient won’t disclose, the Doctor must inform the partner to protect them. It’s a tough decision, but it’s about balancing the safety of everyone involved."
+            //                         },
+            //                         {
+            //                           "textBold": "Empathy and Legal Advice",
+            //                           "text": "I would however be empathetic to the patient at how distressing this situation is. I will seek legal advice from my seniors and potential legal experts."
+            //                         }
+            //                       ]
+            //                     }
+            //                   }
+            //                 ]
+            //               }
+            //             }
+            //           ]
+            //         }
+            //       },
+            //       {
+            //         "title": "Should Euthanasia Be Made Legal?",
+            //         "content": {
+            //           "subSection": [
+            //             {
+            //               "title": "Definition of Euthanasia",
+            //               "content": {
+            //                 "otherText": [
+            //                   {
+            //                     "textBold": "Overview",
+            //                     "text": "Euthanasia is the deliberate act of ending someone's life to relieve suffering, typically in cases of severe or terminal illness."
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "Current Legal Status in the UK",
+            //               "content": {
+            //                 "otherText": [
+            //                   {
+            //                     "textBold": "Active Euthanasia and Assisted Suicide",
+            //                     "text": "In the UK, active euthanasia and assisted suicide are illegal."
+            //                   },
+            //                   {
+            //                     "textBold": "Suicide Act 1961",
+            //                     "text": "Assisted suicide is criminalized under the Suicide Act 1961, with penalties of up to 14 years in prison."
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "Ethical Debate on Euthanasia",
+            //               "content": {
+            //                 "subSection": [
+            //                   {
+            //                     "title": "Arguments For Euthanasia",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Autonomy and Compassion", "text": "Advocates emphasize autonomy and compassionate care for those suffering." }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "Arguments Against Euthanasia",
+            //                     "content": {
+            //                       "otherText": [
+            //                         { "textBold": "Sanctity of Life and Vulnerability Concerns", "text": "Opponents stress the sanctity of life and risks to vulnerable individuals." }
+            //                       ]
+            //                     }
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "International Perspectives",
+            //               "content": {
+            //                 "otherText": [
+            //                   {
+            //                     "textBold": "Countries Permitting Euthanasia",
+            //                     "text": "Some countries (e.g., Switzerland, Belgium, Netherlands) permit euthanasia under strict conditions."
+            //                   },
+            //                   {
+            //                     "textBold": "UK’s Conservative Stance",
+            //                     "text": "The UK focuses on the principle to 'do no harm,' taking a conservative approach."
+            //                   }
+            //                 ]
+            //               }
+            //             },
+            //             {
+            //               "title": "SUP BO Framework: Should Euthanasia Be Allowed?",
+            //               "content": {
+            //                 "subSection": [
+            //                   {
+            //                     "title": "S - State Complexity",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Complexity",
+            //                           "text": "Euthanasia is a deeply complex issue with strong arguments on both sides, involving ethics, law, and personal values. Balances between compassion, respect for life, and protections for the vulnerable make it challenging."
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "U - Understand the Question",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Question",
+            //                           "text": "The question asks whether euthanasia aligns with medical ethics or contradicts them. It requires examining arguments for patient autonomy and relief from suffering, balanced against the duty to protect life and prevent harm."
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "P - The Four Pillars of Medical Ethics",
+            //                     "content": {
+            //                       "subSection": [
+            //                         {
+            //                           "title": "Autonomy",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Patient Rights", "text": "Supports a patient's right to make their own choices, including ending their suffering in terminal illness." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Beneficence",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Acting in Best Interest", "text": "Encourages acting in the patient's best interest; euthanasia may provide compassionate relief from relentless pain." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Non-Maleficence",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Medical Commitment to 'Do No Harm'", "text": "Raises concern around the medical commitment to 'do no harm,' as some view euthanasia as conflicting with this commitment." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Justice",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Fairness and Protection", "text": "Involves fairness and protecting vulnerable individuals from coercion; safeguards are necessary to prevent pressure to choose euthanasia." }
+            //                             ]
+            //                           }
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "B - Balanced Argument",
+            //                     "content": {
+            //                       "subSection": [
+            //                         {
+            //                           "title": "Arguments For Euthanasia",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Autonomy and Choice", "text": "Respects patient’s right to make informed choices about their life." },
+            //                               { "textBold": "Relief from Suffering", "text": "Provides a compassionate option for those with unmanageable, terminal suffering." },
+            //                               { "textBold": "Global Examples", "text": "Countries with regulated euthanasia offer potential models for end-of-life care." }
+            //                             ]
+            //                           }
+            //                         },
+            //                         {
+            //                           "title": "Arguments Against Euthanasia",
+            //                           "content": {
+            //                             "otherText": [
+            //                               { "textBold": "Risk of Coercion", "text": "Could put vulnerable people at risk due to societal, familial, or financial pressures." },
+            //                               { "textBold": "Non-Maleficence Concerns", "text": "Conflicts with 'do no harm' as it involves intentionally ending life." },
+            //                               { "textBold": "Slippery Slope", "text": "Risks expanding euthanasia beyond terminal illness, complicating ethical boundaries." }
+            //                             ]
+            //                           }
+            //                         }
+            //                       ]
+            //                     }
+            //                   },
+            //                   {
+            //                     "title": "O - Offer Opinion",
+            //                     "content": {
+            //                       "otherText": [
+            //                         {
+            //                           "textBold": "Cautious Approach",
+            //                           "text": "Euthanasia should be approached with caution. Specific cases may justify euthanasia, but legalization requires strict ethical and legal safeguards."
+            //                         },
+            //                         {
+            //                           "textBold": "Balanced Protections",
+            //                           "text": "Such protections would ensure respect for autonomy, justice, and non-maleficence, balancing compassionate care with necessary oversight."
+            //                         }
+            //                       ]
+            //                     }
+            //                   }
+            //                 ]
+            //               }
+            //             }
+            //           ]
+            //         }
+            //       }
+                  
+                  
+                  
+                  
+            //   ],
+            //     otherText:[
+            //       {
+            //         textBold:'You are working in a GP as a medical junior doctor and a man storm in asking about his wife’s fertility test. How do you address the situation?'
+            //         ,text:"Seek Information: The first step is to seek information from the man to better understand his concerns and the situation at hand. I would approach the man calmly and introduce myself, asking him to share more about the fertility test and his concerns. I would listen actively and empathetically, asking questions to clarify any uncertainties and gain a better understanding of the situation.\nPatient Safety: As a doctor, my primary concern is always the safety and well-being of my patients. In this case, I would assess whether the man's wife is a patient at our practice and if she has given permission for her medical information to be shared. If not, I would explain that we are unable to discuss the details of her test without her permission. If the man's wife is our patient, I would ensure that we follow all privacy and confidentiality protocols to protect her personal information.\nInitiative: To address the man's concerns, I would take the initiative to offer support and provide guidance. I would explain the possible reasons why fertility tests may be performed, including male and female factors, and offer to arrange a consultation with a specialist or a referral to a fertility clinic. If appropriate, I would offer to discuss potential lifestyle changes that could improve fertility and provide information about fertility treatments.\nEscalate: If the situation escalates, and the man becomes aggressive or threatening, I would seek assistance from other staff members or security personnel to ensure the safety of everyone involved. If necessary, I would escalate the situation to the practice manager or senior doctor for further assistance and support.\nSupport: Finally, I would offer support to the man and his wife, reassuring them that we are here to help and providing them with any relevant information or resources they may need. I would also encourage them to make follow-up appointments and offer to answer any further questions or concerns they may have.\n"
+            //       },
+            //       {
+            //         textBold:'What if the man persists?',
+            //         text:"If the man persists in demanding information about his wife's medical results despite being told that such information cannot be disclosed due to patient confidentiality laws, it is important for the healthcare provider to remain firm in their stance while also showing empathy and understanding for the man's concerns.\r\nThe healthcare provider can reiterate that due to patient confidentiality laws, they cannot disclose any medical information about his wife without her express consent. The healthcare provider can then explore other options for addressing the man's concerns, such as encouraging him to have an open and honest conversation with his wife or offering additional resources and support for addressing any fertility concerns or difficulties. It is important to maintain a professional and respectful demeanour and prioritize the well-being and privacy of the patient.\r\n\r\n",
+            //       }
+            //     ],
+            //     textBellowSubsection:[
+            //       {
+            //         textBold:"Whistleblowing – what is whistle blowing and why is it important in medicine?"
+            //       },
+                 
+            //       {
+            //         textBold:"You are a medical student on placement in a care home, after you complete the placement you are given an envelop by one of the patients, when you return home you open to find a thank you card with £100, what do you do in this situation?\r\n"
+            //       }
+            //     ]
+               
+            //   },
+            // },
             {
               title:'Final Points',
               content:{

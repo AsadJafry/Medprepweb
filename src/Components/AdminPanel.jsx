@@ -59,6 +59,10 @@ const AdminPanel = () => {
             </li>
             <li className="p-3 hover:bg-gray-700">
               <Link to="/">Home</Link>
+
+            </li>
+            <li className="p-3 hover:bg-gray-700">
+              <Link to="/app">App</Link>
             </li>
           </ul>
         </nav>
